@@ -1,0 +1,1150 @@
+<text xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sl">
+<body>
+<p xml:id="p1" n="1">
+<s xml:id="s.1.1" n="1.1">
+<name type="PER">
+<w xml:id="s.1.1.t1" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" lemma="Agustich">Agustich</w>
+</name>
+<pc xml:id="s.1.1.t2" ana="mte:Z" msd="UPosTag=PUNCT" join="right">(</pc>
+<name type="PER">
+<w xml:id="s.1.1.t3" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" lemma="Augustič" join="right">Augustič</w>
+</name>
+<pc xml:id="s.1.1.t4" ana="mte:Z" msd="UPosTag=PUNCT">)</pc>
+<name type="ORG">
+<w xml:id="s.1.1.t5" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" lemma="Imre" join="right">Imre</w>
+</name>
+<pc xml:id="s.1.1.t6" ana="mte:Z" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="s.1.1.t7" ana="mte:Agpmsny" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" lemma="prekmurski">prekmurski</w>
+<w xml:id="s.1.1.t8" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" lemma="pisatelj" join="right">pisatelj</w>
+<pc xml:id="s.1.1.t9" ana="mte:Z" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="s.1.1.t10" ana="mte:Appmsnn" msd="UPosTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part" lemma="rojen">rojen</w>
+<w xml:id="s.1.1.t11" ana="mte:Mdo" msd="UPosTag=NUM|NumForm=Digit|NumType=Ord" lemma="29.">29.</w>
+<w xml:id="s.1.1.t12" ana="mte:Ncmsg" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" lemma="september">septembra</w>
+<w xml:id="s.1.1.t13" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1837">1837</w>
+<w xml:id="s.1.1.t14" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">v</w>
+<name type="LOC">
+<w xml:id="s.1.1.t15" ana="mte:Agpmpl" msd="UPosTag=ADJ|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur" lemma="murski">Murskih</w>
+<w xml:id="s.1.1.t16" ana="mte:Npmpl" msd="UPosTag=PROPN|Case=Loc|Gender=Masc|Number=Plur" lemma="Petrovci">Petrovcih</w>
+</name>
+<w xml:id="s.1.1.t17" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">v</w>
+<name type="LOC">
+<w xml:id="s.1.1.t18" ana="mte:Agpfsl" msd="UPosTag=ADJ|Case=Loc|Degree=Pos|Gender=Fem|Number=Sing" lemma="železen">Železni</w>
+<w xml:id="s.1.1.t19" ana="mte:Ncfsl" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" lemma="županija" join="right">županiji</w>
+</name>
+<pc xml:id="s.1.1.t20" ana="mte:Z" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="s.1.1.t21" ana="mte:Vmep-sm" msd="UPosTag=VERB|Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part" lemma="umreti">umrl</w>
+<w xml:id="s.1.1.t22" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">v</w>
+<name type="LOC">
+<w xml:id="s.1.1.t23" ana="mte:Npfsl" msd="UPosTag=PROPN|Case=Loc|Gender=Fem|Number=Sing" lemma="Budimpešta">Budimpešti</w>
+</name>
+<w xml:id="s.1.1.t24" ana="mte:Mdo" msd="UPosTag=NUM|NumForm=Digit|NumType=Ord" lemma="17.">17.</w>
+<w xml:id="s.1.1.t25" ana="mte:Ncmsg" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" lemma="julij">julija</w>
+<w xml:id="s.1.1.t26" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1879" join="right">1879</w>
+<pc xml:id="s.1.1.t27" ana="mte:Z" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument" corresp="#s.1.1">
+  <link ana="ud-syn:nsubj" target="#s.1.1.t21 #s.1.1.t1"/>
+  <link ana="ud-syn:punct" target="#s.1.1.t3 #s.1.1.t2"/>
+  <link ana="ud-syn:appos" target="#s.1.1.t1 #s.1.1.t3"/>
+  <link ana="ud-syn:punct" target="#s.1.1.t3 #s.1.1.t4"/>
+  <link ana="ud-syn:nsubj" target="#s.1.1.t21 #s.1.1.t5"/>
+  <link ana="ud-syn:punct" target="#s.1.1.t8 #s.1.1.t6"/>
+  <link ana="ud-syn:amod" target="#s.1.1.t8 #s.1.1.t7"/>
+  <link ana="ud-syn:conj" target="#s.1.1.t1 #s.1.1.t8"/>
+  <link ana="ud-syn:punct" target="#s.1.1.t10 #s.1.1.t9"/>
+  <link ana="ud-syn:amod" target="#s.1.1.t8 #s.1.1.t10"/>
+  <link ana="ud-syn:nummod" target="#s.1.1.t12 #s.1.1.t11"/>
+  <link ana="ud-syn:obl" target="#s.1.1.t10 #s.1.1.t12"/>
+  <link ana="ud-syn:nummod" target="#s.1.1.t12 #s.1.1.t13"/>
+  <link ana="ud-syn:case" target="#s.1.1.t16 #s.1.1.t14"/>
+  <link ana="ud-syn:amod" target="#s.1.1.t16 #s.1.1.t15"/>
+  <link ana="ud-syn:obl" target="#s.1.1.t10 #s.1.1.t16"/>
+  <link ana="ud-syn:case" target="#s.1.1.t19 #s.1.1.t17"/>
+  <link ana="ud-syn:amod" target="#s.1.1.t19 #s.1.1.t18"/>
+  <link ana="ud-syn:nmod" target="#s.1.1.t16 #s.1.1.t19"/>
+  <link ana="ud-syn:punct" target="#s.1.1.t3 #s.1.1.t20"/>
+  <link ana="ud-syn:root" target="#s.1.1 #s.1.1.t21"/>
+  <link ana="ud-syn:case" target="#s.1.1.t23 #s.1.1.t22"/>
+  <link ana="ud-syn:obl" target="#s.1.1.t21 #s.1.1.t23"/>
+  <link ana="ud-syn:nummod" target="#s.1.1.t25 #s.1.1.t24"/>
+  <link ana="ud-syn:obl" target="#s.1.1.t21 #s.1.1.t25"/>
+  <link ana="ud-syn:nummod" target="#s.1.1.t25 #s.1.1.t26"/>
+  <link ana="ud-syn:punct" target="#s.1.1.t21 #s.1.1.t27"/>
+</linkGrp>
+</s>
+<s xml:id="s.1.2" n="1.2">
+<w xml:id="s.1.2.t1" ana="mte:Mlc-pn" msd="UPosTag=NUM|Case=Acc|NumForm=Word|NumType=Card|Number=Plur" lemma="šest">Šest</w>
+<w xml:id="s.1.2.t2" ana="mte:Agpmpg" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur" lemma="gimnazijski">gimnazijskih</w>
+<w xml:id="s.1.2.t3" ana="mte:Ncmpg" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" lemma="razred">razredov</w>
+<w xml:id="s.1.2.t4" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" lemma="biti">je</w>
+<w xml:id="s.1.2.t5" ana="mte:Vmep-sm" msd="UPosTag=VERB|Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part" lemma="dovršiti">dovršil</w>
+<w xml:id="s.1.2.t6" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">v</w>
+<name type="LOC">
+<w xml:id="s.1.2.t7" ana="mte:Npnsl" msd="UPosTag=PROPN|Case=Loc|Gender=Neut|Number=Sing" lemma="Sobotišče" join="right">Sobotišču</w>
+</name>
+<pc xml:id="s.1.2.t8" ana="mte:Z" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="s.1.2.t9" ana="mte:Rgp" msd="UPosTag=ADV|Degree=Pos" lemma="nato">nato</w>
+<w xml:id="s.1.2.t10" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" lemma="biti">je</w>
+<w xml:id="s.1.2.t11" ana="mte:Va-p-sm" msd="UPosTag=AUX|Gender=Masc|Number=Sing|VerbForm=Part" lemma="biti">bil</w>
+<w xml:id="s.1.2.t12" ana="mte:Agpnsn" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing" lemma="poldrug">poldrugo</w>
+<w xml:id="s.1.2.t13" ana="mte:Ncnsn" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" lemma="leto">leto</w>
+<w xml:id="s.1.2.t14" ana="mte:Agpmsny" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" lemma="gospodarski">gospodarski</w>
+<w xml:id="s.1.2.t15" ana="mte:Ncfpg" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" lemma="pristava">pristav</w>
+<w xml:id="s.1.2.t16" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="pri">pri</w>
+<w xml:id="s.1.2.t17" ana="mte:Ncmsl" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" lemma="grof">grofu</w>
+<name type="PER">
+<w xml:id="s.1.2.t18" ana="mte:Npmsl" msd="UPosTag=PROPN|Case=Loc|Gender=Masc|Number=Sing" lemma="Antal">Antalu</w>
+<w xml:id="s.1.2.t19" ana="mte:Npmsl" msd="UPosTag=PROPN|Case=Loc|Gender=Masc|Number=Sing" lemma="Szqpary" join="right">Száparyju</w>
+</name>
+<pc xml:id="s.1.2.t20" ana="mte:Z" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="s.1.2.t21" ana="mte:Si" msd="UPosTag=ADP|Case=Ins" lemma="nad">nad</w>
+<w xml:id="s.1.2.t22" ana="mte:Mlc-pa" msd="UPosTag=NUM|Case=Acc|NumForm=Word|NumType=Card|Number=Plur" lemma="šest">šest</w>
+<w xml:id="s.1.2.t23" ana="mte:Ncnpg" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Plur" lemma="leto">let</w>
+<w xml:id="s.1.2.t24" ana="mte:Cc" msd="UPosTag=CCONJ" lemma="pa">pa</w>
+<w xml:id="s.1.2.t25" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="pri">pri</w>
+<w xml:id="s.1.2.t26" ana="mte:Ncfsl" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" lemma="vdova">vdovi</w>
+<w xml:id="s.1.2.t27" ana="mte:Ncmsg" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" lemma="grof">grofa</w>
+<name type="PER">
+<w xml:id="s.1.2.t28" ana="mte:Npmsg" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Sing" lemma="Joseph">Josepha</w>
+<w xml:id="s.1.2.t29" ana="mte:Npmsg" msd="UPosTag=PROPN|Case=Gen|Gender=Masc|Number=Sing" lemma="Batthyiny">Batthyányja</w>
+</name>
+<w xml:id="s.1.2.t30" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">v</w>
+<name type="LOC">
+<w xml:id="s.1.2.t31" ana="mte:Npmsl" msd="UPosTag=PROPN|Case=Loc|Gender=Masc|Number=Sing" lemma="Oroszlamos">Oroszlamosu</w>
+</name>
+<w xml:id="s.1.2.t32" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="pri">pri</w>
+<name type="LOC">
+<w xml:id="s.1.2.t33" ana="mte:Npmsl" msd="UPosTag=PROPN|Case=Loc|Gender=Masc|Number=Sing" lemma="Szegeto">Szegetu</w>
+</name>
+<w xml:id="s.1.2.t34" ana="mte:Cc" msd="UPosTag=CCONJ" lemma="in">in</w>
+<w xml:id="s.1.2.t35" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">v</w>
+<name type="LOC">
+<w xml:id="s.1.2.t36" ana="mte:Agpmsl" msd="UPosTag=ADJ|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing" lemma="dolnji">Dolnjem</w>
+<w xml:id="s.1.2.t37" ana="mte:Npmsl" msd="UPosTag=PROPN|Case=Loc|Gender=Masc|Number=Sing" lemma="Sinik" join="right">Siniku</w>
+</name>
+<pc xml:id="s.1.2.t38" ana="mte:Z" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument" corresp="#s.1.2">
+  <link ana="ud-syn:nummod" target="#s.1.2.t3 #s.1.2.t1"/>
+  <link ana="ud-syn:amod" target="#s.1.2.t3 #s.1.2.t2"/>
+  <link ana="ud-syn:obj" target="#s.1.2.t5 #s.1.2.t3"/>
+  <link ana="ud-syn:aux" target="#s.1.2.t5 #s.1.2.t4"/>
+  <link ana="ud-syn:root" target="#s.1.2 #s.1.2.t5"/>
+  <link ana="ud-syn:case" target="#s.1.2.t7 #s.1.2.t6"/>
+  <link ana="ud-syn:obl" target="#s.1.2.t5 #s.1.2.t7"/>
+  <link ana="ud-syn:punct" target="#s.1.2.t11 #s.1.2.t8"/>
+  <link ana="ud-syn:advmod" target="#s.1.2.t11 #s.1.2.t9"/>
+  <link ana="ud-syn:aux" target="#s.1.2.t11 #s.1.2.t10"/>
+  <link ana="ud-syn:parataxis" target="#s.1.2.t5 #s.1.2.t11"/>
+  <link ana="ud-syn:amod" target="#s.1.2.t13 #s.1.2.t12"/>
+  <link ana="ud-syn:nsubj" target="#s.1.2.t11 #s.1.2.t13"/>
+  <link ana="ud-syn:amod" target="#s.1.2.t15 #s.1.2.t14"/>
+  <link ana="ud-syn:nmod" target="#s.1.2.t13 #s.1.2.t15"/>
+  <link ana="ud-syn:case" target="#s.1.2.t17 #s.1.2.t16"/>
+  <link ana="ud-syn:nmod" target="#s.1.2.t15 #s.1.2.t17"/>
+  <link ana="ud-syn:nmod" target="#s.1.2.t17 #s.1.2.t18"/>
+  <link ana="ud-syn:flat_name" target="#s.1.2.t18 #s.1.2.t19"/>
+  <link ana="ud-syn:punct" target="#s.1.2.t23 #s.1.2.t20"/>
+  <link ana="ud-syn:case" target="#s.1.2.t23 #s.1.2.t21"/>
+  <link ana="ud-syn:nummod" target="#s.1.2.t23 #s.1.2.t22"/>
+  <link ana="ud-syn:nmod" target="#s.1.2.t26 #s.1.2.t23"/>
+  <link ana="ud-syn:cc" target="#s.1.2.t26 #s.1.2.t24"/>
+  <link ana="ud-syn:case" target="#s.1.2.t26 #s.1.2.t25"/>
+  <link ana="ud-syn:conj" target="#s.1.2.t17 #s.1.2.t26"/>
+  <link ana="ud-syn:nmod" target="#s.1.2.t26 #s.1.2.t27"/>
+  <link ana="ud-syn:nmod" target="#s.1.2.t27 #s.1.2.t28"/>
+  <link ana="ud-syn:flat_name" target="#s.1.2.t28 #s.1.2.t29"/>
+  <link ana="ud-syn:case" target="#s.1.2.t31 #s.1.2.t30"/>
+  <link ana="ud-syn:nmod" target="#s.1.2.t27 #s.1.2.t31"/>
+  <link ana="ud-syn:case" target="#s.1.2.t33 #s.1.2.t32"/>
+  <link ana="ud-syn:nmod" target="#s.1.2.t31 #s.1.2.t33"/>
+  <link ana="ud-syn:cc" target="#s.1.2.t37 #s.1.2.t34"/>
+  <link ana="ud-syn:case" target="#s.1.2.t37 #s.1.2.t35"/>
+  <link ana="ud-syn:amod" target="#s.1.2.t37 #s.1.2.t36"/>
+  <link ana="ud-syn:conj" target="#s.1.2.t33 #s.1.2.t37"/>
+  <link ana="ud-syn:punct" target="#s.1.2.t5 #s.1.2.t38"/>
+</linkGrp>
+</s>
+<s xml:id="s.1.3" n="1.3">
+<w xml:id="s.1.3.t1" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">V</w>
+<name type="PER">
+<w xml:id="s.1.3.t2" ana="mte:Npfsl" msd="UPosTag=PROPN|Case=Loc|Gender=Fem|Number=Sing" lemma="Pešta">Pešti</w>
+</name>
+<w xml:id="s.1.3.t3" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" lemma="biti">je</w>
+<w xml:id="s.1.3.t4" ana="mte:Vmep-sm" msd="UPosTag=VERB|Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part" lemma="napraviti">napravil</w>
+<w xml:id="s.1.3.t5" ana="mte:Ncmsan" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" lemma="izpit">izpit</w>
+<w xml:id="s.1.3.t6" ana="mte:Sg" msd="UPosTag=ADP|Case=Gen" lemma="iz">iz</w>
+<w xml:id="s.1.3.t7" ana="mte:Ncfsg" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" lemma="stenografija">stenografije</w>
+<w xml:id="s.1.3.t8" ana="mte:Cc" msd="UPosTag=CCONJ" lemma="in">in</w>
+<w xml:id="s.1.3.t9" ana="mte:Va-p-sm" msd="UPosTag=AUX|Gender=Masc|Number=Sing|VerbForm=Part" lemma="biti">bil</w>
+<w xml:id="s.1.3.t10" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="15">15</w>
+<w xml:id="s.1.3.t11" ana="mte:Ncnpg" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Plur" lemma="leto">let</w>
+<w xml:id="s.1.3.t12" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" lemma="stenograf">stenograf</w>
+<w xml:id="s.1.3.t13" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">v</w>
+<w xml:id="s.1.3.t14" ana="mte:Agpmsl" msd="UPosTag=ADJ|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing" lemma="državen">državnem</w>
+<w xml:id="s.1.3.t15" ana="mte:Ncmsl" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" lemma="zbor" join="right">zboru</w>
+<pc xml:id="s.1.3.t16" ana="mte:Z" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument" corresp="#s.1.3">
+  <link ana="ud-syn:case" target="#s.1.3.t2 #s.1.3.t1"/>
+  <link ana="ud-syn:obl" target="#s.1.3.t4 #s.1.3.t2"/>
+  <link ana="ud-syn:aux" target="#s.1.3.t4 #s.1.3.t3"/>
+  <link ana="ud-syn:root" target="#s.1.3 #s.1.3.t4"/>
+  <link ana="ud-syn:obj" target="#s.1.3.t4 #s.1.3.t5"/>
+  <link ana="ud-syn:case" target="#s.1.3.t7 #s.1.3.t6"/>
+  <link ana="ud-syn:nmod" target="#s.1.3.t5 #s.1.3.t7"/>
+  <link ana="ud-syn:cc" target="#s.1.3.t12 #s.1.3.t8"/>
+  <link ana="ud-syn:cop" target="#s.1.3.t12 #s.1.3.t9"/>
+  <link ana="ud-syn:nummod" target="#s.1.3.t11 #s.1.3.t10"/>
+  <link ana="ud-syn:obl" target="#s.1.3.t12 #s.1.3.t11"/>
+  <link ana="ud-syn:conj" target="#s.1.3.t4 #s.1.3.t12"/>
+  <link ana="ud-syn:case" target="#s.1.3.t15 #s.1.3.t13"/>
+  <link ana="ud-syn:amod" target="#s.1.3.t15 #s.1.3.t14"/>
+  <link ana="ud-syn:obl" target="#s.1.3.t12 #s.1.3.t15"/>
+  <link ana="ud-syn:punct" target="#s.1.3.t4 #s.1.3.t16"/>
+</linkGrp>
+</s>
+<s xml:id="s.1.4" n="1.4">
+<w xml:id="s.1.4.t1" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">V</w>
+<w xml:id="s.1.4.t2" ana="mte:Agcnpl" msd="UPosTag=ADJ|Case=Loc|Degree=Cmp|Gender=Neut|Number=Plur" lemma="mlad">mlajših</w>
+<w xml:id="s.1.4.t3" ana="mte:Ncnpl" msd="UPosTag=NOUN|Case=Loc|Gender=Neut|Number=Plur" lemma="leto">letih</w>
+<w xml:id="s.1.4.t4" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" lemma="biti">je</w>
+<w xml:id="s.1.4.t5" ana="mte:Vmpp-sm" msd="UPosTag=VERB|Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part" lemma="pisati">pisal</w>
+<w xml:id="s.1.4.t6" ana="mte:Ncmpa" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Plur" lemma="roman" join="right">romane</w>
+<pc xml:id="s.1.4.t7" ana="mte:Z" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="s.1.4.t8" ana="mte:Ncfpa" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Plur" lemma="povest">povesti</w>
+<w xml:id="s.1.4.t9" ana="mte:Cc" msd="UPosTag=CCONJ" lemma="in">in</w>
+<w xml:id="s.1.4.t10" ana="mte:Ncmpa" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Plur" lemma="članek">članke</w>
+<w xml:id="s.1.4.t11" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">v</w>
+<w xml:id="s.1.4.t12" ana="mte:Ncfsl" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" lemma="madžarščina" join="right">madžarščini</w>
+<pc xml:id="s.1.4.t13" ana="mte:Z" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument" corresp="#s.1.4">
+  <link ana="ud-syn:case" target="#s.1.4.t3 #s.1.4.t1"/>
+  <link ana="ud-syn:amod" target="#s.1.4.t3 #s.1.4.t2"/>
+  <link ana="ud-syn:obl" target="#s.1.4.t5 #s.1.4.t3"/>
+  <link ana="ud-syn:aux" target="#s.1.4.t5 #s.1.4.t4"/>
+  <link ana="ud-syn:root" target="#s.1.4 #s.1.4.t5"/>
+  <link ana="ud-syn:obj" target="#s.1.4.t5 #s.1.4.t6"/>
+  <link ana="ud-syn:punct" target="#s.1.4.t8 #s.1.4.t7"/>
+  <link ana="ud-syn:conj" target="#s.1.4.t6 #s.1.4.t8"/>
+  <link ana="ud-syn:cc" target="#s.1.4.t10 #s.1.4.t9"/>
+  <link ana="ud-syn:conj" target="#s.1.4.t6 #s.1.4.t10"/>
+  <link ana="ud-syn:case" target="#s.1.4.t12 #s.1.4.t11"/>
+  <link ana="ud-syn:nmod" target="#s.1.4.t10 #s.1.4.t12"/>
+  <link ana="ud-syn:punct" target="#s.1.4.t5 #s.1.4.t13"/>
+</linkGrp>
+</s>
+<s xml:id="s.1.5" n="1.5">
+<w xml:id="s.1.5.t1" ana="mte:Cs" msd="UPosTag=SCONJ" lemma="da">Da</w>
+<w xml:id="s.1.5.t2" ana="mte:Px---d--y" msd="UPosTag=PRON|Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short" lemma="se">si</w>
+<w xml:id="s.1.5.t3" ana="mte:Cs" msd="UPosTag=SCONJ" lemma="kot">kot</w>
+<w xml:id="s.1.5.t4" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" lemma="kandidat">kandidat</w>
+<w xml:id="s.1.5.t5" ana="mte:Sa" msd="UPosTag=ADP|Case=Acc" lemma="za">za</w>
+<w xml:id="s.1.5.t6" ana="mte:Agpmsay" msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" lemma="državen">državni</w>
+<w xml:id="s.1.5.t7" ana="mte:Ncmsan" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" lemma="zbor">zbor</w>
+<w xml:id="s.1.5.t8" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">v</w>
+<w xml:id="s.1.5.t9" ana="mte:Ncnsl" msd="UPosTag=NOUN|Case=Loc|Gender=Neut|Number=Sing" lemma="okrožje">okrožju</w>
+<name type="LOC">
+<w xml:id="s.1.5.t10" ana="mte:Agpfsg" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing" lemma="murski">Murske</w>
+<w xml:id="s.1.5.t11" ana="mte:Npfsg" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" lemma="Sobota">Sobote</w>
+</name>
+<w xml:id="s.1.5.t12" ana="mte:Vmer3s" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="pridobiti">pridobi</w>
+<w xml:id="s.1.5.t13" ana="mte:Agpnsa" msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing" lemma="preprost">preprosto</w>
+<w xml:id="s.1.5.t14" ana="mte:Ncnsa" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" lemma="ljudstvo" join="right">ljudstvo</w>
+<pc xml:id="s.1.5.t15" ana="mte:Z" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="s.1.5.t16" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" lemma="biti">je</w>
+<w xml:id="s.1.5.t17" ana="mte:Mdo" msd="UPosTag=NUM|NumForm=Digit|NumType=Ord" lemma="15.">15.</w>
+<w xml:id="s.1.5.t18" ana="mte:Ncmsg" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" lemma="september">septembra</w>
+<w xml:id="s.1.5.t19" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1875">1875</w>
+<w xml:id="s.1.5.t20" ana="mte:Vmep-sm" msd="UPosTag=VERB|Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part" lemma="začeti">začel</w>
+<w xml:id="s.1.5.t21" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">v</w>
+<name type="LOC">
+<w xml:id="s.1.5.t22" ana="mte:Npfsl" msd="UPosTag=PROPN|Case=Loc|Gender=Fem|Number=Sing" lemma="Budimpešta">Budimpešti</w>
+</name>
+<w xml:id="s.1.5.t23" ana="mte:Vmpn" msd="UPosTag=VERB|Aspect=Imp|VerbForm=Inf" lemma="izdajati">izdajati</w>
+<w xml:id="s.1.5.t24" ana="mte:Mlomsa" msd="UPosTag=ADJ|Case=Acc|Gender=Masc|NumType=Ord|Number=Sing" lemma="prvi">prvi</w>
+<w xml:id="s.1.5.t25" ana="mte:Agpmsay" msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" lemma="prekmurski">prekmurski</w>
+<w xml:id="s.1.5.t26" ana="mte:Ncmsan" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" lemma="časopis" join="right">časopis</w>
+<pc xml:id="s.1.5.t27" ana="mte:Z" msd="UPosTag=PUNCT">:</pc>
+<pc xml:id="s.1.5.t28" ana="mte:Z" msd="UPosTag=PUNCT" join="right">»</pc>
+<name type="ORG">
+<w xml:id="s.1.5.t29" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" lemma="Prijátel" join="right">Prijátel</w>
+</name>
+<pc xml:id="s.1.5.t30" ana="mte:Z" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument" corresp="#s.1.5">
+  <link ana="ud-syn:mark" target="#s.1.5.t12 #s.1.5.t1"/>
+  <link ana="ud-syn:expl" target="#s.1.5.t12 #s.1.5.t2"/>
+  <link ana="ud-syn:case" target="#s.1.5.t4 #s.1.5.t3"/>
+  <link ana="ud-syn:obl" target="#s.1.5.t12 #s.1.5.t4"/>
+  <link ana="ud-syn:case" target="#s.1.5.t7 #s.1.5.t5"/>
+  <link ana="ud-syn:amod" target="#s.1.5.t7 #s.1.5.t6"/>
+  <link ana="ud-syn:nmod" target="#s.1.5.t4 #s.1.5.t7"/>
+  <link ana="ud-syn:case" target="#s.1.5.t9 #s.1.5.t8"/>
+  <link ana="ud-syn:nmod" target="#s.1.5.t7 #s.1.5.t9"/>
+  <link ana="ud-syn:amod" target="#s.1.5.t11 #s.1.5.t10"/>
+  <link ana="ud-syn:nmod" target="#s.1.5.t9 #s.1.5.t11"/>
+  <link ana="ud-syn:advcl" target="#s.1.5.t23 #s.1.5.t12"/>
+  <link ana="ud-syn:amod" target="#s.1.5.t14 #s.1.5.t13"/>
+  <link ana="ud-syn:obj" target="#s.1.5.t12 #s.1.5.t14"/>
+  <link ana="ud-syn:punct" target="#s.1.5.t12 #s.1.5.t15"/>
+  <link ana="ud-syn:aux" target="#s.1.5.t20 #s.1.5.t16"/>
+  <link ana="ud-syn:nummod" target="#s.1.5.t18 #s.1.5.t17"/>
+  <link ana="ud-syn:obl" target="#s.1.5.t23 #s.1.5.t18"/>
+  <link ana="ud-syn:nummod" target="#s.1.5.t18 #s.1.5.t19"/>
+  <link ana="ud-syn:root" target="#s.1.5 #s.1.5.t20"/>
+  <link ana="ud-syn:case" target="#s.1.5.t22 #s.1.5.t21"/>
+  <link ana="ud-syn:obl" target="#s.1.5.t23 #s.1.5.t22"/>
+  <link ana="ud-syn:xcomp" target="#s.1.5.t20 #s.1.5.t23"/>
+  <link ana="ud-syn:amod" target="#s.1.5.t26 #s.1.5.t24"/>
+  <link ana="ud-syn:amod" target="#s.1.5.t26 #s.1.5.t25"/>
+  <link ana="ud-syn:obj" target="#s.1.5.t23 #s.1.5.t26"/>
+  <link ana="ud-syn:punct" target="#s.1.5.t29 #s.1.5.t27"/>
+  <link ana="ud-syn:punct" target="#s.1.5.t29 #s.1.5.t28"/>
+  <link ana="ud-syn:obl" target="#s.1.5.t23 #s.1.5.t29"/>
+  <link ana="ud-syn:punct" target="#s.1.5.t20 #s.1.5.t30"/>
+</linkGrp>
+</s>
+<s xml:id="s.1.6" n="1.6">
+<w xml:id="s.1.6.t1" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" lemma="znanoszt">Znanoszt</w>
+<w xml:id="s.1.6.t2" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" lemma="razserjüvajôcse">razserjüvajôcse</w>
+<w xml:id="s.1.6.t3" ana="mte:Agpfsg" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing" lemma="meszecsen">mêszecsne</w>
+<w xml:id="s.1.6.t4" ana="mte:Ncfsg" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" lemma="novina" join="right">novine</w>
+<pc xml:id="s.1.6.t5" ana="mte:Z" msd="UPosTag=PUNCT" join="right">«</pc>
+<pc xml:id="s.1.6.t6" ana="mte:Z" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="s.1.6.t7" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1878">1878</w>
+<w xml:id="s.1.6.t8" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" lemma="polmesečnik" join="right">polmesečnik</w>
+<pc xml:id="s.1.6.t9" ana="mte:Z" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="s.1.6.t10" ana="mte:Rgp" msd="UPosTag=ADV|Degree=Pos" lemma="sprva">sprva</w>
+<w xml:id="s.1.6.t11" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">v</w>
+<w xml:id="s.1.6.t12" ana="mte:Agpmsl" msd="UPosTag=ADJ|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing" lemma="madžarski">madžarskem</w>
+<w xml:id="s.1.6.t13" ana="mte:Ncmsl" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" lemma="pravopis">pravopisu</w>
+<w xml:id="s.1.6.t14" ana="mte:Cc" msd="UPosTag=CCONJ" lemma="in">in</w>
+<w xml:id="s.1.6.t15" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">v</w>
+<w xml:id="s.1.6.t16" ana="mte:Agpnsl" msd="UPosTag=ADJ|Case=Loc|Degree=Pos|Gender=Neut|Number=Sing" lemma="čist">čistem</w>
+<w xml:id="s.1.6.t17" ana="mte:Agpnsl" msd="UPosTag=ADJ|Case=Loc|Degree=Pos|Gender=Neut|Number=Sing" lemma="prekmurski">prekmurskem</w>
+<w xml:id="s.1.6.t18" ana="mte:Ncnsl" msd="UPosTag=NOUN|Case=Loc|Gender=Neut|Number=Sing" lemma="narečje" join="right">narečju</w>
+<pc xml:id="s.1.6.t19" ana="mte:Z" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="s.1.6.t20" ana="mte:Rgc" msd="UPosTag=ADV|Degree=Cmp" lemma="pozno">pozneje</w>
+<w xml:id="s.1.6.t21" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">v</w>
+<w xml:id="s.1.6.t22" ana="mte:Ncfsl" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" lemma="gajica">gajici</w>
+<w xml:id="s.1.6.t23" ana="mte:Cc" msd="UPosTag=CCONJ" lemma="in">in</w>
+<w xml:id="s.1.6.t24" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">v</w>
+<w xml:id="s.1.6.t25" ana="mte:Ncmsl" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" lemma="jezik" join="right">jeziku</w>
+<pc xml:id="s.1.6.t26" ana="mte:Z" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="s.1.6.t27" ana="mte:Cs" msd="UPosTag=SCONJ" lemma="ki">ki</w>
+<w xml:id="s.1.6.t28" ana="mte:Px------y" msd="UPosTag=PRON|PronType=Prs|Reflex=Yes|Variant=Short" lemma="se">se</w>
+<w xml:id="s.1.6.t29" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" lemma="biti">je</w>
+<w xml:id="s.1.6.t30" ana="mte:Vmpp-sm" msd="UPosTag=VERB|Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part" lemma="bližati">bližal</w>
+<w xml:id="s.1.6.t31" ana="mte:Agpfsd" msd="UPosTag=ADJ|Case=Dat|Degree=Pos|Gender=Fem|Number=Sing" lemma="pismen">pismeni</w>
+<w xml:id="s.1.6.t32" ana="mte:Ncfsd" msd="UPosTag=NOUN|Case=Dat|Gender=Fem|Number=Sing" lemma="slovenščina">slovenščini</w>
+<pc xml:id="s.1.6.t33" ana="mte:Z" msd="UPosTag=PUNCT" join="right">(</pc>
+<w xml:id="s.1.6.t34" ana="mte:Si" msd="UPosTag=ADP|Case=Ins" lemma="z">z</w>
+<w xml:id="s.1.6.t35" ana="mte:Aspfsi" msd="UPosTag=ADJ|Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes" lemma="urednikov">urednikovo</w>
+<w xml:id="s.1.6.t36" ana="mte:Ncfsi" msd="UPosTag=NOUN|Case=Ins|Gender=Fem|Number=Sing" lemma="smrt">smrtjo</w>
+<w xml:id="s.1.6.t37" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" lemma="biti">je</w>
+<w xml:id="s.1.6.t38" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" lemma="list">list</w>
+<w xml:id="s.1.6.t39" ana="mte:Vmep-sm" msd="UPosTag=VERB|Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part" lemma="prenehati" join="right">prenehal</w>
+<pc xml:id="s.1.6.t40" ana="mte:Z" msd="UPosTag=PUNCT" join="right">)</pc>
+<pc xml:id="s.1.6.t41" ana="mte:Z" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument" corresp="#s.1.6">
+  <link ana="ud-syn:parataxis" target="#s.1.6.t39 #s.1.6.t1"/>
+  <link ana="ud-syn:nmod" target="#s.1.6.t1 #s.1.6.t2"/>
+  <link ana="ud-syn:amod" target="#s.1.6.t4 #s.1.6.t3"/>
+  <link ana="ud-syn:nmod" target="#s.1.6.t2 #s.1.6.t4"/>
+  <link ana="ud-syn:punct" target="#s.1.6.t2 #s.1.6.t5"/>
+  <link ana="ud-syn:punct" target="#s.1.6.t8 #s.1.6.t6"/>
+  <link ana="ud-syn:nummod" target="#s.1.6.t8 #s.1.6.t7"/>
+  <link ana="ud-syn:appos" target="#s.1.6.t2 #s.1.6.t8"/>
+  <link ana="ud-syn:punct" target="#s.1.6.t8 #s.1.6.t9"/>
+  <link ana="ud-syn:advmod" target="#s.1.6.t13 #s.1.6.t10"/>
+  <link ana="ud-syn:case" target="#s.1.6.t13 #s.1.6.t11"/>
+  <link ana="ud-syn:amod" target="#s.1.6.t13 #s.1.6.t12"/>
+  <link ana="ud-syn:nmod" target="#s.1.6.t2 #s.1.6.t13"/>
+  <link ana="ud-syn:cc" target="#s.1.6.t18 #s.1.6.t14"/>
+  <link ana="ud-syn:case" target="#s.1.6.t18 #s.1.6.t15"/>
+  <link ana="ud-syn:amod" target="#s.1.6.t18 #s.1.6.t16"/>
+  <link ana="ud-syn:amod" target="#s.1.6.t18 #s.1.6.t17"/>
+  <link ana="ud-syn:conj" target="#s.1.6.t13 #s.1.6.t18"/>
+  <link ana="ud-syn:punct" target="#s.1.6.t22 #s.1.6.t19"/>
+  <link ana="ud-syn:advmod" target="#s.1.6.t39 #s.1.6.t20"/>
+  <link ana="ud-syn:case" target="#s.1.6.t22 #s.1.6.t21"/>
+  <link ana="ud-syn:nmod" target="#s.1.6.t20 #s.1.6.t22"/>
+  <link ana="ud-syn:cc" target="#s.1.6.t25 #s.1.6.t23"/>
+  <link ana="ud-syn:case" target="#s.1.6.t25 #s.1.6.t24"/>
+  <link ana="ud-syn:conj" target="#s.1.6.t22 #s.1.6.t25"/>
+  <link ana="ud-syn:punct" target="#s.1.6.t30 #s.1.6.t26"/>
+  <link ana="ud-syn:mark" target="#s.1.6.t30 #s.1.6.t27"/>
+  <link ana="ud-syn:expl" target="#s.1.6.t30 #s.1.6.t28"/>
+  <link ana="ud-syn:aux" target="#s.1.6.t30 #s.1.6.t29"/>
+  <link ana="ud-syn:acl" target="#s.1.6.t25 #s.1.6.t30"/>
+  <link ana="ud-syn:amod" target="#s.1.6.t32 #s.1.6.t31"/>
+  <link ana="ud-syn:obj" target="#s.1.6.t30 #s.1.6.t32"/>
+  <link ana="ud-syn:punct" target="#s.1.6.t39 #s.1.6.t33"/>
+  <link ana="ud-syn:case" target="#s.1.6.t36 #s.1.6.t34"/>
+  <link ana="ud-syn:amod" target="#s.1.6.t36 #s.1.6.t35"/>
+  <link ana="ud-syn:obl" target="#s.1.6.t39 #s.1.6.t36"/>
+  <link ana="ud-syn:aux" target="#s.1.6.t39 #s.1.6.t37"/>
+  <link ana="ud-syn:nsubj" target="#s.1.6.t39 #s.1.6.t38"/>
+  <link ana="ud-syn:root" target="#s.1.6 #s.1.6.t39"/>
+  <link ana="ud-syn:punct" target="#s.1.6.t39 #s.1.6.t40"/>
+  <link ana="ud-syn:punct" target="#s.1.6.t39 #s.1.6.t41"/>
+</linkGrp>
+</s>
+<s xml:id="s.1.7" n="1.7">
+<w xml:id="s.1.7.t1" ana="mte:Vmep-sm" msd="UPosTag=VERB|Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part" lemma="sestaviti">Sestavil</w>
+<w xml:id="s.1.7.t2" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" lemma="biti">je</w>
+<w xml:id="s.1.7.t3" ana="mte:Agpfsd" msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Gender=Fem|Number=Sing" lemma="šolski">šolski</w>
+<w xml:id="s.1.7.t4" ana="mte:Ncfsd" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" lemma="knjiga" join="right">knjigi</w>
+<pc xml:id="s.1.7.t5" ana="mte:Z" msd="UPosTag=PUNCT">:</pc>
+<pc xml:id="s.1.7.t6" ana="mte:Z" msd="UPosTag=PUNCT" join="right">»</pc>
+<name type="MISC">
+<w xml:id="s.1.7.t7" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" lemma="Návuk">Návuk</w>
+<w xml:id="s.1.7.t8" ana="mte:Agpmsg" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing" lemma="vogrszko">vogrszkoga</w>
+<w xml:id="s.1.7.t9" ana="mte:Ncmsg" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" lemma="jezik">jezika</w>
+<w xml:id="s.1.7.t10" ana="mte:Sa" msd="UPosTag=ADP|Case=Acc" lemma="za">za</w>
+<w xml:id="s.1.7.t11" ana="mte:Ncmpa" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Plur" lemma="zacsetnik" join="right">zacsetnike</w>
+</name>
+<pc xml:id="s.1.7.t12" ana="mte:Z" msd="UPosTag=PUNCT">«</pc>
+<pc xml:id="s.1.7.t13" ana="mte:Z" msd="UPosTag=PUNCT" join="right">(</pc>
+<w xml:id="s.1.7.t14" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1876" join="right">1876</w>
+<pc xml:id="s.1.7.t15" ana="mte:Z" msd="UPosTag=PUNCT">)</pc>
+<w xml:id="s.1.7.t16" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">v</w>
+<w xml:id="s.1.7.t17" ana="mte:Agpmsl" msd="UPosTag=ADJ|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing" lemma="madžarski">madžarskem</w>
+<w xml:id="s.1.7.t18" ana="mte:Ncmsl" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" lemma="pravopis">pravopisu</w>
+<w xml:id="s.1.7.t19" ana="mte:Cc" msd="UPosTag=CCONJ" lemma="in">in</w>
+<pc xml:id="s.1.7.t20" ana="mte:Z" msd="UPosTag=PUNCT" join="right">»</pc>
+<name type="MISC">
+<w xml:id="s.1.7.t21" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" lemma="prirodopis">Prirodopis</w>
+<w xml:id="s.1.7.t22" ana="mte:Si" msd="UPosTag=ADP|Case=Ins" lemma="z">s</w>
+<w xml:id="s.1.7.t23" ana="mte:Ncfpi" msd="UPosTag=NOUN|Case=Ins|Gender=Fem|Number=Plur" lemma="kepa">kepami</w>
+</name>
+<pc xml:id="s.1.7.t24" ana="mte:Z" msd="UPosTag=PUNCT" join="right">(</pc>
+<w xml:id="s.1.7.t25" ana="mte:Ncfpi" msd="UPosTag=NOUN|Case=Ins|Gender=Fem|Number=Plur" lemma="podoba" join="right">podobami</w>
+<pc xml:id="s.1.7.t26" ana="mte:Z" msd="UPosTag=PUNCT">)</pc>
+<w xml:id="s.1.7.t27" ana="mte:Sa" msd="UPosTag=ADP|Case=Acc" lemma="za">za</w>
+<w xml:id="s.1.7.t28" ana="mte:Agpfpa" msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Gender=Fem|Number=Plur" lemma="naroden">narodne</w>
+<w xml:id="s.1.7.t29" ana="mte:Ncfpa" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Plur" lemma="šola" join="right">šole</w>
+<pc xml:id="s.1.7.t30" ana="mte:Z" msd="UPosTag=PUNCT">«</pc>
+<pc xml:id="s.1.7.t31" ana="mte:Z" msd="UPosTag=PUNCT" join="right">(</pc>
+<w xml:id="s.1.7.t32" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1878" join="right">1878</w>
+<pc xml:id="s.1.7.t33" ana="mte:Z" msd="UPosTag=PUNCT">)</pc>
+<w xml:id="s.1.7.t34" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">v</w>
+<w xml:id="s.1.7.t35" ana="mte:Ncfsl" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" lemma="gajica" join="right">gajici</w>
+<pc xml:id="s.1.7.t36" ana="mte:Z" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="s.1.7.t37" ana="mte:Cc" msd="UPosTag=CCONJ" lemma="ter">ter</w>
+<w xml:id="s.1.7.t38" ana="mte:Vmep-sm" msd="UPosTag=VERB|Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part" lemma="preložiti">preložil</w>
+<w xml:id="s.1.7.t39" ana="mte:Sa" msd="UPosTag=ADP|Case=Acc" lemma="v">v</w>
+<w xml:id="s.1.7.t40" ana="mte:Ncfsa" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" lemma="prekmurščina">prekmurščino</w>
+<w xml:id="s.1.7.t41" ana="mte:Ncfsa" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" lemma="knjižica">knjižico</w>
+<pc xml:id="s.1.7.t42" ana="mte:Z" msd="UPosTag=PUNCT" join="right">»</pc>
+<w xml:id="s.1.7.t43" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="o">O</w>
+<w xml:id="s.1.7.t44" ana="mte:Ncfpl" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Plur" lemma="volitev" join="right">volitvah</w>
+<pc xml:id="s.1.7.t45" ana="mte:Z" msd="UPosTag=PUNCT" join="right">«</pc>
+<pc xml:id="s.1.7.t46" ana="mte:Z" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument" corresp="#s.1.7">
+  <link ana="ud-syn:root" target="#s.1.7 #s.1.7.t1"/>
+  <link ana="ud-syn:aux" target="#s.1.7.t1 #s.1.7.t2"/>
+  <link ana="ud-syn:amod" target="#s.1.7.t4 #s.1.7.t3"/>
+  <link ana="ud-syn:obj" target="#s.1.7.t1 #s.1.7.t4"/>
+  <link ana="ud-syn:punct" target="#s.1.7.t7 #s.1.7.t5"/>
+  <link ana="ud-syn:punct" target="#s.1.7.t7 #s.1.7.t6"/>
+  <link ana="ud-syn:nsubj" target="#s.1.7.t1 #s.1.7.t7"/>
+  <link ana="ud-syn:amod" target="#s.1.7.t9 #s.1.7.t8"/>
+  <link ana="ud-syn:nmod" target="#s.1.7.t7 #s.1.7.t9"/>
+  <link ana="ud-syn:case" target="#s.1.7.t11 #s.1.7.t10"/>
+  <link ana="ud-syn:nmod" target="#s.1.7.t9 #s.1.7.t11"/>
+  <link ana="ud-syn:punct" target="#s.1.7.t7 #s.1.7.t12"/>
+  <link ana="ud-syn:punct" target="#s.1.7.t14 #s.1.7.t13"/>
+  <link ana="ud-syn:nummod" target="#s.1.7.t11 #s.1.7.t14"/>
+  <link ana="ud-syn:punct" target="#s.1.7.t14 #s.1.7.t15"/>
+  <link ana="ud-syn:case" target="#s.1.7.t18 #s.1.7.t16"/>
+  <link ana="ud-syn:amod" target="#s.1.7.t18 #s.1.7.t17"/>
+  <link ana="ud-syn:nmod" target="#s.1.7.t9 #s.1.7.t18"/>
+  <link ana="ud-syn:cc" target="#s.1.7.t21 #s.1.7.t19"/>
+  <link ana="ud-syn:punct" target="#s.1.7.t21 #s.1.7.t20"/>
+  <link ana="ud-syn:conj" target="#s.1.7.t7 #s.1.7.t21"/>
+  <link ana="ud-syn:case" target="#s.1.7.t23 #s.1.7.t22"/>
+  <link ana="ud-syn:nmod" target="#s.1.7.t21 #s.1.7.t23"/>
+  <link ana="ud-syn:punct" target="#s.1.7.t25 #s.1.7.t24"/>
+  <link ana="ud-syn:appos" target="#s.1.7.t23 #s.1.7.t25"/>
+  <link ana="ud-syn:punct" target="#s.1.7.t25 #s.1.7.t26"/>
+  <link ana="ud-syn:case" target="#s.1.7.t29 #s.1.7.t27"/>
+  <link ana="ud-syn:amod" target="#s.1.7.t29 #s.1.7.t28"/>
+  <link ana="ud-syn:nmod" target="#s.1.7.t23 #s.1.7.t29"/>
+  <link ana="ud-syn:punct" target="#s.1.7.t29 #s.1.7.t30"/>
+  <link ana="ud-syn:punct" target="#s.1.7.t32 #s.1.7.t31"/>
+  <link ana="ud-syn:nummod" target="#s.1.7.t29 #s.1.7.t32"/>
+  <link ana="ud-syn:punct" target="#s.1.7.t32 #s.1.7.t33"/>
+  <link ana="ud-syn:case" target="#s.1.7.t35 #s.1.7.t34"/>
+  <link ana="ud-syn:obl" target="#s.1.7.t38 #s.1.7.t35"/>
+  <link ana="ud-syn:punct" target="#s.1.7.t32 #s.1.7.t36"/>
+  <link ana="ud-syn:cc" target="#s.1.7.t38 #s.1.7.t37"/>
+  <link ana="ud-syn:parataxis" target="#s.1.7.t1 #s.1.7.t38"/>
+  <link ana="ud-syn:case" target="#s.1.7.t40 #s.1.7.t39"/>
+  <link ana="ud-syn:obl" target="#s.1.7.t38 #s.1.7.t40"/>
+  <link ana="ud-syn:obj" target="#s.1.7.t38 #s.1.7.t41"/>
+  <link ana="ud-syn:punct" target="#s.1.7.t44 #s.1.7.t42"/>
+  <link ana="ud-syn:case" target="#s.1.7.t44 #s.1.7.t43"/>
+  <link ana="ud-syn:nmod" target="#s.1.7.t41 #s.1.7.t44"/>
+  <link ana="ud-syn:punct" target="#s.1.7.t44 #s.1.7.t45"/>
+  <link ana="ud-syn:punct" target="#s.1.7.t1 #s.1.7.t46"/>
+</linkGrp>
+</s>
+<s xml:id="s.1.8" n="1.8">
+<pc xml:id="s.1.8.t1" ana="mte:Z" msd="UPosTag=PUNCT">—</pc>
+<w xml:id="s.1.8.t2" ana="mte:Vmpm2s" msd="UPosTag=VERB|Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin" lemma="primerjati" join="right">Primerjaj</w>
+<pc xml:id="s.1.8.t3" ana="mte:Z" msd="UPosTag=PUNCT">:</pc>
+<name type="PER">
+<w xml:id="s.1.8.t4" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" lemma="Trstenjak">Trstenjak</w>
+<w xml:id="s.1.8.t5" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" lemma="Anton" join="right">Anton</w>
+</name>
+<pc xml:id="s.1.8.t6" ana="mte:Z" msd="UPosTag=PUNCT">,</pc>
+<name type="ORG">
+<w xml:id="s.1.8.t7" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" lemma="Spomencvieće">Spomencvieće</w>
+<w xml:id="s.1.8.t8" ana="mte:Ncfsg" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" lemma="matica">Matice</w>
+<w xml:id="s.1.8.t9" ana="mte:Npfsg" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" lemma="Hrvatska">Hrvatske</w>
+</name>
+<w xml:id="s.1.8.t10" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1900" join="right">1900</w>
+<pc xml:id="s.1.8.t11" ana="mte:Z" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="s.1.8.t12" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="516" join="right">516</w>
+<pc xml:id="s.1.8.t13" ana="mte:Z" msd="UPosTag=PUNCT" join="right">—</pc>
+<w xml:id="s.1.8.t14" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="8" join="right">8</w>
+<pc xml:id="s.1.8.t15" ana="mte:Z" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument" corresp="#s.1.8">
+  <link ana="ud-syn:punct" target="#s.1.8.t2 #s.1.8.t1"/>
+  <link ana="ud-syn:root" target="#s.1.8 #s.1.8.t2"/>
+  <link ana="ud-syn:punct" target="#s.1.8.t4 #s.1.8.t3"/>
+  <link ana="ud-syn:nsubj" target="#s.1.8.t2 #s.1.8.t4"/>
+  <link ana="ud-syn:flat_name" target="#s.1.8.t4 #s.1.8.t5"/>
+  <link ana="ud-syn:punct" target="#s.1.8.t7 #s.1.8.t6"/>
+  <link ana="ud-syn:conj" target="#s.1.8.t4 #s.1.8.t7"/>
+  <link ana="ud-syn:nmod" target="#s.1.8.t7 #s.1.8.t8"/>
+  <link ana="ud-syn:nmod" target="#s.1.8.t8 #s.1.8.t9"/>
+  <link ana="ud-syn:nummod" target="#s.1.8.t9 #s.1.8.t10"/>
+  <link ana="ud-syn:punct" target="#s.1.8.t12 #s.1.8.t11"/>
+  <link ana="ud-syn:conj" target="#s.1.8.t10 #s.1.8.t12"/>
+  <link ana="ud-syn:punct" target="#s.1.8.t14 #s.1.8.t13"/>
+  <link ana="ud-syn:conj" target="#s.1.8.t12 #s.1.8.t14"/>
+  <link ana="ud-syn:punct" target="#s.1.8.t2 #s.1.8.t15"/>
+</linkGrp>
+</s>
+<s xml:id="s.1.9" n="1.9">
+<w xml:id="s.1.9.t1" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" lemma="Šr" join="right">Šr</w>
+<pc xml:id="s.1.9.t2" ana="mte:Z" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument" corresp="#s.1.9">
+  <link ana="ud-syn:root" target="#s.1.9 #s.1.9.t1"/>
+  <link ana="ud-syn:punct" target="#s.1.9.t1 #s.1.9.t2"/>
+</linkGrp>
+</s>
+</p>
+<p xml:id="p2" n="2">
+<s xml:id="s.2.1" n="2.1">
+<name type="PER">
+<w xml:id="s.2.1.t1" ana="mte:Npfsn" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" lemma="Andrejka">Andrejka</w>
+<w xml:id="s.2.1.t2" ana="mte:Npfsn" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" lemma="Rudolf" join="right">Rudolf</w>
+</name>
+<pc xml:id="s.2.1.t3" ana="mte:Z" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="s.2.1.t4" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" lemma="pisatelj" join="right">pisatelj</w>
+<pc xml:id="s.2.1.t5" ana="mte:Z" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="s.2.1.t6" ana="mte:Appmsnn" msd="UPosTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part" lemma="rojen">rojen</w>
+<w xml:id="s.2.1.t7" ana="mte:Mdo" msd="UPosTag=NUM|NumForm=Digit|NumType=Ord" lemma="22.">22.</w>
+<w xml:id="s.2.1.t8" ana="mte:Ncmsg" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" lemma="julij">julija</w>
+<w xml:id="s.2.1.t9" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1880">1880</w>
+<w xml:id="s.2.1.t10" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">v</w>
+<name type="LOC">
+<w xml:id="s.2.1.t11" ana="mte:Npfsl" msd="UPosTag=PROPN|Case=Loc|Gender=Fem|Number=Sing" lemma="Ljubljana" join="right">Ljubljani</w>
+</name>
+<pc xml:id="s.2.1.t12" ana="mte:Z" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument" corresp="#s.2.1">
+  <link ana="ud-syn:root" target="#s.2.1 #s.2.1.t1"/>
+  <link ana="ud-syn:flat_name" target="#s.2.1.t1 #s.2.1.t2"/>
+  <link ana="ud-syn:punct" target="#s.2.1.t4 #s.2.1.t3"/>
+  <link ana="ud-syn:appos" target="#s.2.1.t1 #s.2.1.t4"/>
+  <link ana="ud-syn:punct" target="#s.2.1.t6 #s.2.1.t5"/>
+  <link ana="ud-syn:amod" target="#s.2.1.t4 #s.2.1.t6"/>
+  <link ana="ud-syn:nummod" target="#s.2.1.t8 #s.2.1.t7"/>
+  <link ana="ud-syn:obl" target="#s.2.1.t6 #s.2.1.t8"/>
+  <link ana="ud-syn:nummod" target="#s.2.1.t8 #s.2.1.t9"/>
+  <link ana="ud-syn:case" target="#s.2.1.t11 #s.2.1.t10"/>
+  <link ana="ud-syn:obl" target="#s.2.1.t6 #s.2.1.t11"/>
+  <link ana="ud-syn:punct" target="#s.2.1.t1 #s.2.1.t12"/>
+</linkGrp>
+</s>
+<s xml:id="s.2.2" n="2.2">
+<w xml:id="s.2.2.t1" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="po">Po</w>
+<w xml:id="s.2.2.t2" ana="mte:Ncfsl" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" lemma="završitev">završitvi</w>
+<w xml:id="s.2.2.t3" ana="mte:Agpfpg" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Plur" lemma="juridičen">juridičnih</w>
+<w xml:id="s.2.2.t4" ana="mte:Ncfpg" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" lemma="studija">studij</w>
+<w xml:id="s.2.2.t5" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="na">na</w>
+<name type="LOC">
+<w xml:id="s.2.2.t6" ana="mte:Npmsl" msd="UPosTag=PROPN|Case=Loc|Gender=Masc|Number=Sing" lemma="Dunaj">Dunaju</w>
+</name>
+<pc xml:id="s.2.2.t7" ana="mte:Z" msd="UPosTag=PUNCT" join="right">(</pc>
+<w xml:id="s.2.2.t8" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" lemma="doktorat">doktorat</w>
+<w xml:id="s.2.2.t9" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1903" join="right">1903</w>
+<pc xml:id="s.2.2.t10" ana="mte:Z" msd="UPosTag=PUNCT">)</pc>
+<w xml:id="s.2.2.t11" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" lemma="biti">je</w>
+<w xml:id="s.2.2.t12" ana="mte:Vmep-sm" msd="UPosTag=VERB|Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part" lemma="vstopiti">vstopil</w>
+<w xml:id="s.2.2.t13" ana="mte:Sa" msd="UPosTag=ADP|Case=Acc" lemma="v">v</w>
+<w xml:id="s.2.2.t14" ana="mte:Agpfsa" msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Gender=Fem|Number=Sing" lemma="državen">državno</w>
+<w xml:id="s.2.2.t15" ana="mte:Ncfsa" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" lemma="služba">službo</w>
+<w xml:id="s.2.2.t16" ana="mte:Cc" msd="UPosTag=CCONJ" lemma="in">in</w>
+<w xml:id="s.2.2.t17" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" lemma="biti">je</w>
+<w xml:id="s.2.2.t18" ana="mte:Rgp" msd="UPosTag=ADV|Degree=Pos" lemma="danes">danes</w>
+<w xml:id="s.2.2.t19" ana="mte:Agpmsny" msd="UPosTag=ADJ|Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" lemma="vladen">vladni</w>
+<w xml:id="s.2.2.t20" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" lemma="svetnik">svetnik</w>
+<w xml:id="s.2.2.t21" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">v</w>
+<name type="LOC">
+<w xml:id="s.2.2.t22" ana="mte:Npfsl" msd="UPosTag=PROPN|Case=Loc|Gender=Fem|Number=Sing" lemma="Ljubljana" join="right">Ljubljani</w>
+</name>
+<pc xml:id="s.2.2.t23" ana="mte:Z" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument" corresp="#s.2.2">
+  <link ana="ud-syn:case" target="#s.2.2.t2 #s.2.2.t1"/>
+  <link ana="ud-syn:obl" target="#s.2.2.t12 #s.2.2.t2"/>
+  <link ana="ud-syn:amod" target="#s.2.2.t4 #s.2.2.t3"/>
+  <link ana="ud-syn:nmod" target="#s.2.2.t2 #s.2.2.t4"/>
+  <link ana="ud-syn:case" target="#s.2.2.t6 #s.2.2.t5"/>
+  <link ana="ud-syn:nmod" target="#s.2.2.t4 #s.2.2.t6"/>
+  <link ana="ud-syn:punct" target="#s.2.2.t8 #s.2.2.t7"/>
+  <link ana="ud-syn:appos" target="#s.2.2.t6 #s.2.2.t8"/>
+  <link ana="ud-syn:nummod" target="#s.2.2.t8 #s.2.2.t9"/>
+  <link ana="ud-syn:punct" target="#s.2.2.t8 #s.2.2.t10"/>
+  <link ana="ud-syn:aux" target="#s.2.2.t12 #s.2.2.t11"/>
+  <link ana="ud-syn:root" target="#s.2.2 #s.2.2.t12"/>
+  <link ana="ud-syn:case" target="#s.2.2.t15 #s.2.2.t13"/>
+  <link ana="ud-syn:amod" target="#s.2.2.t15 #s.2.2.t14"/>
+  <link ana="ud-syn:obl" target="#s.2.2.t12 #s.2.2.t15"/>
+  <link ana="ud-syn:cc" target="#s.2.2.t17 #s.2.2.t16"/>
+  <link ana="ud-syn:conj" target="#s.2.2.t12 #s.2.2.t17"/>
+  <link ana="ud-syn:advmod" target="#s.2.2.t17 #s.2.2.t18"/>
+  <link ana="ud-syn:amod" target="#s.2.2.t20 #s.2.2.t19"/>
+  <link ana="ud-syn:nsubj" target="#s.2.2.t17 #s.2.2.t20"/>
+  <link ana="ud-syn:case" target="#s.2.2.t22 #s.2.2.t21"/>
+  <link ana="ud-syn:nmod" target="#s.2.2.t20 #s.2.2.t22"/>
+  <link ana="ud-syn:punct" target="#s.2.2.t12 #s.2.2.t23"/>
+</linkGrp>
+</s>
+<s xml:id="s.2.3" n="2.3">
+<w xml:id="s.2.3.t1" ana="mte:Vmpp-sm" msd="UPosTag=VERB|Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part" lemma="prevajati">Prevajal</w>
+<w xml:id="s.2.3.t2" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" lemma="biti">je</w>
+<name type="PER">
+<w xml:id="s.2.3.t3" ana="mte:Npmsay" msd="UPosTag=PROPN|Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing" lemma="Gregorčič">Gregorčiča</w>
+</name>
+<w xml:id="s.2.3.t4" ana="mte:Cc" msd="UPosTag=CCONJ" lemma="in">in</w>
+<name type="MISC">
+<w xml:id="s.2.3.t5" ana="mte:Npmsay" msd="UPosTag=PROPN|Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing" lemma="Župančič">Župančiča</w>
+<w xml:id="s.2.3.t6" ana="mte:Sa" msd="UPosTag=ADP|Case=Acc" lemma="v">v</w>
+<w xml:id="s.2.3.t7" ana="mte:Ncfsa" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" lemma="nemščina" join="right">nemščino</w>
+</name>
+<pc xml:id="s.2.3.t8" ana="mte:Z" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="s.2.3.t9" ana="mte:Vmep-sm" msd="UPosTag=VERB|Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part" lemma="izdati">izdal</w>
+<w xml:id="s.2.3.t10" ana="mte:Ncfsa" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" lemma="zbirka">zbirko</w>
+<w xml:id="s.2.3.t11" ana="mte:Ncmpg" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" lemma="prevod">prevodov</w>
+<pc xml:id="s.2.3.t12" ana="mte:Z" msd="UPosTag=PUNCT" join="right">»</pc>
+<name type="MISC">
+<w xml:id="s.2.3.t13" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" lemma="Slovenische">Slovenische</w>
+<w xml:id="s.2.3.t14" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" lemma="Kriegs" join="right">Kriegs</w>
+<pc xml:id="s.2.3.t15" ana="mte:Z" msd="UPosTag=PUNCT">-</pc>
+<w xml:id="s.2.3.t16" ana="mte:Xf" msd="UPosTag=X|Foreign=Yes" lemma="und">und</w>
+<w xml:id="s.2.3.t17" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" lemma="Soldatenlieder" join="right">Soldatenlieder</w>
+</name>
+<pc xml:id="s.2.3.t18" ana="mte:Z" msd="UPosTag=PUNCT">«</pc>
+<pc xml:id="s.2.3.t19" ana="mte:Z" msd="UPosTag=PUNCT" join="right">(</pc>
+<w xml:id="s.2.3.t20" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1916" join="right">1916</w>
+<pc xml:id="s.2.3.t21" ana="mte:Z" msd="UPosTag=PUNCT" join="right">)</pc>
+<pc xml:id="s.2.3.t22" ana="mte:Z" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="s.2.3.t23" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">v</w>
+<w xml:id="s.2.3.t24" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Loc|Gender=Masc|Number=Sing" lemma="DS">DS</w>
+<w xml:id="s.2.3.t25" ana="mte:Vmep-sm" msd="UPosTag=VERB|Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part" lemma="priobčiti">priobčil</w>
+<pc xml:id="s.2.3.t26" ana="mte:Z" msd="UPosTag=PUNCT" join="right">»</pc>
+<name type="MISC">
+<w xml:id="s.2.3.t27" ana="mte:Rgp" msd="UPosTag=DET|PronType=Ind" lemma="nekaj">Nekaj</w>
+<w xml:id="s.2.3.t28" ana="mte:Ncfpg" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" lemma="misel">misli</w>
+<w xml:id="s.2.3.t29" ana="mte:Cc" msd="UPosTag=CCONJ" lemma="in">in</w>
+<w xml:id="s.2.3.t30" ana="mte:Ncmpg" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" lemma="predlog">predlogov</w>
+<w xml:id="s.2.3.t31" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="o">o</w>
+<w xml:id="s.2.3.t32" ana="mte:Ps1nslp" msd="UPosTag=DET|Case=Loc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs" lemma="naš">našem</w>
+<w xml:id="s.2.3.t33" ana="mte:Agpnsl" msd="UPosTag=ADJ|Case=Loc|Degree=Pos|Gender=Neut|Number=Sing" lemma="prevajalen">prevajalnem</w>
+<w xml:id="s.2.3.t34" ana="mte:Ncnsl" msd="UPosTag=NOUN|Case=Loc|Gender=Neut|Number=Sing" lemma="slovstvo" join="right">slovstvu</w>
+</name>
+<pc xml:id="s.2.3.t35" ana="mte:Z" msd="UPosTag=PUNCT">«</pc>
+<pc xml:id="s.2.3.t36" ana="mte:Z" msd="UPosTag=PUNCT" join="right">(</pc>
+<w xml:id="s.2.3.t37" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1913" join="right">1913</w>
+<pc xml:id="s.2.3.t38" ana="mte:Z" msd="UPosTag=PUNCT" join="right">)</pc>
+<pc xml:id="s.2.3.t39" ana="mte:Z" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument" corresp="#s.2.3">
+  <link ana="ud-syn:root" target="#s.2.3 #s.2.3.t1"/>
+  <link ana="ud-syn:aux" target="#s.2.3.t1 #s.2.3.t2"/>
+  <link ana="ud-syn:obj" target="#s.2.3.t1 #s.2.3.t3"/>
+  <link ana="ud-syn:cc" target="#s.2.3.t5 #s.2.3.t4"/>
+  <link ana="ud-syn:conj" target="#s.2.3.t3 #s.2.3.t5"/>
+  <link ana="ud-syn:case" target="#s.2.3.t7 #s.2.3.t6"/>
+  <link ana="ud-syn:obl" target="#s.2.3.t1 #s.2.3.t7"/>
+  <link ana="ud-syn:punct" target="#s.2.3.t9 #s.2.3.t8"/>
+  <link ana="ud-syn:parataxis" target="#s.2.3.t1 #s.2.3.t9"/>
+  <link ana="ud-syn:obj" target="#s.2.3.t9 #s.2.3.t10"/>
+  <link ana="ud-syn:nmod" target="#s.2.3.t10 #s.2.3.t11"/>
+  <link ana="ud-syn:punct" target="#s.2.3.t13 #s.2.3.t12"/>
+  <link ana="ud-syn:nmod" target="#s.2.3.t11 #s.2.3.t13"/>
+  <link ana="ud-syn:flat_foreign" target="#s.2.3.t13 #s.2.3.t14"/>
+  <link ana="ud-syn:punct" target="#s.2.3.t16 #s.2.3.t15"/>
+  <link ana="ud-syn:conj" target="#s.2.3.t13 #s.2.3.t16"/>
+  <link ana="ud-syn:flat_foreign" target="#s.2.3.t13 #s.2.3.t17"/>
+  <link ana="ud-syn:punct" target="#s.2.3.t16 #s.2.3.t18"/>
+  <link ana="ud-syn:punct" target="#s.2.3.t20 #s.2.3.t19"/>
+  <link ana="ud-syn:nummod" target="#s.2.3.t17 #s.2.3.t20"/>
+  <link ana="ud-syn:punct" target="#s.2.3.t20 #s.2.3.t21"/>
+  <link ana="ud-syn:punct" target="#s.2.3.t20 #s.2.3.t22"/>
+  <link ana="ud-syn:case" target="#s.2.3.t24 #s.2.3.t23"/>
+  <link ana="ud-syn:obl" target="#s.2.3.t25 #s.2.3.t24"/>
+  <link ana="ud-syn:parataxis" target="#s.2.3.t1 #s.2.3.t25"/>
+  <link ana="ud-syn:punct" target="#s.2.3.t28 #s.2.3.t26"/>
+  <link ana="ud-syn:det" target="#s.2.3.t28 #s.2.3.t27"/>
+  <link ana="ud-syn:obj" target="#s.2.3.t25 #s.2.3.t28"/>
+  <link ana="ud-syn:cc" target="#s.2.3.t30 #s.2.3.t29"/>
+  <link ana="ud-syn:conj" target="#s.2.3.t28 #s.2.3.t30"/>
+  <link ana="ud-syn:case" target="#s.2.3.t34 #s.2.3.t31"/>
+  <link ana="ud-syn:det" target="#s.2.3.t34 #s.2.3.t32"/>
+  <link ana="ud-syn:amod" target="#s.2.3.t34 #s.2.3.t33"/>
+  <link ana="ud-syn:nmod" target="#s.2.3.t30 #s.2.3.t34"/>
+  <link ana="ud-syn:punct" target="#s.2.3.t34 #s.2.3.t35"/>
+  <link ana="ud-syn:punct" target="#s.2.3.t37 #s.2.3.t36"/>
+  <link ana="ud-syn:nummod" target="#s.2.3.t34 #s.2.3.t37"/>
+  <link ana="ud-syn:punct" target="#s.2.3.t37 #s.2.3.t38"/>
+  <link ana="ud-syn:punct" target="#s.2.3.t1 #s.2.3.t39"/>
+</linkGrp>
+</s>
+<s xml:id="s.2.4" n="2.4">
+<w xml:id="s.2.4.t1" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">V</w>
+<pc xml:id="s.2.4.t2" ana="mte:Z" msd="UPosTag=PUNCT" join="right">»</pc>
+<w xml:id="s.2.4.t3" ana="mte:Agpmsl" msd="UPosTag=ADJ|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing" lemma="slovenski">Slovenskem</w>
+<w xml:id="s.2.4.t4" ana="mte:Ncmsl" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" lemma="pravnik" join="right">pravniku</w>
+<pc xml:id="s.2.4.t5" ana="mte:Z" msd="UPosTag=PUNCT">«</pc>
+<w xml:id="s.2.4.t6" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" lemma="biti">je</w>
+<w xml:id="s.2.4.t7" ana="mte:Sg" msd="UPosTag=ADP|Case=Gen" lemma="od">od</w>
+<w xml:id="s.2.4.t8" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1903">1903</w>
+<w xml:id="s.2.4.t9" ana="mte:Vmpp-sm" msd="UPosTag=VERB|Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part" lemma="objavljati">objavljal</w>
+<w xml:id="s.2.4.t10" ana="mte:Agpfpa" msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Gender=Fem|Number=Plur" lemma="razen">razne</w>
+<w xml:id="s.2.4.t11" ana="mte:Agpfpa" msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Gender=Fem|Number=Plur" lemma="upravnoznanstven">upravnoznanstvene</w>
+<w xml:id="s.2.4.t12" ana="mte:Ncfpa" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Plur" lemma="razprava" join="right">razprave</w>
+<pc xml:id="s.2.4.t13" ana="mte:Z" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="s.2.4.t14" ana="mte:Ncmpa" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Plur" lemma="članek">članke</w>
+<w xml:id="s.2.4.t15" ana="mte:Cc" msd="UPosTag=CCONJ" lemma="in">in</w>
+<w xml:id="s.2.4.t16" ana="mte:Ncfpa" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Plur" lemma="ocena" join="right">ocene</w>
+<pc xml:id="s.2.4.t17" ana="mte:Z" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument" corresp="#s.2.4">
+  <link ana="ud-syn:case" target="#s.2.4.t4 #s.2.4.t1"/>
+  <link ana="ud-syn:punct" target="#s.2.4.t4 #s.2.4.t2"/>
+  <link ana="ud-syn:amod" target="#s.2.4.t4 #s.2.4.t3"/>
+  <link ana="ud-syn:obl" target="#s.2.4.t9 #s.2.4.t4"/>
+  <link ana="ud-syn:punct" target="#s.2.4.t4 #s.2.4.t5"/>
+  <link ana="ud-syn:aux" target="#s.2.4.t9 #s.2.4.t6"/>
+  <link ana="ud-syn:case" target="#s.2.4.t8 #s.2.4.t7"/>
+  <link ana="ud-syn:advmod" target="#s.2.4.t9 #s.2.4.t8"/>
+  <link ana="ud-syn:root" target="#s.2.4 #s.2.4.t9"/>
+  <link ana="ud-syn:amod" target="#s.2.4.t12 #s.2.4.t10"/>
+  <link ana="ud-syn:amod" target="#s.2.4.t12 #s.2.4.t11"/>
+  <link ana="ud-syn:obj" target="#s.2.4.t9 #s.2.4.t12"/>
+  <link ana="ud-syn:punct" target="#s.2.4.t14 #s.2.4.t13"/>
+  <link ana="ud-syn:conj" target="#s.2.4.t12 #s.2.4.t14"/>
+  <link ana="ud-syn:cc" target="#s.2.4.t16 #s.2.4.t15"/>
+  <link ana="ud-syn:conj" target="#s.2.4.t12 #s.2.4.t16"/>
+  <link ana="ud-syn:punct" target="#s.2.4.t9 #s.2.4.t17"/>
+</linkGrp>
+</s>
+<s xml:id="s.2.5" n="2.5">
+<w xml:id="s.2.5.t1" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">V</w>
+<name type="LOC">
+<w xml:id="s.2.5.t2" ana="mte:Npmsl" msd="UPosTag=PROPN|Case=Loc|Gender=Masc|Number=Sing" lemma="NZ">NZ</w>
+</name>
+<w xml:id="s.2.5.t3" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" lemma="biti">je</w>
+<w xml:id="s.2.5.t4" ana="mte:Vmep-sf" msd="UPosTag=VERB|Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part" lemma="iziti">izšla</w>
+<w xml:id="s.2.5.t5" ana="mte:Ncfsn" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" lemma="razprava">razprava</w>
+<pc xml:id="s.2.5.t6" ana="mte:Z" msd="UPosTag=PUNCT" join="right">»</pc>
+<name type="MISC">
+<w xml:id="s.2.5.t7" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" lemma="anarhizem" join="right">Anarhizem</w>
+</name>
+<pc xml:id="s.2.5.t8" ana="mte:Z" msd="UPosTag=PUNCT">«</pc>
+<pc xml:id="s.2.5.t9" ana="mte:Z" msd="UPosTag=PUNCT" join="right">(</pc>
+<w xml:id="s.2.5.t10" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1909" join="right">1909</w>
+<pc xml:id="s.2.5.t11" ana="mte:Z" msd="UPosTag=PUNCT" join="right">)</pc>
+<pc xml:id="s.2.5.t12" ana="mte:Z" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="s.2.5.t13" ana="mte:Si" msd="UPosTag=ADP|Case=Ins" lemma="med">med</w>
+<w xml:id="s.2.5.t14" ana="mte:Agpfsi" msd="UPosTag=ADJ|Case=Ins|Degree=Pos|Gender=Fem|Number=Sing" lemma="svetoven">svetovno</w>
+<w xml:id="s.2.5.t15" ana="mte:Ncfsi" msd="UPosTag=NOUN|Case=Ins|Gender=Fem|Number=Sing" lemma="vojna">vojno</w>
+<w xml:id="s.2.5.t16" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" lemma="biti">je</w>
+<w xml:id="s.2.5.t17" ana="mte:Vmpp-sm" msd="UPosTag=VERB|Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part" lemma="pisati">pisal</w>
+<w xml:id="s.2.5.t18" ana="mte:Agpmpa" msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur" lemma="političen">politične</w>
+<w xml:id="s.2.5.t19" ana="mte:Ncmpa" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Plur" lemma="članek">članke</w>
+<w xml:id="s.2.5.t20" ana="mte:Sg" msd="UPosTag=ADP|Case=Gen" lemma="z">z</w>
+<w xml:id="s.2.5.t21" ana="mte:Agpnsg" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Neut|Number=Sing" lemma="italijanski">italijanskega</w>
+<w xml:id="s.2.5.t22" ana="mte:Ncnsg" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" lemma="bojišče">bojišča</w>
+<w xml:id="s.2.5.t23" ana="mte:Sa" msd="UPosTag=ADP|Case=Acc" lemma="v">v</w>
+<pc xml:id="s.2.5.t24" ana="mte:Z" msd="UPosTag=PUNCT" join="right">»</pc>
+<name type="PER">
+<w xml:id="s.2.5.t25" ana="mte:Npmsay" msd="UPosTag=PROPN|Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing" lemma="Slovenec" join="right">Slovenca</w>
+</name>
+<pc xml:id="s.2.5.t26" ana="mte:Z" msd="UPosTag=PUNCT">«</pc>
+<w xml:id="s.2.5.t27" ana="mte:Cc" msd="UPosTag=CCONJ" lemma="in">in</w>
+<w xml:id="s.2.5.t28" ana="mte:Sa" msd="UPosTag=ADP|Case=Acc" lemma="v">v</w>
+<w xml:id="s.2.5.t29" ana="mte:Agpfsa" msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Gender=Fem|Number=Sing" lemma="dunajski">dunajsko</w>
+<pc xml:id="s.2.5.t30" ana="mte:Z" msd="UPosTag=PUNCT" join="right">»</pc>
+<name type="MISC">
+<w xml:id="s.2.5.t31" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Acc|Gender=Masc|Number=Sing" lemma="Reichspost" join="right">Reichspost</w>
+</name>
+<pc xml:id="s.2.5.t32" ana="mte:Z" msd="UPosTag=PUNCT" join="right">«</pc>
+<pc xml:id="s.2.5.t33" ana="mte:Z" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument" corresp="#s.2.5">
+  <link ana="ud-syn:case" target="#s.2.5.t2 #s.2.5.t1"/>
+  <link ana="ud-syn:obl" target="#s.2.5.t4 #s.2.5.t2"/>
+  <link ana="ud-syn:aux" target="#s.2.5.t4 #s.2.5.t3"/>
+  <link ana="ud-syn:root" target="#s.2.5 #s.2.5.t4"/>
+  <link ana="ud-syn:nsubj" target="#s.2.5.t4 #s.2.5.t5"/>
+  <link ana="ud-syn:punct" target="#s.2.5.t7 #s.2.5.t6"/>
+  <link ana="ud-syn:nmod" target="#s.2.5.t5 #s.2.5.t7"/>
+  <link ana="ud-syn:punct" target="#s.2.5.t7 #s.2.5.t8"/>
+  <link ana="ud-syn:punct" target="#s.2.5.t10 #s.2.5.t9"/>
+  <link ana="ud-syn:nummod" target="#s.2.5.t7 #s.2.5.t10"/>
+  <link ana="ud-syn:punct" target="#s.2.5.t10 #s.2.5.t11"/>
+  <link ana="ud-syn:punct" target="#s.2.5.t10 #s.2.5.t12"/>
+  <link ana="ud-syn:case" target="#s.2.5.t15 #s.2.5.t13"/>
+  <link ana="ud-syn:amod" target="#s.2.5.t15 #s.2.5.t14"/>
+  <link ana="ud-syn:obl" target="#s.2.5.t17 #s.2.5.t15"/>
+  <link ana="ud-syn:aux" target="#s.2.5.t17 #s.2.5.t16"/>
+  <link ana="ud-syn:parataxis" target="#s.2.5.t4 #s.2.5.t17"/>
+  <link ana="ud-syn:amod" target="#s.2.5.t19 #s.2.5.t18"/>
+  <link ana="ud-syn:obj" target="#s.2.5.t17 #s.2.5.t19"/>
+  <link ana="ud-syn:case" target="#s.2.5.t22 #s.2.5.t20"/>
+  <link ana="ud-syn:amod" target="#s.2.5.t22 #s.2.5.t21"/>
+  <link ana="ud-syn:nmod" target="#s.2.5.t19 #s.2.5.t22"/>
+  <link ana="ud-syn:case" target="#s.2.5.t25 #s.2.5.t23"/>
+  <link ana="ud-syn:punct" target="#s.2.5.t25 #s.2.5.t24"/>
+  <link ana="ud-syn:nmod" target="#s.2.5.t22 #s.2.5.t25"/>
+  <link ana="ud-syn:punct" target="#s.2.5.t25 #s.2.5.t26"/>
+  <link ana="ud-syn:cc" target="#s.2.5.t31 #s.2.5.t27"/>
+  <link ana="ud-syn:case" target="#s.2.5.t31 #s.2.5.t28"/>
+  <link ana="ud-syn:amod" target="#s.2.5.t31 #s.2.5.t29"/>
+  <link ana="ud-syn:punct" target="#s.2.5.t31 #s.2.5.t30"/>
+  <link ana="ud-syn:conj" target="#s.2.5.t22 #s.2.5.t31"/>
+  <link ana="ud-syn:punct" target="#s.2.5.t31 #s.2.5.t32"/>
+  <link ana="ud-syn:punct" target="#s.2.5.t4 #s.2.5.t33"/>
+</linkGrp>
+</s>
+<s xml:id="s.2.6" n="2.6">
+<pc xml:id="s.2.6.t1" ana="mte:Z" msd="UPosTag=PUNCT" join="right">»</pc>
+<w xml:id="s.2.6.t2" ana="mte:Rgp" msd="UPosTag=DET|PronType=Ind" lemma="nekaj">Nekaj</w>
+<w xml:id="s.2.6.t3" ana="mte:Agpfpg" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Plur" lemma="naroden">narodnih</w>
+<w xml:id="s.2.6.t4" ana="mte:Ncfpg" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" lemma="pripovedka">pripovedk</w>
+<w xml:id="s.2.6.t5" ana="mte:Sg" msd="UPosTag=ADP|Case=Gen" lemma="iz">iz</w>
+<w xml:id="s.2.6.t6" ana="mte:Agpfsg" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing" lemma="kamniški">kamniške</w>
+<w xml:id="s.2.6.t7" ana="mte:Ncfsg" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" lemma="okolica" join="right">okolice</w>
+<pc xml:id="s.2.6.t8" ana="mte:Z" msd="UPosTag=PUNCT">«</pc>
+<w xml:id="s.2.6.t9" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" lemma="biti">je</w>
+<w xml:id="s.2.6.t10" ana="mte:Vmep-sm" msd="UPosTag=VERB|Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part" lemma="priobčiti">priobčil</w>
+<name type="MISC">
+<w xml:id="s.2.6.t11" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" lemma="vrtec">Vrtec</w>
+</name>
+<pc xml:id="s.2.6.t12" ana="mte:Z" msd="UPosTag=PUNCT" join="right">(</pc>
+<w xml:id="s.2.6.t13" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1918" join="right">1918</w>
+<pc xml:id="s.2.6.t14" ana="mte:Z" msd="UPosTag=PUNCT" join="right">)</pc>
+<pc xml:id="s.2.6.t15" ana="mte:Z" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument" corresp="#s.2.6">
+  <link ana="ud-syn:punct" target="#s.2.6.t4 #s.2.6.t1"/>
+  <link ana="ud-syn:det" target="#s.2.6.t4 #s.2.6.t2"/>
+  <link ana="ud-syn:amod" target="#s.2.6.t4 #s.2.6.t3"/>
+  <link ana="ud-syn:obj" target="#s.2.6.t10 #s.2.6.t4"/>
+  <link ana="ud-syn:case" target="#s.2.6.t7 #s.2.6.t5"/>
+  <link ana="ud-syn:amod" target="#s.2.6.t7 #s.2.6.t6"/>
+  <link ana="ud-syn:nmod" target="#s.2.6.t4 #s.2.6.t7"/>
+  <link ana="ud-syn:punct" target="#s.2.6.t4 #s.2.6.t8"/>
+  <link ana="ud-syn:aux" target="#s.2.6.t10 #s.2.6.t9"/>
+  <link ana="ud-syn:root" target="#s.2.6 #s.2.6.t10"/>
+  <link ana="ud-syn:nsubj" target="#s.2.6.t10 #s.2.6.t11"/>
+  <link ana="ud-syn:punct" target="#s.2.6.t13 #s.2.6.t12"/>
+  <link ana="ud-syn:nummod" target="#s.2.6.t11 #s.2.6.t13"/>
+  <link ana="ud-syn:punct" target="#s.2.6.t13 #s.2.6.t14"/>
+  <link ana="ud-syn:punct" target="#s.2.6.t10 #s.2.6.t15"/>
+</linkGrp>
+</s>
+<s xml:id="s.2.7" n="2.7">
+<w xml:id="s.2.7.t1" ana="mte:Sg" msd="UPosTag=ADP|Case=Gen" lemma="od">Od</w>
+<w xml:id="s.2.7.t2" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1903">1903</w>
+<w xml:id="s.2.7.t3" ana="mte:Vmpr3s" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="delovati">deluje</w>
+<w xml:id="s.2.7.t4" ana="mte:Agpnsn" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing" lemma="organizatoričen">organizatorično</w>
+<w xml:id="s.2.7.t5" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="pri">pri</w>
+<name type="ORG">
+<w xml:id="s.2.7.t6" ana="mte:Agpnsl" msd="UPosTag=ADJ|Case=Loc|Degree=Pos|Gender=Neut|Number=Sing" lemma="slovenski">Slovenskem</w>
+<w xml:id="s.2.7.t7" ana="mte:Agpnsl" msd="UPosTag=ADJ|Case=Loc|Degree=Pos|Gender=Neut|Number=Sing" lemma="planinski">planinskem</w>
+<w xml:id="s.2.7.t8" ana="mte:Ncnsl" msd="UPosTag=NOUN|Case=Loc|Gender=Neut|Number=Sing" lemma="društvo" join="right">društvu</w>
+</name>
+<pc xml:id="s.2.7.t9" ana="mte:Z" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="s.2.7.t10" ana="mte:Cs" msd="UPosTag=SCONJ" lemma="kot">kot</w>
+<w xml:id="s.2.7.t11" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" lemma="tajnik">tajnik</w>
+<w xml:id="s.2.7.t12" ana="mte:Agpfsg" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing" lemma="selški">selške</w>
+<w xml:id="s.2.7.t13" ana="mte:Ncfsg" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" lemma="podružnica">podružnice</w>
+<w xml:id="s.2.7.t14" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" lemma="biti">je</w>
+<w xml:id="s.2.7.t15" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" lemma="voditelj">voditelj</w>
+<w xml:id="s.2.7.t16" ana="mte:Ncfsg" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" lemma="zgradba">zgradbe</w>
+<name type="ORG">
+<w xml:id="s.2.7.t17" ana="mte:Aspfsg" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes" lemma="Krekov">Krekove</w>
+<w xml:id="s.2.7.t18" ana="mte:Ncfsg" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" lemma="koča">koče</w>
+</name>
+<w xml:id="s.2.7.t19" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="na">na</w>
+<name type="LOC">
+<w xml:id="s.2.7.t20" ana="mte:Npmsl" msd="UPosTag=PROPN|Case=Loc|Gender=Masc|Number=Sing" lemma="Ratitovec" join="right">Ratitovcu</w>
+</name>
+<pc xml:id="s.2.7.t21" ana="mte:Z" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument" corresp="#s.2.7">
+  <link ana="ud-syn:case" target="#s.2.7.t2 #s.2.7.t1"/>
+  <link ana="ud-syn:advmod" target="#s.2.7.t3 #s.2.7.t2"/>
+  <link ana="ud-syn:root" target="#s.2.7 #s.2.7.t3"/>
+  <link ana="ud-syn:advcl" target="#s.2.7.t3 #s.2.7.t4"/>
+  <link ana="ud-syn:case" target="#s.2.7.t8 #s.2.7.t5"/>
+  <link ana="ud-syn:amod" target="#s.2.7.t8 #s.2.7.t6"/>
+  <link ana="ud-syn:amod" target="#s.2.7.t8 #s.2.7.t7"/>
+  <link ana="ud-syn:obl" target="#s.2.7.t3 #s.2.7.t8"/>
+  <link ana="ud-syn:punct" target="#s.2.7.t15 #s.2.7.t9"/>
+  <link ana="ud-syn:case" target="#s.2.7.t11 #s.2.7.t10"/>
+  <link ana="ud-syn:nsubj" target="#s.2.7.t15 #s.2.7.t11"/>
+  <link ana="ud-syn:amod" target="#s.2.7.t13 #s.2.7.t12"/>
+  <link ana="ud-syn:nmod" target="#s.2.7.t11 #s.2.7.t13"/>
+  <link ana="ud-syn:cop" target="#s.2.7.t15 #s.2.7.t14"/>
+  <link ana="ud-syn:parataxis" target="#s.2.7.t3 #s.2.7.t15"/>
+  <link ana="ud-syn:nmod" target="#s.2.7.t15 #s.2.7.t16"/>
+  <link ana="ud-syn:amod" target="#s.2.7.t18 #s.2.7.t17"/>
+  <link ana="ud-syn:nmod" target="#s.2.7.t16 #s.2.7.t18"/>
+  <link ana="ud-syn:case" target="#s.2.7.t20 #s.2.7.t19"/>
+  <link ana="ud-syn:nmod" target="#s.2.7.t18 #s.2.7.t20"/>
+  <link ana="ud-syn:punct" target="#s.2.7.t3 #s.2.7.t21"/>
+</linkGrp>
+</s>
+<s xml:id="s.2.8" n="2.8">
+<w xml:id="s.2.8.t1" ana="mte:Vmep-sm" msd="UPosTag=VERB|Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part" lemma="spisati">Spisal</w>
+<w xml:id="s.2.8.t2" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" lemma="biti">je</w>
+<w xml:id="s.2.8.t3" ana="mte:Ncmsan" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" lemma="potopis">potopis</w>
+<pc xml:id="s.2.8.t4" ana="mte:Z" msd="UPosTag=PUNCT" join="right">»</pc>
+<name type="MISC">
+<w xml:id="s.2.8.t5" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="na">Na</w>
+<w xml:id="s.2.8.t6" ana="mte:Aspmsl" msd="UPosTag=ADJ|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes" lemma="Vrazov">Vrazovem</w>
+<w xml:id="s.2.8.t7" ana="mte:Ncmsl" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" lemma="dom" join="right">domu</w>
+</name>
+<pc xml:id="s.2.8.t8" ana="mte:Z" msd="UPosTag=PUNCT">«</pc>
+<pc xml:id="s.2.8.t9" ana="mte:Z" msd="UPosTag=PUNCT" join="right">(</pc>
+<name type="PER">
+<w xml:id="s.2.8.t10" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" lemma="Slovenec">Slovenec</w>
+</name>
+<w xml:id="s.2.8.t11" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1916" join="right">1916</w>
+<pc xml:id="s.2.8.t12" ana="mte:Z" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="s.2.8.t13" ana="mte:Mdo" msd="UPosTag=NUM|NumForm=Digit|NumType=Ord" lemma="18.">18.</w>
+<w xml:id="s.2.8.t14" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" lemma="januar">januar</w>
+<w xml:id="s.2.8.t15" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1917" join="right">1917</w>
+<pc xml:id="s.2.8.t16" ana="mte:Z" msd="UPosTag=PUNCT">)</pc>
+<w xml:id="s.2.8.t17" ana="mte:Cc" msd="UPosTag=CCONJ" lemma="ter">ter</w>
+<w xml:id="s.2.8.t18" ana="mte:Vmep-sm" msd="UPosTag=VERB|Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part" lemma="opisati">opisal</w>
+<pc xml:id="s.2.8.t19" ana="mte:Z" msd="UPosTag=PUNCT" join="right">»</pc>
+<name type="MISC">
+<w xml:id="s.2.8.t20" ana="mte:Npnsa" msd="UPosTag=PROPN|Case=Acc|Gender=Fem|Number=Sing" lemma="Jezersko" join="right">Jezersko</w>
+</name>
+<pc xml:id="s.2.8.t21" ana="mte:Z" msd="UPosTag=PUNCT">«</pc>
+<pc xml:id="s.2.8.t22" ana="mte:Z" msd="UPosTag=PUNCT" join="right">(</pc>
+<name type="PER">
+<w xml:id="s.2.8.t23" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" lemma="Slovenec">Slovenec</w>
+</name>
+<w xml:id="s.2.8.t24" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1920" join="right">1920</w>
+<pc xml:id="s.2.8.t25" ana="mte:Z" msd="UPosTag=PUNCT">,</pc>
+<w xml:id="s.2.8.t26" ana="mte:Q" msd="UPosTag=PART" lemma="tudi">tudi</w>
+<w xml:id="s.2.8.t27" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">v</w>
+<w xml:id="s.2.8.t28" ana="mte:Ncmsl" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" lemma="ponatis">ponatisu</w>
+<w xml:id="s.2.8.t29" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1921" join="right">1921</w>
+<pc xml:id="s.2.8.t30" ana="mte:Z" msd="UPosTag=PUNCT">)</pc>
+<w xml:id="s.2.8.t31" ana="mte:Cc" msd="UPosTag=CCONJ" lemma="in">in</w>
+<pc xml:id="s.2.8.t32" ana="mte:Z" msd="UPosTag=PUNCT" join="right">»</pc>
+<name type="MISC">
+<w xml:id="s.2.8.t33" ana="mte:Npfsa" msd="UPosTag=PROPN|Case=Acc|Gender=Fem|Number=Sing" lemma="Kropa">Kropo</w>
+</name>
+<w xml:id="s.2.8.t34" ana="mte:Cc" msd="UPosTag=CCONJ" lemma="in">in</w>
+<name type="MISC">
+<w xml:id="s.2.8.t35" ana="mte:Npnsa" msd="UPosTag=PROPN|Case=Acc|Gender=Fem|Number=Sing" lemma="Kamno">Kamno</w>
+<w xml:id="s.2.8.t36" ana="mte:Ncfsa" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" lemma="gorica" join="right">gorico</w>
+</name>
+<pc xml:id="s.2.8.t37" ana="mte:Z" msd="UPosTag=PUNCT">«</pc>
+<pc xml:id="s.2.8.t38" ana="mte:Z" msd="UPosTag=PUNCT" join="right">(</pc>
+<w xml:id="s.2.8.t39" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1924" join="right">1924</w>
+<pc xml:id="s.2.8.t40" ana="mte:Z" msd="UPosTag=PUNCT" join="right">)</pc>
+<pc xml:id="s.2.8.t41" ana="mte:Z" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument" corresp="#s.2.8">
+  <link ana="ud-syn:root" target="#s.2.8 #s.2.8.t1"/>
+  <link ana="ud-syn:aux" target="#s.2.8.t1 #s.2.8.t2"/>
+  <link ana="ud-syn:obj" target="#s.2.8.t1 #s.2.8.t3"/>
+  <link ana="ud-syn:punct" target="#s.2.8.t7 #s.2.8.t4"/>
+  <link ana="ud-syn:case" target="#s.2.8.t7 #s.2.8.t5"/>
+  <link ana="ud-syn:amod" target="#s.2.8.t7 #s.2.8.t6"/>
+  <link ana="ud-syn:nmod" target="#s.2.8.t3 #s.2.8.t7"/>
+  <link ana="ud-syn:punct" target="#s.2.8.t7 #s.2.8.t8"/>
+  <link ana="ud-syn:punct" target="#s.2.8.t10 #s.2.8.t9"/>
+  <link ana="ud-syn:appos" target="#s.2.8.t7 #s.2.8.t10"/>
+  <link ana="ud-syn:nummod" target="#s.2.8.t10 #s.2.8.t11"/>
+  <link ana="ud-syn:punct" target="#s.2.8.t14 #s.2.8.t12"/>
+  <link ana="ud-syn:nummod" target="#s.2.8.t14 #s.2.8.t13"/>
+  <link ana="ud-syn:conj" target="#s.2.8.t10 #s.2.8.t14"/>
+  <link ana="ud-syn:nummod" target="#s.2.8.t14 #s.2.8.t15"/>
+  <link ana="ud-syn:punct" target="#s.2.8.t14 #s.2.8.t16"/>
+  <link ana="ud-syn:cc" target="#s.2.8.t18 #s.2.8.t17"/>
+  <link ana="ud-syn:conj" target="#s.2.8.t1 #s.2.8.t18"/>
+  <link ana="ud-syn:punct" target="#s.2.8.t20 #s.2.8.t19"/>
+  <link ana="ud-syn:obj" target="#s.2.8.t18 #s.2.8.t20"/>
+  <link ana="ud-syn:punct" target="#s.2.8.t20 #s.2.8.t21"/>
+  <link ana="ud-syn:punct" target="#s.2.8.t23 #s.2.8.t22"/>
+  <link ana="ud-syn:appos" target="#s.2.8.t20 #s.2.8.t23"/>
+  <link ana="ud-syn:nummod" target="#s.2.8.t23 #s.2.8.t24"/>
+  <link ana="ud-syn:punct" target="#s.2.8.t28 #s.2.8.t25"/>
+  <link ana="ud-syn:advmod" target="#s.2.8.t23 #s.2.8.t26"/>
+  <link ana="ud-syn:case" target="#s.2.8.t28 #s.2.8.t27"/>
+  <link ana="ud-syn:nmod" target="#s.2.8.t23 #s.2.8.t28"/>
+  <link ana="ud-syn:nummod" target="#s.2.8.t28 #s.2.8.t29"/>
+  <link ana="ud-syn:punct" target="#s.2.8.t28 #s.2.8.t30"/>
+  <link ana="ud-syn:cc" target="#s.2.8.t33 #s.2.8.t31"/>
+  <link ana="ud-syn:punct" target="#s.2.8.t33 #s.2.8.t32"/>
+  <link ana="ud-syn:conj" target="#s.2.8.t28 #s.2.8.t33"/>
+  <link ana="ud-syn:cc" target="#s.2.8.t35 #s.2.8.t34"/>
+  <link ana="ud-syn:conj" target="#s.2.8.t33 #s.2.8.t35"/>
+  <link ana="ud-syn:nmod" target="#s.2.8.t35 #s.2.8.t36"/>
+  <link ana="ud-syn:punct" target="#s.2.8.t36 #s.2.8.t37"/>
+  <link ana="ud-syn:punct" target="#s.2.8.t39 #s.2.8.t38"/>
+  <link ana="ud-syn:nummod" target="#s.2.8.t36 #s.2.8.t39"/>
+  <link ana="ud-syn:punct" target="#s.2.8.t39 #s.2.8.t40"/>
+  <link ana="ud-syn:punct" target="#s.2.8.t1 #s.2.8.t41"/>
+</linkGrp>
+</s>
+<s xml:id="s.2.9" n="2.9">
+<w xml:id="s.2.9.t1" ana="mte:Vmbp-sm" msd="UPosTag=VERB|Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part" lemma="preosnovati">Preosnoval</w>
+<w xml:id="s.2.9.t2" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" lemma="biti">je</w>
+<w xml:id="s.2.9.t3" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1922">1922</w>
+<pc xml:id="s.2.9.t4" ana="mte:Z" msd="UPosTag=PUNCT" join="right">»</pc>
+<w xml:id="s.2.9.t5" ana="mte:Ncfsa" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" lemma="zveza">Zvezo</w>
+<w xml:id="s.2.9.t6" ana="mte:Sa" msd="UPosTag=ADP|Case=Acc" lemma="za">za</w>
+<w xml:id="s.2.9.t7" ana="mte:Agpmsay" msd="UPosTag=ADJ|Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing" lemma="tujski">tujski</w>
+<w xml:id="s.2.9.t8" ana="mte:Ncmsan" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" lemma="promet" join="right">promet</w>
+<pc xml:id="s.2.9.t9" ana="mte:Z" msd="UPosTag=PUNCT">«</pc>
+<w xml:id="s.2.9.t10" ana="mte:Cc" msd="UPosTag=CCONJ" lemma="ter">ter</w>
+<w xml:id="s.2.9.t11" ana="mte:Si" msd="UPosTag=ADP|Case=Ins" lemma="z">s</w>
+<w xml:id="s.2.9.t12" ana="mte:Ncmpi" msd="UPosTag=NOUN|Case=Ins|Gender=Masc|Number=Plur" lemma="članek">članki</w>
+<w xml:id="s.2.9.t13" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">v</w>
+<w xml:id="s.2.9.t14" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Loc|Gender=Masc|Number=Sing" lemma="SN">SN</w>
+<w xml:id="s.2.9.t15" ana="mte:Cc" msd="UPosTag=CCONJ" lemma="in">in</w>
+<w xml:id="s.2.9.t16" ana="mte:Ncfpi" msd="UPosTag=NOUN|Case=Ins|Gender=Fem|Number=Plur" lemma="vloga">vlogami</w>
+<w xml:id="s.2.9.t17" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="na">na</w>
+<w xml:id="s.2.9.t18" ana="mte:Ncfsl" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" lemma="oblast">oblastva</w>
+<w xml:id="s.2.9.t19" ana="mte:Vmpp-sm" msd="UPosTag=VERB|Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part" lemma="vplivati">vplival</w>
+<w xml:id="s.2.9.t20" ana="mte:Sa" msd="UPosTag=ADP|Case=Acc" lemma="na">na</w>
+<w xml:id="s.2.9.t21" ana="mte:Ncfsa" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" lemma="olepšava">olepšavo</w>
+<w xml:id="s.2.9.t22" ana="mte:Ncnsg" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" lemma="mesto">mesta</w>
+<name type="LOC">
+<w xml:id="s.2.9.t23" ana="mte:Npfsn" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" lemma="Ljubljana">Ljubljana</w>
+</name>
+<pc xml:id="s.2.9.t24" ana="mte:Z" msd="UPosTag=PUNCT" join="right">(</pc>
+<w xml:id="s.2.9.t25" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1922" join="right">1922</w>
+<pc xml:id="s.2.9.t26" ana="mte:Z" msd="UPosTag=PUNCT" join="right">)</pc>
+<pc xml:id="s.2.9.t27" ana="mte:Z" msd="UPosTag=PUNCT">.</pc>
+<linkGrp type="UD-SYN" targFunc="head argument" corresp="#s.2.9">
+  <link ana="ud-syn:root" target="#s.2.9 #s.2.9.t1"/>
+  <link ana="ud-syn:aux" target="#s.2.9.t1 #s.2.9.t2"/>
+  <link ana="ud-syn:nummod" target="#s.2.9.t5 #s.2.9.t3"/>
+  <link ana="ud-syn:punct" target="#s.2.9.t5 #s.2.9.t4"/>
+  <link ana="ud-syn:obj" target="#s.2.9.t1 #s.2.9.t5"/>
+  <link ana="ud-syn:case" target="#s.2.9.t8 #s.2.9.t6"/>
+  <link ana="ud-syn:amod" target="#s.2.9.t8 #s.2.9.t7"/>
+  <link ana="ud-syn:nmod" target="#s.2.9.t5 #s.2.9.t8"/>
+  <link ana="ud-syn:punct" target="#s.2.9.t5 #s.2.9.t9"/>
+  <link ana="ud-syn:cc" target="#s.2.9.t12 #s.2.9.t10"/>
+  <link ana="ud-syn:case" target="#s.2.9.t12 #s.2.9.t11"/>
+  <link ana="ud-syn:obl" target="#s.2.9.t19 #s.2.9.t12"/>
+  <link ana="ud-syn:case" target="#s.2.9.t14 #s.2.9.t13"/>
+  <link ana="ud-syn:nmod" target="#s.2.9.t12 #s.2.9.t14"/>
+  <link ana="ud-syn:cc" target="#s.2.9.t16 #s.2.9.t15"/>
+  <link ana="ud-syn:conj" target="#s.2.9.t14 #s.2.9.t16"/>
+  <link ana="ud-syn:case" target="#s.2.9.t18 #s.2.9.t17"/>
+  <link ana="ud-syn:nmod" target="#s.2.9.t16 #s.2.9.t18"/>
+  <link ana="ud-syn:conj" target="#s.2.9.t1 #s.2.9.t19"/>
+  <link ana="ud-syn:case" target="#s.2.9.t21 #s.2.9.t20"/>
+  <link ana="ud-syn:obl" target="#s.2.9.t19 #s.2.9.t21"/>
+  <link ana="ud-syn:nmod" target="#s.2.9.t21 #s.2.9.t22"/>
+  <link ana="ud-syn:nmod" target="#s.2.9.t22 #s.2.9.t23"/>
+  <link ana="ud-syn:punct" target="#s.2.9.t25 #s.2.9.t24"/>
+  <link ana="ud-syn:nummod" target="#s.2.9.t22 #s.2.9.t25"/>
+  <link ana="ud-syn:punct" target="#s.2.9.t25 #s.2.9.t26"/>
+  <link ana="ud-syn:punct" target="#s.2.9.t19 #s.2.9.t27"/>
+</linkGrp>
+</s>
+<s xml:id="s.2.10" n="2.10">
+<w xml:id="s.2.10.t1" ana="mte:Si" msd="UPosTag=ADP|Case=Ins" lemma="z">Z</w>
+<w xml:id="s.2.10.t2" ana="mte:Y" msd="UPosTag=X|Abbr=Yes" lemma="dr.">dr.</w>
+<name type="PER">
+<w xml:id="s.2.10.t3" ana="mte:Npmsi" msd="UPosTag=PROPN|Case=Ins|Gender=Masc|Number=Sing" lemma="Krieper">Krieperjem</w>
+</name>
+<w xml:id="s.2.10.t4" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" lemma="biti">je</w>
+<w xml:id="s.2.10.t5" ana="mte:Vmpp-sm" msd="UPosTag=VERB|Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part" lemma="sodelovati">sodeloval</w>
+<w xml:id="s.2.10.t6" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="pri">pri</w>
+<w xml:id="s.2.10.t7" ana="mte:Agpfsl" msd="UPosTag=ADJ|Case=Loc|Degree=Pos|Gender=Fem|Number=Sing" lemma="propaganden">propagandni</w>
+<w xml:id="s.2.10.t8" ana="mte:Agpfsl" msd="UPosTag=ADJ|Case=Loc|Degree=Pos|Gender=Fem|Number=Sing" lemma="francoski">francoski</w>
+<w xml:id="s.2.10.t9" ana="mte:Ncfsl" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" lemma="knjiga">knjigi</w>
+<w xml:id="s.2.10.t10" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="o">o</w>
+<name type="LOC">
+<w xml:id="s.2.10.t11" ana="mte:Npfsl" msd="UPosTag=PROPN|Case=Loc|Gender=Fem|Number=Sing" lemma="Slovenija">Sloveniji</w>
+</name>
+<pc xml:id="s.2.10.t12" ana="mte:Z" msd="UPosTag=PUNCT" join="right">»</pc>
+<name type="MISC">
+<w xml:id="s.2.10.t13" ana="mte:Xf" msd="UPosTag=X|Foreign=Yes" lemma="visions">Visions</w>
+<w xml:id="s.2.10.t14" ana="mte:Vmer3s" msd="UPosTag=X|Foreign=Yes" lemma="dejati">de</w>
+<w xml:id="s.2.10.t15" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" lemma="Slovénie" join="right">Slovénie</w>
+</name>
+<pc xml:id="s.2.10.t16" ana="mte:Z" msd="UPosTag=PUNCT">«</pc>
+<pc xml:id="s.2.10.t17" ana="mte:Z" msd="UPosTag=PUNCT" join="right">(</pc>
+<w xml:id="s.2.10.t18" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" lemma="1922" join="right">1922</w>
+<pc xml:id="s.2.10.t19" ana="mte:Z" msd="UPosTag=PUNCT">)</pc>
+<w xml:id="s.2.10.t20" ana="mte:Cc" msd="UPosTag=CCONJ" lemma="ter">ter</w>
+<w xml:id="s.2.10.t21" ana="mte:Vmpr3s" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" lemma="uvajati">uvaja</w>
+<w xml:id="s.2.10.t22" ana="mte:Ncnsa" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" lemma="podjetje">podjetje</w>
+<w xml:id="s.2.10.t23" ana="mte:Sa" msd="UPosTag=ADP|Case=Acc" lemma="za">za</w>
+<w xml:id="s.2.10.t24" ana="mte:Ncfsa" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" lemma="zgradba">zgradbo</w>
+<w xml:id="s.2.10.t25" ana="mte:Agpnsg" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Neut|Number=Sing" lemma="planinski">planinskega</w>
+<w xml:id="s.2.10.t26" ana="mte:Ncnsg" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" lemma="zavetišče">zavetišča</w>
+<w xml:id="s.2.10.t27" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" lemma="v">v</w>
+<name type="LOC">
+<w xml:id="s.2.10.t28" ana="mte:Npfsl" msd="UPosTag=PROPN|Case=Loc|Gender=Fem|Number=Sing" lemma="Planica" join="right">Planici</w>
+</name>
+<pc xml:id="s.2.10.t29" ana="mte:Z" msd="UPosTag=PUNCT">.</pc>
+<pc xml:id="s.2.10.t30" ana="mte:Z" msd="UPosTag=PUNCT">*</pc>
+<linkGrp type="UD-SYN" targFunc="head argument" corresp="#s.2.10">
+  <link ana="ud-syn:case" target="#s.2.10.t3 #s.2.10.t1"/>
+  <link ana="ud-syn:nmod" target="#s.2.10.t3 #s.2.10.t2"/>
+  <link ana="ud-syn:obl" target="#s.2.10.t5 #s.2.10.t3"/>
+  <link ana="ud-syn:aux" target="#s.2.10.t5 #s.2.10.t4"/>
+  <link ana="ud-syn:root" target="#s.2.10 #s.2.10.t5"/>
+  <link ana="ud-syn:case" target="#s.2.10.t9 #s.2.10.t6"/>
+  <link ana="ud-syn:amod" target="#s.2.10.t9 #s.2.10.t7"/>
+  <link ana="ud-syn:amod" target="#s.2.10.t9 #s.2.10.t8"/>
+  <link ana="ud-syn:obl" target="#s.2.10.t5 #s.2.10.t9"/>
+  <link ana="ud-syn:case" target="#s.2.10.t11 #s.2.10.t10"/>
+  <link ana="ud-syn:nmod" target="#s.2.10.t9 #s.2.10.t11"/>
+  <link ana="ud-syn:punct" target="#s.2.10.t13 #s.2.10.t12"/>
+  <link ana="ud-syn:nmod" target="#s.2.10.t11 #s.2.10.t13"/>
+  <link ana="ud-syn:flat_foreign" target="#s.2.10.t13 #s.2.10.t14"/>
+  <link ana="ud-syn:flat_foreign" target="#s.2.10.t13 #s.2.10.t15"/>
+  <link ana="ud-syn:punct" target="#s.2.10.t13 #s.2.10.t16"/>
+  <link ana="ud-syn:punct" target="#s.2.10.t18 #s.2.10.t17"/>
+  <link ana="ud-syn:advmod" target="#s.2.10.t21 #s.2.10.t18"/>
+  <link ana="ud-syn:punct" target="#s.2.10.t18 #s.2.10.t19"/>
+  <link ana="ud-syn:cc" target="#s.2.10.t21 #s.2.10.t20"/>
+  <link ana="ud-syn:conj" target="#s.2.10.t5 #s.2.10.t21"/>
+  <link ana="ud-syn:obj" target="#s.2.10.t21 #s.2.10.t22"/>
+  <link ana="ud-syn:case" target="#s.2.10.t24 #s.2.10.t23"/>
+  <link ana="ud-syn:nmod" target="#s.2.10.t22 #s.2.10.t24"/>
+  <link ana="ud-syn:amod" target="#s.2.10.t26 #s.2.10.t25"/>
+  <link ana="ud-syn:nmod" target="#s.2.10.t24 #s.2.10.t26"/>
+  <link ana="ud-syn:case" target="#s.2.10.t28 #s.2.10.t27"/>
+  <link ana="ud-syn:nmod" target="#s.2.10.t26 #s.2.10.t28"/>
+  <link ana="ud-syn:punct" target="#s.2.10.t5 #s.2.10.t29"/>
+  <link ana="ud-syn:punct" target="#s.2.10.t5 #s.2.10.t30"/>
+</linkGrp>
+</s>
+</p>
+</body>
+</text>

@@ -1,0 +1,545 @@
+# newpar id = 1
+# sent_id = 1.1
+# text = Agustich (Augustič) Imre, prekmurski pisatelj, rojen 29. septembra 1837 v Murskih Petrovcih v Železni županiji, umrl v Budimpešti 17. julija 1879.
+1	Agustich	Agustich	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	NER=B-PER
+2	(	(	PUNCT	Z	_	3	punct	_	NER=O|SpaceAfter=No
+3	Augustič	Augustič	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NER=B-PER|SpaceAfter=No
+4	)	)	PUNCT	Z	_	3	punct	_	NER=O
+5	Imre	Imre	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	NER=B-ORG|SpaceAfter=No
+6	,	,	PUNCT	Z	_	8	punct	_	NER=O
+7	prekmurski	prekmurski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	NER=O
+8	pisatelj	pisatelj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	Z	_	10	punct	_	NER=O
+10	rojen	rojen	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	8	amod	_	NER=O
+11	29.	29.	NUM	Mdo	NumForm=Digit|NumType=Ord	12	nummod	_	NER=O
+12	septembra	september	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	10	obl	_	NER=O
+13	1837	1837	NUM	Mdc	NumForm=Digit|NumType=Card	12	nummod	_	NER=O
+14	v	v	ADP	Sl	Case=Loc	16	case	_	NER=O
+15	Murskih	murski	ADJ	Agpmpl	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	NER=B-LOC
+16	Petrovcih	Petrovci	PROPN	Npmpl	Case=Loc|Gender=Masc|Number=Plur	10	obl	_	NER=I-LOC
+17	v	v	ADP	Sl	Case=Loc	19	case	_	NER=O
+18	Železni	železen	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	NER=B-LOC
+19	županiji	županija	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	16	nmod	_	NER=I-LOC|SpaceAfter=No
+20	,	,	PUNCT	Z	_	3	punct	_	NER=O
+21	umrl	umreti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	NER=O
+22	v	v	ADP	Sl	Case=Loc	23	case	_	NER=O
+23	Budimpešti	Budimpešta	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	21	obl	_	NER=B-LOC
+24	17.	17.	NUM	Mdo	NumForm=Digit|NumType=Ord	25	nummod	_	NER=O
+25	julija	julij	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	21	obl	_	NER=O
+26	1879	1879	NUM	Mdc	NumForm=Digit|NumType=Card	25	nummod	_	NER=O|SpaceAfter=No
+27	.	.	PUNCT	Z	_	21	punct	_	NER=O
+
+# sent_id = 1.2
+# text = Šest gimnazijskih razredov je dovršil v Sobotišču, nato je bil poldrugo leto gospodarski pristav pri grofu Antalu Száparyju, nad šest let pa pri vdovi grofa Josepha Batthyányja v Oroszlamosu pri Szegetu in v Dolnjem Siniku.
+1	Šest	šest	NUM	Mlc-pn	Case=Acc|NumForm=Word|NumType=Card|Number=Plur	3	nummod	_	NER=O
+2	gimnazijskih	gimnazijski	ADJ	Agpmpg	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	NER=O
+3	razredov	razred	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	5	obj	_	NER=O
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	NER=O
+5	dovršil	dovršiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	NER=O
+6	v	v	ADP	Sl	Case=Loc	7	case	_	NER=O
+7	Sobotišču	Sobotišče	PROPN	Npnsl	Case=Loc|Gender=Neut|Number=Sing	5	obl	_	NER=B-LOC|SpaceAfter=No
+8	,	,	PUNCT	Z	_	11	punct	_	NER=O
+9	nato	nato	ADV	Rgp	Degree=Pos	11	advmod	_	NER=O
+10	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	11	aux	_	NER=O
+11	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	5	parataxis	_	NER=O
+12	poldrugo	poldrug	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	NER=O
+13	leto	leto	NOUN	Ncnsn	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	NER=O
+14	gospodarski	gospodarski	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	NER=O
+15	pristav	pristava	NOUN	Ncfpg	Case=Nom|Gender=Masc|Number=Sing	13	nmod	_	NER=O
+16	pri	pri	ADP	Sl	Case=Loc	17	case	_	NER=O
+17	grofu	grof	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	15	nmod	_	NER=O
+18	Antalu	Antal	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	17	nmod	_	NER=B-PER
+19	Száparyju	Szqpary	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	18	flat_name	_	NER=I-PER|SpaceAfter=No
+20	,	,	PUNCT	Z	_	23	punct	_	NER=O
+21	nad	nad	ADP	Si	Case=Ins	23	case	_	NER=O
+22	šest	šest	NUM	Mlc-pa	Case=Acc|NumForm=Word|NumType=Card|Number=Plur	23	nummod	_	NER=O
+23	let	leto	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	26	nmod	_	NER=O
+24	pa	pa	CCONJ	Cc	_	26	cc	_	NER=O
+25	pri	pri	ADP	Sl	Case=Loc	26	case	_	NER=O
+26	vdovi	vdova	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	17	conj	_	NER=O
+27	grofa	grof	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	NER=O
+28	Josepha	Joseph	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	NER=B-PER
+29	Batthyányja	Batthyiny	PROPN	Npmsg	Case=Gen|Gender=Masc|Number=Sing	28	flat_name	_	NER=I-PER
+30	v	v	ADP	Sl	Case=Loc	31	case	_	NER=O
+31	Oroszlamosu	Oroszlamos	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	27	nmod	_	NER=B-LOC
+32	pri	pri	ADP	Sl	Case=Loc	33	case	_	NER=O
+33	Szegetu	Szegeto	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	31	nmod	_	NER=B-LOC
+34	in	in	CCONJ	Cc	_	37	cc	_	NER=O
+35	v	v	ADP	Sl	Case=Loc	37	case	_	NER=O
+36	Dolnjem	dolnji	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	NER=B-LOC
+37	Siniku	Sinik	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	33	conj	_	NER=I-LOC|SpaceAfter=No
+38	.	.	PUNCT	Z	_	5	punct	_	NER=O
+
+# sent_id = 1.3
+# text = V Pešti je napravil izpit iz stenografije in bil 15 let stenograf v državnem zboru.
+1	V	v	ADP	Sl	Case=Loc	2	case	_	NER=O
+2	Pešti	Pešta	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	4	obl	_	NER=B-PER
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	NER=O
+4	napravil	napraviti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	NER=O
+5	izpit	izpit	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	NER=O
+6	iz	iz	ADP	Sg	Case=Gen	7	case	_	NER=O
+7	stenografije	stenografija	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	NER=O
+8	in	in	CCONJ	Cc	_	12	cc	_	NER=O
+9	bil	biti	AUX	Va-p-sm	Gender=Masc|Number=Sing|VerbForm=Part	12	cop	_	NER=O
+10	15	15	NUM	Mdc	NumForm=Digit|NumType=Card	11	nummod	_	NER=O
+11	let	leto	NOUN	Ncnpg	Case=Gen|Gender=Neut|Number=Plur	12	obl	_	NER=O
+12	stenograf	stenograf	NOUN	Ncmsn	Case=Gen|Gender=Masc|Number=Sing	4	conj	_	NER=O
+13	v	v	ADP	Sl	Case=Loc	15	case	_	NER=O
+14	državnem	državen	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	NER=O
+15	zboru	zbor	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	12	obl	_	NER=O|SpaceAfter=No
+16	.	.	PUNCT	Z	_	4	punct	_	NER=O
+
+# sent_id = 1.4
+# text = V mlajših letih je pisal romane, povesti in članke v madžarščini.
+1	V	v	ADP	Sl	Case=Loc	3	case	_	NER=O
+2	mlajših	mlad	ADJ	Agcnpl	Case=Loc|Degree=Cmp|Gender=Neut|Number=Plur	3	amod	_	NER=O
+3	letih	leto	NOUN	Ncnpl	Case=Loc|Gender=Neut|Number=Plur	5	obl	_	NER=O
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	NER=O
+5	pisal	pisati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	NER=O
+6	romane	roman	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	NER=O|SpaceAfter=No
+7	,	,	PUNCT	Z	_	8	punct	_	NER=O
+8	povesti	povest	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	6	conj	_	NER=O
+9	in	in	CCONJ	Cc	_	10	cc	_	NER=O
+10	članke	članek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	6	conj	_	NER=O
+11	v	v	ADP	Sl	Case=Loc	12	case	_	NER=O
+12	madžarščini	madžarščina	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	NER=O|SpaceAfter=No
+13	.	.	PUNCT	Z	_	5	punct	_	NER=O
+
+# sent_id = 1.5
+# text = Da si kot kandidat za državni zbor v okrožju Murske Sobote pridobi preprosto ljudstvo, je 15. septembra 1875 začel v Budimpešti izdajati prvi prekmurski časopis: »Prijátel.
+1	Da	da	SCONJ	Cs	_	12	mark	_	NER=O
+2	si	se	PRON	Px---d--y	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	12	expl	_	NER=O
+3	kot	kot	SCONJ	Cs	_	4	case	_	NER=O
+4	kandidat	kandidat	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	12	obl	_	NER=O
+5	za	za	ADP	Sa	Case=Acc	7	case	_	NER=O
+6	državni	državen	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	NER=O
+7	zbor	zbor	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	NER=O
+8	v	v	ADP	Sl	Case=Loc	9	case	_	NER=O
+9	okrožju	okrožje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	NER=O
+10	Murske	murski	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	NER=B-LOC
+11	Sobote	Sobota	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	NER=I-LOC
+12	pridobi	pridobiti	VERB	Vmer3s	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	NER=O
+13	preprosto	preprost	ADJ	Agpnsa	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	NER=O
+14	ljudstvo	ljudstvo	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	NER=O|SpaceAfter=No
+15	,	,	PUNCT	Z	_	12	punct	_	NER=O
+16	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	20	aux	_	NER=O
+17	15.	15.	NUM	Mdo	NumForm=Digit|NumType=Ord	18	nummod	_	NER=O
+18	septembra	september	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	23	obl	_	NER=O
+19	1875	1875	NUM	Mdc	NumForm=Digit|NumType=Card	18	nummod	_	NER=O
+20	začel	začeti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	NER=O
+21	v	v	ADP	Sl	Case=Loc	22	case	_	NER=O
+22	Budimpešti	Budimpešta	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	23	obl	_	NER=B-LOC
+23	izdajati	izdajati	VERB	Vmpn	Aspect=Imp|VerbForm=Inf	20	xcomp	_	NER=O
+24	prvi	prvi	ADJ	Mlomsa	Case=Acc|Gender=Masc|NumType=Ord|Number=Sing	26	amod	_	NER=O
+25	prekmurski	prekmurski	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	NER=O
+26	časopis	časopis	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	NER=O|SpaceAfter=No
+27	:	:	PUNCT	Z	_	29	punct	_	NER=O
+28	»	»	PUNCT	Z	_	29	punct	_	NER=O|SpaceAfter=No
+29	Prijátel	Prijátel	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	23	obl	_	NER=B-ORG|SpaceAfter=No
+30	.	.	PUNCT	Z	_	20	punct	_	NER=O
+
+# sent_id = 1.6
+# text = Znanoszt razserjüvajôcse mêszecsne novine«, 1878 polmesečnik, sprva v madžarskem pravopisu in v čistem prekmurskem narečju, pozneje v gajici in v jeziku, ki se je bližal pismeni slovenščini (z urednikovo smrtjo je list prenehal).
+1	Znanoszt	znanoszt	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	39	parataxis	_	NER=O
+2	razserjüvajôcse	razserjüvajôcse	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	NER=O
+3	mêszecsne	meszecsen	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	NER=O
+4	novine	novina	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	NER=O|SpaceAfter=No
+5	«	«	PUNCT	Z	_	2	punct	_	NER=O|SpaceAfter=No
+6	,	,	PUNCT	Z	_	8	punct	_	NER=O
+7	1878	1878	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	NER=O
+8	polmesečnik	polmesečnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	NER=O|SpaceAfter=No
+9	,	,	PUNCT	Z	_	8	punct	_	NER=O
+10	sprva	sprva	ADV	Rgp	Degree=Pos	13	advmod	_	NER=O
+11	v	v	ADP	Sl	Case=Loc	13	case	_	NER=O
+12	madžarskem	madžarski	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	NER=O
+13	pravopisu	pravopis	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	NER=O
+14	in	in	CCONJ	Cc	_	18	cc	_	NER=O
+15	v	v	ADP	Sl	Case=Loc	18	case	_	NER=O
+16	čistem	čist	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	NER=O
+17	prekmurskem	prekmurski	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	NER=O
+18	narečju	narečje	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	13	conj	_	NER=O|SpaceAfter=No
+19	,	,	PUNCT	Z	_	22	punct	_	NER=O
+20	pozneje	pozno	ADV	Rgc	Degree=Cmp	39	advmod	_	NER=O
+21	v	v	ADP	Sl	Case=Loc	22	case	_	NER=O
+22	gajici	gajica	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	20	nmod	_	NER=O
+23	in	in	CCONJ	Cc	_	25	cc	_	NER=O
+24	v	v	ADP	Sl	Case=Loc	25	case	_	NER=O
+25	jeziku	jezik	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	22	conj	_	NER=O|SpaceAfter=No
+26	,	,	PUNCT	Z	_	30	punct	_	NER=O
+27	ki	ki	SCONJ	Cs	_	30	mark	_	NER=O
+28	se	se	PRON	Px------y	PronType=Prs|Reflex=Yes|Variant=Short	30	expl	_	NER=O
+29	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	30	aux	_	NER=O
+30	bližal	bližati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	25	acl	_	NER=O
+31	pismeni	pismen	ADJ	Agpfsd	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	NER=O
+32	slovenščini	slovenščina	NOUN	Ncfsd	Case=Dat|Gender=Fem|Number=Sing	30	obj	_	NER=O
+33	(	(	PUNCT	Z	_	39	punct	_	NER=O|SpaceAfter=No
+34	z	z	ADP	Si	Case=Ins	36	case	_	NER=O
+35	urednikovo	urednikov	ADJ	Aspfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	36	amod	_	NER=O
+36	smrtjo	smrt	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	39	obl	_	NER=O
+37	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	39	aux	_	NER=O
+38	list	list	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	39	nsubj	_	NER=O
+39	prenehal	prenehati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	NER=O|SpaceAfter=No
+40	)	)	PUNCT	Z	_	39	punct	_	NER=O|SpaceAfter=No
+41	.	.	PUNCT	Z	_	39	punct	_	NER=O
+
+# sent_id = 1.7
+# text = Sestavil je šolski knjigi: »Návuk vogrszkoga jezika za zacsetnike« (1876) v madžarskem pravopisu in »Prirodopis s kepami (podobami) za narodne šole« (1878) v gajici, ter preložil v prekmurščino knjižico »O volitvah«.
+1	Sestavil	sestaviti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	NER=O
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	NER=O
+3	šolski	šolski	ADJ	Agpfsd	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	NER=O
+4	knjigi	knjiga	NOUN	Ncfsd	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	NER=O|SpaceAfter=No
+5	:	:	PUNCT	Z	_	7	punct	_	NER=O
+6	»	»	PUNCT	Z	_	7	punct	_	NER=O|SpaceAfter=No
+7	Návuk	Návuk	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	NER=B-MISC
+8	vogrszkoga	vogrszko	ADJ	Agpmsg	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	NER=I-MISC
+9	jezika	jezik	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	NER=I-MISC
+10	za	za	ADP	Sa	Case=Acc	11	case	_	NER=I-MISC
+11	zacsetnike	zacsetnik	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	9	nmod	_	NER=I-MISC|SpaceAfter=No
+12	«	«	PUNCT	Z	_	7	punct	_	NER=O
+13	(	(	PUNCT	Z	_	14	punct	_	NER=O|SpaceAfter=No
+14	1876	1876	NUM	Mdc	NumForm=Digit|NumType=Card	11	nummod	_	NER=O|SpaceAfter=No
+15	)	)	PUNCT	Z	_	14	punct	_	NER=O
+16	v	v	ADP	Sl	Case=Loc	18	case	_	NER=O
+17	madžarskem	madžarski	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	NER=O
+18	pravopisu	pravopis	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	NER=O
+19	in	in	CCONJ	Cc	_	21	cc	_	NER=O
+20	»	»	PUNCT	Z	_	21	punct	_	NER=O|SpaceAfter=No
+21	Prirodopis	prirodopis	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	NER=B-MISC
+22	s	z	ADP	Si	Case=Ins	23	case	_	NER=I-MISC
+23	kepami	kepa	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	21	nmod	_	NER=I-MISC
+24	(	(	PUNCT	Z	_	25	punct	_	NER=O|SpaceAfter=No
+25	podobami	podoba	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	23	appos	_	NER=O|SpaceAfter=No
+26	)	)	PUNCT	Z	_	25	punct	_	NER=O
+27	za	za	ADP	Sa	Case=Acc	29	case	_	NER=O
+28	narodne	naroden	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	29	amod	_	NER=O
+29	šole	šola	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	23	nmod	_	NER=O|SpaceAfter=No
+30	«	«	PUNCT	Z	_	29	punct	_	NER=O
+31	(	(	PUNCT	Z	_	32	punct	_	NER=O|SpaceAfter=No
+32	1878	1878	NUM	Mdc	NumForm=Digit|NumType=Card	29	nummod	_	NER=O|SpaceAfter=No
+33	)	)	PUNCT	Z	_	32	punct	_	NER=O
+34	v	v	ADP	Sl	Case=Loc	35	case	_	NER=O
+35	gajici	gajica	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	38	obl	_	NER=O|SpaceAfter=No
+36	,	,	PUNCT	Z	_	32	punct	_	NER=O
+37	ter	ter	CCONJ	Cc	_	38	cc	_	NER=O
+38	preložil	preložiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	1	parataxis	_	NER=O
+39	v	v	ADP	Sa	Case=Acc	40	case	_	NER=O
+40	prekmurščino	prekmurščina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	38	obl	_	NER=O
+41	knjižico	knjižica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	38	obj	_	NER=O
+42	»	»	PUNCT	Z	_	44	punct	_	NER=O|SpaceAfter=No
+43	O	o	ADP	Sl	Case=Loc	44	case	_	NER=O
+44	volitvah	volitev	NOUN	Ncfpl	Case=Loc|Gender=Fem|Number=Plur	41	nmod	_	NER=O|SpaceAfter=No
+45	«	«	PUNCT	Z	_	44	punct	_	NER=O|SpaceAfter=No
+46	.	.	PUNCT	Z	_	1	punct	_	NER=O
+
+# sent_id = 1.8
+# text = — Primerjaj: Trstenjak Anton, Spomencvieće Matice Hrvatske 1900, 516—8.
+1	—	—	PUNCT	Z	_	2	punct	_	NER=O
+2	Primerjaj	primerjati	VERB	Vmpm2s	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin	0	root	_	NER=O|SpaceAfter=No
+3	:	:	PUNCT	Z	_	4	punct	_	NER=O
+4	Trstenjak	Trstenjak	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	NER=B-PER
+5	Anton	Anton	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	4	flat_name	_	NER=I-PER|SpaceAfter=No
+6	,	,	PUNCT	Z	_	7	punct	_	NER=O
+7	Spomencvieće	Spomencvieće	PROPN	Npmsn	Case=Nom|Gender=Fem|Number=Sing	4	conj	_	NER=B-ORG
+8	Matice	matica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	NER=I-ORG
+9	Hrvatske	Hrvatska	PROPN	Npfsg	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	NER=I-ORG
+10	1900	1900	NUM	Mdc	NumForm=Digit|NumType=Card	9	nummod	_	NER=O|SpaceAfter=No
+11	,	,	PUNCT	Z	_	12	punct	_	NER=O
+12	516	516	NUM	Mdc	NumForm=Digit|NumType=Card	10	conj	_	NER=O|SpaceAfter=No
+13	—	—	PUNCT	Z	_	14	punct	_	NER=O|SpaceAfter=No
+14	8	8	NUM	Mdc	NumForm=Digit|NumType=Card	12	conj	_	NER=O|SpaceAfter=No
+15	.	.	PUNCT	Z	_	2	punct	_	NER=O
+
+# sent_id = 1.9
+# text = Šr.
+1	Šr	Šr	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	0	root	_	NER=O|SpaceAfter=No
+2	.	.	PUNCT	Z	_	1	punct	_	NER=O
+
+# newpar id = 2
+# sent_id = 2.1
+# text = Andrejka Rudolf, pisatelj, rojen 22. julija 1880 v Ljubljani.
+1	Andrejka	Andrejka	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	0	root	_	NER=B-PER
+2	Rudolf	Rudolf	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	1	flat_name	_	NER=I-PER|SpaceAfter=No
+3	,	,	PUNCT	Z	_	4	punct	_	NER=O
+4	pisatelj	pisatelj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NER=O|SpaceAfter=No
+5	,	,	PUNCT	Z	_	6	punct	_	NER=O
+6	rojen	rojen	ADJ	Appmsnn	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part	4	amod	_	NER=O
+7	22.	22.	NUM	Mdo	NumForm=Digit|NumType=Ord	8	nummod	_	NER=O
+8	julija	julij	NOUN	Ncmsg	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	NER=O
+9	1880	1880	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	NER=O
+10	v	v	ADP	Sl	Case=Loc	11	case	_	NER=O
+11	Ljubljani	Ljubljana	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	6	obl	_	NER=B-LOC|SpaceAfter=No
+12	.	.	PUNCT	Z	_	1	punct	_	NER=O
+
+# sent_id = 2.2
+# text = Po završitvi juridičnih studij na Dunaju (doktorat 1903) je vstopil v državno službo in je danes vladni svetnik v Ljubljani.
+1	Po	po	ADP	Sl	Case=Loc	2	case	_	NER=O
+2	završitvi	završitev	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	12	obl	_	NER=O
+3	juridičnih	juridičen	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	NER=O
+4	studij	studija	NOUN	Ncfpg	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	NER=O
+5	na	na	ADP	Sl	Case=Loc	6	case	_	NER=O
+6	Dunaju	Dunaj	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	NER=B-LOC
+7	(	(	PUNCT	Z	_	8	punct	_	NER=O|SpaceAfter=No
+8	doktorat	doktorat	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	NER=O
+9	1903	1903	NUM	Mdc	NumForm=Digit|NumType=Card	8	nummod	_	NER=O|SpaceAfter=No
+10	)	)	PUNCT	Z	_	8	punct	_	NER=O
+11	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	aux	_	NER=O
+12	vstopil	vstopiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	NER=O
+13	v	v	ADP	Sa	Case=Acc	15	case	_	NER=O
+14	državno	državen	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	NER=O
+15	službo	služba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	NER=O
+16	in	in	CCONJ	Cc	_	17	cc	_	NER=O
+17	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	12	conj	_	NER=O
+18	danes	danes	ADV	Rgp	Degree=Pos	17	advmod	_	NER=O
+19	vladni	vladen	ADJ	Agpmsny	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	NER=O
+20	svetnik	svetnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	NER=O
+21	v	v	ADP	Sl	Case=Loc	22	case	_	NER=O
+22	Ljubljani	Ljubljana	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	20	nmod	_	NER=B-LOC|SpaceAfter=No
+23	.	.	PUNCT	Z	_	12	punct	_	NER=O
+
+# sent_id = 2.3
+# text = Prevajal je Gregorčiča in Župančiča v nemščino, izdal zbirko prevodov »Slovenische Kriegs- und Soldatenlieder« (1916), v DS priobčil »Nekaj misli in predlogov o našem prevajalnem slovstvu« (1913).
+1	Prevajal	prevajati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	NER=O
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	NER=O
+3	Gregorčiča	Gregorčič	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	NER=B-PER
+4	in	in	CCONJ	Cc	_	5	cc	_	NER=O
+5	Župančiča	Župančič	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	conj	_	NER=B-MISC
+6	v	v	ADP	Sa	Case=Acc	7	case	_	NER=I-MISC
+7	nemščino	nemščina	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	NER=I-MISC|SpaceAfter=No
+8	,	,	PUNCT	Z	_	9	punct	_	NER=O
+9	izdal	izdati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	1	parataxis	_	NER=O
+10	zbirko	zbirka	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	NER=O
+11	prevodov	prevod	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	NER=O
+12	»	»	PUNCT	Z	_	13	punct	_	NER=O|SpaceAfter=No
+13	Slovenische	Slovenische	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	11	nmod	_	NER=B-MISC
+14	Kriegs	Kriegs	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	flat_foreign	_	NER=I-MISC|SpaceAfter=No
+15	-	-	PUNCT	Z	_	16	punct	_	NER=I-MISC
+16	und	und	X	Xf	Foreign=Yes	13	conj	_	NER=I-MISC
+17	Soldatenlieder	Soldatenlieder	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	flat_foreign	_	NER=I-MISC|SpaceAfter=No
+18	«	«	PUNCT	Z	_	16	punct	_	NER=O
+19	(	(	PUNCT	Z	_	20	punct	_	NER=O|SpaceAfter=No
+20	1916	1916	NUM	Mdc	NumForm=Digit|NumType=Card	17	nummod	_	NER=O|SpaceAfter=No
+21	)	)	PUNCT	Z	_	20	punct	_	NER=O|SpaceAfter=No
+22	,	,	PUNCT	Z	_	20	punct	_	NER=O
+23	v	v	ADP	Sl	Case=Loc	24	case	_	NER=O
+24	DS	DS	PROPN	Npmsn	Case=Loc|Gender=Masc|Number=Sing	25	obl	_	NER=O
+25	priobčil	priobčiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	1	parataxis	_	NER=O
+26	»	»	PUNCT	Z	_	28	punct	_	NER=O|SpaceAfter=No
+27	Nekaj	nekaj	DET	Rgp	PronType=Ind	28	det	_	NER=B-MISC
+28	misli	misel	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	25	obj	_	NER=I-MISC
+29	in	in	CCONJ	Cc	_	30	cc	_	NER=I-MISC
+30	predlogov	predlog	NOUN	Ncmpg	Case=Gen|Gender=Masc|Number=Plur	28	conj	_	NER=I-MISC
+31	o	o	ADP	Sl	Case=Loc	34	case	_	NER=I-MISC
+32	našem	naš	DET	Ps1nslp	Case=Loc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	34	det	_	NER=I-MISC
+33	prevajalnem	prevajalen	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	NER=I-MISC
+34	slovstvu	slovstvo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	30	nmod	_	NER=I-MISC|SpaceAfter=No
+35	«	«	PUNCT	Z	_	34	punct	_	NER=O
+36	(	(	PUNCT	Z	_	37	punct	_	NER=O|SpaceAfter=No
+37	1913	1913	NUM	Mdc	NumForm=Digit|NumType=Card	34	nummod	_	NER=O|SpaceAfter=No
+38	)	)	PUNCT	Z	_	37	punct	_	NER=O|SpaceAfter=No
+39	.	.	PUNCT	Z	_	1	punct	_	NER=O
+
+# sent_id = 2.4
+# text = V »Slovenskem pravniku« je od 1903 objavljal razne upravnoznanstvene razprave, članke in ocene.
+1	V	v	ADP	Sl	Case=Loc	4	case	_	NER=O
+2	»	»	PUNCT	Z	_	4	punct	_	NER=O|SpaceAfter=No
+3	Slovenskem	slovenski	ADJ	Agpmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	NER=O
+4	pravniku	pravnik	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	9	obl	_	NER=O|SpaceAfter=No
+5	«	«	PUNCT	Z	_	4	punct	_	NER=O
+6	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	9	aux	_	NER=O
+7	od	od	ADP	Sg	Case=Gen	8	case	_	NER=O
+8	1903	1903	NUM	Mdc	NumForm=Digit|NumType=Card	9	advmod	_	NER=O
+9	objavljal	objavljati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	NER=O
+10	razne	razen	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	NER=O
+11	upravnoznanstvene	upravnoznanstven	ADJ	Agpfpa	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	12	amod	_	NER=O
+12	razprave	razprava	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	NER=O|SpaceAfter=No
+13	,	,	PUNCT	Z	_	14	punct	_	NER=O
+14	članke	članek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	12	conj	_	NER=O
+15	in	in	CCONJ	Cc	_	16	cc	_	NER=O
+16	ocene	ocena	NOUN	Ncfpa	Case=Acc|Gender=Fem|Number=Plur	12	conj	_	NER=O|SpaceAfter=No
+17	.	.	PUNCT	Z	_	9	punct	_	NER=O
+
+# sent_id = 2.5
+# text = V NZ je izšla razprava »Anarhizem« (1909), med svetovno vojno je pisal politične članke z italijanskega bojišča v »Slovenca« in v dunajsko »Reichspost«.
+1	V	v	ADP	Sl	Case=Loc	2	case	_	NER=O
+2	NZ	NZ	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	4	obl	_	NER=B-LOC
+3	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	4	aux	_	NER=O
+4	izšla	iziti	VERB	Vmep-sf	Aspect=Perf|Gender=Fem|Number=Sing|VerbForm=Part	0	root	_	NER=O
+5	razprava	razprava	NOUN	Ncfsn	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	NER=O
+6	»	»	PUNCT	Z	_	7	punct	_	NER=O|SpaceAfter=No
+7	Anarhizem	anarhizem	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	NER=B-MISC|SpaceAfter=No
+8	«	«	PUNCT	Z	_	7	punct	_	NER=O
+9	(	(	PUNCT	Z	_	10	punct	_	NER=O|SpaceAfter=No
+10	1909	1909	NUM	Mdc	NumForm=Digit|NumType=Card	7	nummod	_	NER=O|SpaceAfter=No
+11	)	)	PUNCT	Z	_	10	punct	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	Z	_	10	punct	_	NER=O
+13	med	med	ADP	Si	Case=Ins	15	case	_	NER=O
+14	svetovno	svetoven	ADJ	Agpfsi	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	NER=O
+15	vojno	vojna	NOUN	Ncfsi	Case=Ins|Gender=Fem|Number=Sing	17	obl	_	NER=O
+16	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	17	aux	_	NER=O
+17	pisal	pisati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	4	parataxis	_	NER=O
+18	politične	političen	ADJ	Agpmpa	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	19	amod	_	NER=O
+19	članke	članek	NOUN	Ncmpa	Case=Acc|Gender=Masc|Number=Plur	17	obj	_	NER=O
+20	z	z	ADP	Sg	Case=Gen	22	case	_	NER=O
+21	italijanskega	italijanski	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	NER=O
+22	bojišča	bojišče	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	NER=O
+23	v	v	ADP	Sa	Case=Acc	25	case	_	NER=O
+24	»	»	PUNCT	Z	_	25	punct	_	NER=O|SpaceAfter=No
+25	Slovenca	Slovenec	PROPN	Npmsay	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	22	nmod	_	NER=B-PER|SpaceAfter=No
+26	«	«	PUNCT	Z	_	25	punct	_	NER=O
+27	in	in	CCONJ	Cc	_	31	cc	_	NER=O
+28	v	v	ADP	Sa	Case=Acc	31	case	_	NER=O
+29	dunajsko	dunajski	ADJ	Agpfsa	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	NER=O
+30	»	»	PUNCT	Z	_	31	punct	_	NER=O|SpaceAfter=No
+31	Reichspost	Reichspost	PROPN	Npmsn	Case=Acc|Gender=Masc|Number=Sing	22	conj	_	NER=B-MISC|SpaceAfter=No
+32	«	«	PUNCT	Z	_	31	punct	_	NER=O|SpaceAfter=No
+33	.	.	PUNCT	Z	_	4	punct	_	NER=O
+
+# sent_id = 2.6
+# text = »Nekaj narodnih pripovedk iz kamniške okolice« je priobčil Vrtec (1918).
+1	»	»	PUNCT	Z	_	4	punct	_	NER=O|SpaceAfter=No
+2	Nekaj	nekaj	DET	Rgp	PronType=Ind	4	det	_	NER=O
+3	narodnih	naroden	ADJ	Agpfpg	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	NER=O
+4	pripovedk	pripovedka	NOUN	Ncfpg	Case=Gen|Gender=Fem|Number=Plur	10	obj	_	NER=O
+5	iz	iz	ADP	Sg	Case=Gen	7	case	_	NER=O
+6	kamniške	kamniški	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	NER=O
+7	okolice	okolica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	NER=O|SpaceAfter=No
+8	«	«	PUNCT	Z	_	4	punct	_	NER=O
+9	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	10	aux	_	NER=O
+10	priobčil	priobčiti	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	NER=O
+11	Vrtec	vrtec	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	NER=B-MISC
+12	(	(	PUNCT	Z	_	13	punct	_	NER=O|SpaceAfter=No
+13	1918	1918	NUM	Mdc	NumForm=Digit|NumType=Card	11	nummod	_	NER=O|SpaceAfter=No
+14	)	)	PUNCT	Z	_	13	punct	_	NER=O|SpaceAfter=No
+15	.	.	PUNCT	Z	_	10	punct	_	NER=O
+
+# sent_id = 2.7
+# text = Od 1903 deluje organizatorično pri Slovenskem planinskem društvu, kot tajnik selške podružnice je voditelj zgradbe Krekove koče na Ratitovcu.
+1	Od	od	ADP	Sg	Case=Gen	2	case	_	NER=O
+2	1903	1903	NUM	Mdc	NumForm=Digit|NumType=Card	3	advmod	_	NER=O
+3	deluje	delovati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	NER=O
+4	organizatorično	organizatoričen	ADJ	Agpnsn	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	advcl	_	NER=O
+5	pri	pri	ADP	Sl	Case=Loc	8	case	_	NER=O
+6	Slovenskem	slovenski	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	NER=B-ORG
+7	planinskem	planinski	ADJ	Agpnsl	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	NER=I-ORG
+8	društvu	društvo	NOUN	Ncnsl	Case=Loc|Gender=Neut|Number=Sing	3	obl	_	NER=I-ORG|SpaceAfter=No
+9	,	,	PUNCT	Z	_	15	punct	_	NER=O
+10	kot	kot	SCONJ	Cs	_	11	case	_	NER=O
+11	tajnik	tajnik	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	NER=O
+12	selške	selški	ADJ	Agpfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	NER=O
+13	podružnice	podružnica	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	NER=O
+14	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	15	cop	_	NER=O
+15	voditelj	voditelj	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	3	parataxis	_	NER=O
+16	zgradbe	zgradba	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	NER=O
+17	Krekove	Krekov	ADJ	Aspfsg	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes	18	amod	_	NER=B-ORG
+18	koče	koča	NOUN	Ncfsg	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	NER=I-ORG
+19	na	na	ADP	Sl	Case=Loc	20	case	_	NER=O
+20	Ratitovcu	Ratitovec	PROPN	Npmsl	Case=Loc|Gender=Masc|Number=Sing	18	nmod	_	NER=B-LOC|SpaceAfter=No
+21	.	.	PUNCT	Z	_	3	punct	_	NER=O
+
+# sent_id = 2.8
+# text = Spisal je potopis »Na Vrazovem domu« (Slovenec 1916, 18. januar 1917) ter opisal »Jezersko« (Slovenec 1920, tudi v ponatisu 1921) in »Kropo in Kamno gorico« (1924).
+1	Spisal	spisati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	NER=O
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	NER=O
+3	potopis	potopis	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	NER=O
+4	»	»	PUNCT	Z	_	7	punct	_	NER=O|SpaceAfter=No
+5	Na	na	ADP	Sl	Case=Loc	7	case	_	NER=B-MISC
+6	Vrazovem	Vrazov	ADJ	Aspmsl	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Poss=Yes	7	amod	_	NER=I-MISC
+7	domu	dom	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	NER=I-MISC|SpaceAfter=No
+8	«	«	PUNCT	Z	_	7	punct	_	NER=O
+9	(	(	PUNCT	Z	_	10	punct	_	NER=O|SpaceAfter=No
+10	Slovenec	Slovenec	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	7	appos	_	NER=B-PER
+11	1916	1916	NUM	Mdc	NumForm=Digit|NumType=Card	10	nummod	_	NER=O|SpaceAfter=No
+12	,	,	PUNCT	Z	_	14	punct	_	NER=O
+13	18.	18.	NUM	Mdo	NumForm=Digit|NumType=Ord	14	nummod	_	NER=O
+14	januar	januar	NOUN	Ncmsn	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	NER=O
+15	1917	1917	NUM	Mdc	NumForm=Digit|NumType=Card	14	nummod	_	NER=O|SpaceAfter=No
+16	)	)	PUNCT	Z	_	14	punct	_	NER=O
+17	ter	ter	CCONJ	Cc	_	18	cc	_	NER=O
+18	opisal	opisati	VERB	Vmep-sm	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part	1	conj	_	NER=O
+19	»	»	PUNCT	Z	_	20	punct	_	NER=O|SpaceAfter=No
+20	Jezersko	Jezersko	PROPN	Npnsa	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	NER=B-MISC|SpaceAfter=No
+21	«	«	PUNCT	Z	_	20	punct	_	NER=O
+22	(	(	PUNCT	Z	_	23	punct	_	NER=O|SpaceAfter=No
+23	Slovenec	Slovenec	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	20	appos	_	NER=B-PER
+24	1920	1920	NUM	Mdc	NumForm=Digit|NumType=Card	23	nummod	_	NER=O|SpaceAfter=No
+25	,	,	PUNCT	Z	_	28	punct	_	NER=O
+26	tudi	tudi	PART	Q	_	23	advmod	_	NER=O
+27	v	v	ADP	Sl	Case=Loc	28	case	_	NER=O
+28	ponatisu	ponatis	NOUN	Ncmsl	Case=Loc|Gender=Masc|Number=Sing	23	nmod	_	NER=O
+29	1921	1921	NUM	Mdc	NumForm=Digit|NumType=Card	28	nummod	_	NER=O|SpaceAfter=No
+30	)	)	PUNCT	Z	_	28	punct	_	NER=O
+31	in	in	CCONJ	Cc	_	33	cc	_	NER=O
+32	»	»	PUNCT	Z	_	33	punct	_	NER=O|SpaceAfter=No
+33	Kropo	Kropa	PROPN	Npfsa	Case=Acc|Gender=Fem|Number=Sing	28	conj	_	NER=B-MISC
+34	in	in	CCONJ	Cc	_	35	cc	_	NER=O
+35	Kamno	Kamno	PROPN	Npnsa	Case=Acc|Gender=Fem|Number=Sing	33	conj	_	NER=B-MISC
+36	gorico	gorica	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	35	nmod	_	NER=I-MISC|SpaceAfter=No
+37	«	«	PUNCT	Z	_	36	punct	_	NER=O
+38	(	(	PUNCT	Z	_	39	punct	_	NER=O|SpaceAfter=No
+39	1924	1924	NUM	Mdc	NumForm=Digit|NumType=Card	36	nummod	_	NER=O|SpaceAfter=No
+40	)	)	PUNCT	Z	_	39	punct	_	NER=O|SpaceAfter=No
+41	.	.	PUNCT	Z	_	1	punct	_	NER=O
+
+# sent_id = 2.9
+# text = Preosnoval je 1922 »Zvezo za tujski promet« ter s članki v SN in vlogami na oblastva vplival na olepšavo mesta Ljubljana (1922).
+1	Preosnoval	preosnovati	VERB	Vmbp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	NER=O
+2	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	1	aux	_	NER=O
+3	1922	1922	NUM	Mdc	NumForm=Digit|NumType=Card	5	nummod	_	NER=O
+4	»	»	PUNCT	Z	_	5	punct	_	NER=O|SpaceAfter=No
+5	Zvezo	zveza	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	NER=O
+6	za	za	ADP	Sa	Case=Acc	8	case	_	NER=O
+7	tujski	tujski	ADJ	Agpmsay	Case=Acc|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	NER=O
+8	promet	promet	NOUN	Ncmsan	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	NER=O|SpaceAfter=No
+9	«	«	PUNCT	Z	_	5	punct	_	NER=O
+10	ter	ter	CCONJ	Cc	_	12	cc	_	NER=O
+11	s	z	ADP	Si	Case=Ins	12	case	_	NER=O
+12	članki	članek	NOUN	Ncmpi	Case=Ins|Gender=Masc|Number=Plur	19	obl	_	NER=O
+13	v	v	ADP	Sl	Case=Loc	14	case	_	NER=O
+14	SN	SN	PROPN	Npmsn	Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	NER=O
+15	in	in	CCONJ	Cc	_	16	cc	_	NER=O
+16	vlogami	vloga	NOUN	Ncfpi	Case=Ins|Gender=Fem|Number=Plur	14	conj	_	NER=O
+17	na	na	ADP	Sl	Case=Loc	18	case	_	NER=O
+18	oblastva	oblast	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	16	nmod	_	NER=O
+19	vplival	vplivati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	1	conj	_	NER=O
+20	na	na	ADP	Sa	Case=Acc	21	case	_	NER=O
+21	olepšavo	olepšava	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	NER=O
+22	mesta	mesto	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	NER=O
+23	Ljubljana	Ljubljana	PROPN	Npfsn	Case=Nom|Gender=Fem|Number=Sing	22	nmod	_	NER=B-LOC
+24	(	(	PUNCT	Z	_	25	punct	_	NER=O|SpaceAfter=No
+25	1922	1922	NUM	Mdc	NumForm=Digit|NumType=Card	22	nummod	_	NER=O|SpaceAfter=No
+26	)	)	PUNCT	Z	_	25	punct	_	NER=O|SpaceAfter=No
+27	.	.	PUNCT	Z	_	19	punct	_	NER=O
+
+# sent_id = 2.10
+# text = Z dr. Krieperjem je sodeloval pri propagandni francoski knjigi o Sloveniji »Visions de Slovénie« (1922) ter uvaja podjetje za zgradbo planinskega zavetišča v Planici. *
+1	Z	z	ADP	Si	Case=Ins	3	case	_	NER=O
+2	dr.	dr.	X	Y	Abbr=Yes	3	nmod	_	NER=O
+3	Krieperjem	Krieper	PROPN	Npmsi	Case=Ins|Gender=Masc|Number=Sing	5	obl	_	NER=B-PER
+4	je	biti	AUX	Va-r3s-n	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin	5	aux	_	NER=O
+5	sodeloval	sodelovati	VERB	Vmpp-sm	Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part	0	root	_	NER=O
+6	pri	pri	ADP	Sl	Case=Loc	9	case	_	NER=O
+7	propagandni	propaganden	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	NER=O
+8	francoski	francoski	ADJ	Agpfsl	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	NER=O
+9	knjigi	knjiga	NOUN	Ncfsl	Case=Loc|Gender=Fem|Number=Sing	5	obl	_	NER=O
+10	o	o	ADP	Sl	Case=Loc	11	case	_	NER=O
+11	Sloveniji	Slovenija	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	9	nmod	_	NER=B-LOC
+12	»	»	PUNCT	Z	_	13	punct	_	NER=O|SpaceAfter=No
+13	Visions	visions	X	Xf	Foreign=Yes	11	nmod	_	NER=B-MISC
+14	de	dejati	X	Vmer3s	Foreign=Yes	13	flat_foreign	_	NER=I-MISC
+15	Slovénie	Slovénie	PROPN	Npmsn	Case=Nom|Gender=Masc|Number=Sing	13	flat_foreign	_	NER=I-MISC|SpaceAfter=No
+16	«	«	PUNCT	Z	_	13	punct	_	NER=O
+17	(	(	PUNCT	Z	_	18	punct	_	NER=O|SpaceAfter=No
+18	1922	1922	NUM	Mdc	NumForm=Digit|NumType=Card	21	advmod	_	NER=O|SpaceAfter=No
+19	)	)	PUNCT	Z	_	18	punct	_	NER=O
+20	ter	ter	CCONJ	Cc	_	21	cc	_	NER=O
+21	uvaja	uvajati	VERB	Vmpr3s	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	NER=O
+22	podjetje	podjetje	NOUN	Ncnsa	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	NER=O
+23	za	za	ADP	Sa	Case=Acc	24	case	_	NER=O
+24	zgradbo	zgradba	NOUN	Ncfsa	Case=Acc|Gender=Fem|Number=Sing	22	nmod	_	NER=O
+25	planinskega	planinski	ADJ	Agpnsg	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	NER=O
+26	zavetišča	zavetišče	NOUN	Ncnsg	Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	NER=O
+27	v	v	ADP	Sl	Case=Loc	28	case	_	NER=O
+28	Planici	Planica	PROPN	Npfsl	Case=Loc|Gender=Fem|Number=Sing	26	nmod	_	NER=B-LOC|SpaceAfter=No
+29	.	.	PUNCT	Z	_	5	punct	_	NER=O
+30	*	*	PUNCT	Z	_	5	punct	_	NER=O
+
