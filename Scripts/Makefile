@@ -1,17 +1,23 @@
+newsfeed:
+	$j ../Schema/tei_clarin.rng ../Samples/test-newsfeed.xml
+	$s -xsl:check-links.xsl ../Samples/test-newsfeed.xml
+	$s -xsl:newsfeed2vert.xsl ../Samples/test-newsfeed.xml > ../Samples/test-newsfeed.vert.xml
+	xml2vert.pl < ../Samples/test-newsfeed.vert.xml > ../Samples/test-newsfeed.vert
+
 all:	plain ssj500k
 ssj500k:
 	$j ../Schema/tei_clarin.rng ../Samples/test-ssj500k.xml
-	$s -xsl:../Scripts/check-links.xsl ../Samples/test-ssj500k.xml
-	python3 ../Scripts/tools/validate.py --lang sl --level 1 ../Samples/test-ssj500k.conllu
-	python3 ../Scripts/tools/validate.py --lang sl --level 2 ../Samples/test-ssj500k.conllu
-	python3 ../Scripts/tools/validate.py --lang sl --level 3 ../Samples/test-ssj500k.conllu
+	$s -xsl:check-links.xsl ../Samples/test-ssj500k.xml
+	python3 tools/validate.py --lang sl --level 1 ../Samples/test-ssj500k.conllu
+	python3 tools/validate.py --lang sl --level 2 ../Samples/test-ssj500k.conllu
+	python3 tools/validate.py --lang sl --level 3 ../Samples/test-ssj500k.conllu
 
 plain:
 	$j ../Schema/tei_clarin.rng ../Samples/test-plain.xml
-	$s -xsl:../Scripts/check-links.xsl ../Samples/test-plain.xml
-	python3 ../Scripts/tools/validate.py --lang sl --level 1 ../Samples/test-plain.conllu
-	python3 ../Scripts/tools/validate.py --lang sl --level 2 ../Samples/test-plain.conllu
-	python3 ../Scripts/tools/validate.py --lang sl --level 3 ../Samples/test-plain.conllu
+	$s -xsl:check-links.xsl ../Samples/test-plain.xml
+	python3 tools/validate.py --lang sl --level 1 ../Samples/test-plain.conllu
+	python3 tools/validate.py --lang sl --level 2 ../Samples/test-plain.conllu
+	python3 tools/validate.py --lang sl --level 3 ../Samples/test-plain.conllu
 
 
 ################################################
