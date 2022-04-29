@@ -28,9 +28,6 @@
   -->
   <xsl:param name="hdr"/>
 
-  <!-- Separator between UD morpho features (esp. relevant if they are multi-valued -->
-  <xsl:param name="multiValueSeparator">&#32;</xsl:param>
-  
   <xsl:key name="id" match="tei:*" use="@xml:id"/>
 
   <!-- Variable with corpus metadata -->
@@ -153,7 +150,7 @@
       <xsl:choose>
 	<xsl:when test="normalize-space($fs)">
 	  <!-- Change UD pipe separator to whatever is specified -->
-	  <xsl:value-of select="replace($fs, '\|', $multiValueSeparator)"/>
+	  <xsl:value-of select="replace($fs, '\|', '&#32;')"/>
 	</xsl:when>
 	<xsl:otherwise>
 	  <!-- We put underscore as the empty feature -->
