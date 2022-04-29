@@ -75,107 +75,136 @@
           </category>
         </taxonomy>
         <taxonomy xml:id="UD-SYN">
+          <desc xml:lang="en">
+            <term>UD syntactic relations</term>
+          </desc>
           <category xml:id="acl">
-            <catDesc xml:lang="en">Clausal modifier of noun (adjectival clause)</catDesc>
+            <catDesc xml:lang="en">
+            <term>acl</term>: Clausal modifier of noun (adjectival clause)</catDesc>
           </category>
           <category xml:id="advcl">
-            <catDesc xml:lang="en">Adverbial clause modifier</catDesc>
+            <catDesc xml:lang="en">
+            <term>advcl</term>: Adverbial clause modifier</catDesc>
           </category>
           <category xml:id="advmod">
-            <catDesc xml:lang="en">Adverbial modifier</catDesc>
+            <catDesc xml:lang="en">
+            <term>advmod</term>: Adverbial modifier</catDesc>
           </category>
           <category xml:id="amod">
-            <catDesc xml:lang="en">Adjectival modifier</catDesc>
+            <catDesc xml:lang="en">
+            <term>amod</term>: Adjectival modifier</catDesc>
           </category>
           <category xml:id="appos">
-            <catDesc xml:lang="en">Appositional modifier</catDesc>
+            <catDesc xml:lang="en">
+            <term>appos</term>: Appositional modifier</catDesc>
           </category>
           <category xml:id="aux">
-            <catDesc xml:lang="en">Auxiliary</catDesc>
+            <catDesc xml:lang="en">
+            <term>aux</term>: Auxiliary</catDesc>
           </category>
           <category xml:id="case">
-            <catDesc xml:lang="en">Case marking</catDesc>
+            <catDesc xml:lang="en">
+            <term>case</term>: Case marking</catDesc>
           </category>
           <category xml:id="cc">
-            <catDesc xml:lang="en">Coordinating conjunction</catDesc>
+            <catDesc xml:lang="en">
+            <term>cc</term>: Coordinating conjunction</catDesc>
           </category>
           <category xml:id="ccomp">
-            <catDesc xml:lang="en">Clausal complement</catDesc>
+            <catDesc xml:lang="en">
+            <term>ccomp</term>: Clausal complement</catDesc>
           </category>
           <category xml:id="cc_preconj">
-            <catDesc xml:lang="en">Preconjuct</catDesc>
+            <catDesc xml:lang="en">
+            <term>cc:preconj</term>: Preconjunct</catDesc>
           </category>
           <category xml:id="conj">
-            <catDesc xml:lang="en">Conjunct</catDesc>
+            <catDesc xml:lang="en">
+            <term>conj</term>: Conjunct</catDesc>
           </category>
           <category xml:id="cop">
-            <catDesc xml:lang="en">Copula</catDesc>
+            <catDesc xml:lang="en">
+            <term>cop</term>: Copula</catDesc>
           </category>
           <category xml:id="csubj">
-            <catDesc xml:lang="en">Clausal subject</catDesc>
+            <catDesc xml:lang="en">
+            <term>csubj</term>: Clausal subject</catDesc>
           </category>
           <category xml:id="dep">
-            <catDesc xml:lang="en">Unspecified dependency</catDesc>
+            <catDesc xml:lang="en">
+            <term>dep</term>: Unspecified dependency</catDesc>
           </category>
           <category xml:id="det">
-            <catDesc xml:lang="en">Determiner</catDesc>
+            <catDesc xml:lang="en">
+            <term>det</term>: Determiner</catDesc>
           </category>
           <category xml:id="discourse">
-            <catDesc xml:lang="en">Discourse element</catDesc>
+            <catDesc xml:lang="en">
+            <term>discourse</term>: Discourse element</catDesc>
           </category>
           <category xml:id="expl">
-            <catDesc xml:lang="en">Expletive</catDesc>
+            <catDesc xml:lang="en">
+            <term>expl</term>: Expletive</catDesc>
           </category>
           <category xml:id="fixed">
-            <catDesc xml:lang="en">Fixed multiword expression</catDesc>
+            <catDesc xml:lang="en">
+            <term>fixed</term>: Fixed multiword expression</catDesc>
           </category>
           <category xml:id="flat">
-            <catDesc xml:lang="en">Flat multiword expression</catDesc>
+            <catDesc xml:lang="en">
+            <term>flat</term>: Flat multiword expression</catDesc>
           </category>
           <category xml:id="flat_foreign">
-            <catDesc xml:lang="en">Flat multiword expression: foreign</catDesc>
+            <catDesc xml:lang="en">
+            <term>flat:foreign</term>: Flat multiword expression: foreign</catDesc>
           </category>
           <category xml:id="flat_name">
-            <catDesc xml:lang="en">Flat name</catDesc>
+            <catDesc xml:lang="en">
+            <term>flat:name</term>: Flat name</catDesc>
           </category>
           <category xml:id="iobj">
-            <catDesc xml:lang="en">Indirect object</catDesc>
-          </category>
-          <category xml:id="marker">
-            <catDesc xml:lang="en">Marker</catDesc>
-          </category>
-          <category xml:id="nmod">
-            <catDesc xml:lang="en">Nominal modifier</catDesc>
-          </category>
-          <category xml:id="nsubj">
-            <catDesc xml:lang="en">Nominal subject</catDesc>
-          </category>
-          <category xml:id="nummod">
-            <catDesc xml:lang="en">Numeric modifier</catDesc>
-          </category>
-          <category xml:id="obj">
-            <catDesc xml:lang="en">Object</catDesc>
-          </category>
-          <category xml:id="obl">
-            <catDesc xml:lang="en">Oblique nominal</catDesc>
+            <catDesc xml:lang="en">
+            <term>iobj</term>: Indirect object</catDesc>
           </category>
           <category xml:id="mark">
-            <catDesc xml:lang="en">Mark</catDesc>
+            <catDesc xml:lang="en">
+            <term>mark</term>: Marker</catDesc>
+          </category>
+          <category xml:id="nmod">
+            <catDesc xml:lang="en">
+            <term>nmod</term>: Nominal modifier</catDesc>
+          </category>
+          <category xml:id="nsubj">
+            <catDesc xml:lang="en">
+            <term>nsubj</term>: Nominal subject</catDesc>
+          </category>
+          <category xml:id="nummod">
+            <catDesc xml:lang="en">
+            <term>nummod</term>: Numeric modifier</catDesc>
+          </category>
+          <category xml:id="obj">
+            <catDesc xml:lang="en">
+            <term>obj</term>: Object</catDesc>
+          </category>
+          <category xml:id="obl">
+            <catDesc xml:lang="en">
+            <term>obl</term>: Oblique nominal</catDesc>
           </category>
           <category xml:id="parataxis">
-            <catDesc xml:lang="en">Parataxis</catDesc>
+            <catDesc xml:lang="en">
+            <term>parataxis</term>: Parataxis</catDesc>
           </category>
           <category xml:id="punct">
-            <catDesc xml:lang="en">Punctuation</catDesc>
+            <catDesc xml:lang="en">
+            <term>punct</term>: Punctuation</catDesc>
           </category>
           <category xml:id="root">
-            <catDesc xml:lang="en">Root</catDesc>
-          </category>
-          <category xml:id="vocative">
-            <catDesc xml:lang="en">Vocative</catDesc>
+            <catDesc xml:lang="en">
+            <term>root</term>: Root</catDesc>
           </category>
           <category xml:id="xcomp">
-            <catDesc xml:lang="en">Open clausal complement</catDesc>
+            <catDesc xml:lang="en">
+            <term>xcomp</term>: Open clausal complement</catDesc>
           </category>
         </taxonomy>
       </classDecl>
@@ -239,16 +268,16 @@
         <p xml:id="newsfeed.2019-01-01.14.1">
           <s xml:id="newsfeed.2019-01-01.14.1.1">
             <seg subtype="per" type="name">
-              <w lemma="Vikendov" ana="mte:Aspfsn" msd="UposTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes" xml:id="newsfeed.2019-01-01.14.1.1.1">Vikendova</w>
+              <w lemma="Vikendov" ana="mte:Aspfsn" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes" xml:id="newsfeed.2019-01-01.14.1.1.1">Vikendova</w>
             </seg>
-            <w lemma="ocena" ana="mte:Ncfsn" msd="UposTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.1.1.2" join="right">ocena</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.1.1.3">:</pc>
-            <w lemma="5" ana="mte:Mdc" msd="UposTag=NUM|NumForm=Digit|NumType=Card" xml:id="newsfeed.2019-01-01.14.1.1.4">5</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.1.1.5" join="right">(</pc>
-            <w lemma="od" ana="mte:Sg" msd="UposTag=ADP|Case=Gen" xml:id="newsfeed.2019-01-01.14.1.1.6">od</w>
-            <w lemma="5" ana="mte:Mdc" msd="UposTag=NUM|NumForm=Digit|NumType=Card" xml:id="newsfeed.2019-01-01.14.1.1.7" join="right">5</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.1.1.8">)</pc>
-            <linkGrp corresp="#newsfeed.2019-01-01.14.1.1" targFunc="head argument" type="JOS-SYN">
+            <w lemma="ocena" ana="mte:Ncfsn" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.1.1.2" join="right">ocena</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.1.1.3">:</pc>
+            <w lemma="5" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" xml:id="newsfeed.2019-01-01.14.1.1.4">5</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.1.1.5" join="right">(</pc>
+            <w lemma="od" ana="mte:Sg" msd="UPosTag=ADP|Case=Gen" xml:id="newsfeed.2019-01-01.14.1.1.6">od</w>
+            <w lemma="5" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" xml:id="newsfeed.2019-01-01.14.1.1.7" join="right">5</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.1.1.8">)</pc>
+            <linkGrp corresp="#newsfeed.2019-01-01.14.1.1" targFunc="head argument" type="UD-SYN">
               <link ana="ud-syn:amod" target="#newsfeed.2019-01-01.14.1.1.2 #newsfeed.2019-01-01.14.1.1.1"/>
               <link ana="ud-syn:parataxis" target="#newsfeed.2019-01-01.14.1.1.4 #newsfeed.2019-01-01.14.1.1.2"/>
               <link ana="ud-syn:punct" target="#newsfeed.2019-01-01.14.1.1.2 #newsfeed.2019-01-01.14.1.1.3"/>
@@ -262,26 +291,26 @@
         </p>
         <p xml:id="newsfeed.2019-01-01.14.2">
           <s xml:id="newsfeed.2019-01-01.14.2.1">
-            <w lemma="Marguerite" ana="mte:Npfsn" msd="UposTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.1.1" join="right">Marguerite</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.2.1.2">.</pc>
-            <linkGrp corresp="#newsfeed.2019-01-01.14.2.1" targFunc="head argument" type="JOS-SYN">
+            <w lemma="Marguerite" ana="mte:Npfsn" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.1.1" join="right">Marguerite</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.2.1.2">.</pc>
+            <linkGrp corresp="#newsfeed.2019-01-01.14.2.1" targFunc="head argument" type="UD-SYN">
               <link ana="ud-syn:root" target="#newsfeed.2019-01-01.14.2.1 #newsfeed.2019-01-01.14.2.1.1"/>
               <link ana="ud-syn:punct" target="#newsfeed.2019-01-01.14.2.1.1 #newsfeed.2019-01-01.14.2.1.2"/>
             </linkGrp>
           </s>
           <s xml:id="newsfeed.2019-01-01.14.2.2">
             <seg subtype="loc" type="name">
-              <w lemma="Francija" ana="mte:Npfsn" msd="UposTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.2.1" join="right">Francija</w>
+              <w lemma="Francija" ana="mte:Npfsn" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.2.1" join="right">Francija</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.2.2.2">,</pc>
-            <w lemma="2015." ana="mte:Mdo" msd="UposTag=NUM|NumForm=Digit|NumType=Ord" xml:id="newsfeed.2019-01-01.14.2.2.3">2015.</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.2.2.4">:</pc>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.2.2.2">,</pc>
+            <w lemma="2015." ana="mte:Mdo" msd="UPosTag=NUM|NumForm=Digit|NumType=Ord" xml:id="newsfeed.2019-01-01.14.2.2.3">2015.</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.2.2.4">:</pc>
             <seg subtype="per" type="name">
-              <w lemma="Xavier" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.2.5">Xavier</w>
-              <w lemma="Giannoli" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.2.6" join="right">Giannoli</w>
+              <w lemma="Xavier" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.2.5">Xavier</w>
+              <w lemma="Giannoli" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.2.6" join="right">Giannoli</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.2.2.7">.</pc>
-            <linkGrp corresp="#newsfeed.2019-01-01.14.2.2" targFunc="head argument" type="JOS-SYN">
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.2.2.7">.</pc>
+            <linkGrp corresp="#newsfeed.2019-01-01.14.2.2" targFunc="head argument" type="UD-SYN">
               <link ana="ud-syn:root" target="#newsfeed.2019-01-01.14.2.2 #newsfeed.2019-01-01.14.2.2.1"/>
               <link ana="ud-syn:punct" target="#newsfeed.2019-01-01.14.2.2.3 #newsfeed.2019-01-01.14.2.2.2"/>
               <link ana="ud-syn:conj" target="#newsfeed.2019-01-01.14.2.2.1 #newsfeed.2019-01-01.14.2.2.3"/>
@@ -292,29 +321,29 @@
             </linkGrp>
           </s>
           <s xml:id="newsfeed.2019-01-01.14.2.3">
-            <w lemma="igrati" ana="mte:Vmpr3p" msd="UposTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.2.3.1" join="right">Igrajo</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.2.3.2">:</pc>
+            <w lemma="igrati" ana="mte:Vmpr3p" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.2.3.1" join="right">Igrajo</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.2.3.2">:</pc>
             <seg subtype="per" type="name">
-              <w lemma="Catherine" ana="mte:Npfsn" msd="UposTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.3.3">Catherine</w>
-              <w lemma="Frot" ana="mte:Npfsn" msd="UposTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.3.4" join="right">Frot</w>
+              <w lemma="Catherine" ana="mte:Npfsn" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.3.3">Catherine</w>
+              <w lemma="Frot" ana="mte:Npfsn" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.3.4" join="right">Frot</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.2.3.5">,</pc>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.2.3.5">,</pc>
             <seg subtype="per" type="name">
-              <w lemma="André" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.3.6">André</w>
-              <w lemma="Marcon" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.3.7" join="right">Marcon</w>
+              <w lemma="André" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.3.6">André</w>
+              <w lemma="Marcon" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.3.7" join="right">Marcon</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.2.3.8">,</pc>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.2.3.8">,</pc>
             <seg subtype="per" type="name">
-              <w lemma="Michel" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.3.9">Michel</w>
-              <w lemma="Fau" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.3.10" join="right">Fau</w>
+              <w lemma="Michel" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.3.9">Michel</w>
+              <w lemma="Fau" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.3.10" join="right">Fau</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.2.3.11">,</pc>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.2.3.11">,</pc>
             <seg subtype="per" type="name">
-              <w lemma="Christa" ana="mte:Npfsn" msd="UposTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.3.12">Christa</w>
-              <w lemma="Théret" ana="mte:Npfsn" msd="UposTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.3.13" join="right">Théret</w>
+              <w lemma="Christa" ana="mte:Npfsn" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.3.12">Christa</w>
+              <w lemma="Théret" ana="mte:Npfsn" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.3.13" join="right">Théret</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.2.3.14">.</pc>
-            <linkGrp corresp="#newsfeed.2019-01-01.14.2.3" targFunc="head argument" type="JOS-SYN">
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.2.3.14">.</pc>
+            <linkGrp corresp="#newsfeed.2019-01-01.14.2.3" targFunc="head argument" type="UD-SYN">
               <link ana="ud-syn:root" target="#newsfeed.2019-01-01.14.2.3 #newsfeed.2019-01-01.14.2.3.1"/>
               <link ana="ud-syn:punct" target="#newsfeed.2019-01-01.14.2.3.3 #newsfeed.2019-01-01.14.2.3.2"/>
               <link ana="ud-syn:nsubj" target="#newsfeed.2019-01-01.14.2.3.1 #newsfeed.2019-01-01.14.2.3.3"/>
@@ -332,11 +361,11 @@
             </linkGrp>
           </s>
           <s xml:id="newsfeed.2019-01-01.14.2.4">
-            <w lemma="komedija" ana="mte:Ncfsn" msd="UposTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.4.1" join="right">Komedija</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.2.4.2" join="right">/</pc>
-            <w lemma="drama" ana="mte:Ncfsn" msd="UposTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.4.3" join="right">drama</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.2.4.4">.</pc>
-            <linkGrp corresp="#newsfeed.2019-01-01.14.2.4" targFunc="head argument" type="JOS-SYN">
+            <w lemma="komedija" ana="mte:Ncfsn" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.4.1" join="right">Komedija</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.2.4.2" join="right">/</pc>
+            <w lemma="drama" ana="mte:Ncfsn" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.2.4.3" join="right">drama</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.2.4.4">.</pc>
+            <linkGrp corresp="#newsfeed.2019-01-01.14.2.4" targFunc="head argument" type="UD-SYN">
               <link ana="ud-syn:root" target="#newsfeed.2019-01-01.14.2.4 #newsfeed.2019-01-01.14.2.4.1"/>
               <link ana="ud-syn:punct" target="#newsfeed.2019-01-01.14.2.4.3 #newsfeed.2019-01-01.14.2.4.2"/>
               <link ana="ud-syn:conj" target="#newsfeed.2019-01-01.14.2.4.1 #newsfeed.2019-01-01.14.2.4.3"/>
@@ -344,10 +373,10 @@
             </linkGrp>
           </s>
           <s xml:id="newsfeed.2019-01-01.14.2.5">
-            <w lemma="129" ana="mte:Mdc" msd="UposTag=NUM|NumForm=Digit|NumType=Card" xml:id="newsfeed.2019-01-01.14.2.5.1">129</w>
-            <w lemma="minuta" ana="mte:Ncfpg" msd="UposTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" xml:id="newsfeed.2019-01-01.14.2.5.2" join="right">minut</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.2.5.3">.</pc>
-            <linkGrp corresp="#newsfeed.2019-01-01.14.2.5" targFunc="head argument" type="JOS-SYN">
+            <w lemma="129" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" xml:id="newsfeed.2019-01-01.14.2.5.1">129</w>
+            <w lemma="minuta" ana="mte:Ncfpg" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" xml:id="newsfeed.2019-01-01.14.2.5.2" join="right">minut</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.2.5.3">.</pc>
+            <linkGrp corresp="#newsfeed.2019-01-01.14.2.5" targFunc="head argument" type="UD-SYN">
               <link ana="ud-syn:nummod" target="#newsfeed.2019-01-01.14.2.5.2 #newsfeed.2019-01-01.14.2.5.1"/>
               <link ana="ud-syn:root" target="#newsfeed.2019-01-01.14.2.5 #newsfeed.2019-01-01.14.2.5.2"/>
               <link ana="ud-syn:punct" target="#newsfeed.2019-01-01.14.2.5.2 #newsfeed.2019-01-01.14.2.5.3"/>
@@ -356,32 +385,32 @@
         </p>
         <p xml:id="newsfeed.2019-01-01.14.3">
           <s xml:id="newsfeed.2019-01-01.14.3.1">
-            <w lemma="v" ana="mte:Sl" msd="UposTag=ADP|Case=Loc" xml:id="newsfeed.2019-01-01.14.3.1.1">V</w>
-            <w lemma="začetek" ana="mte:Ncmsl" msd="UposTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.1.2">začetku</w>
-            <w lemma="zlat" ana="mte:Agpnpg" msd="UposTag=ADJ|Case=Gen|Degree=Pos|Gender=Neut|Number=Plur" xml:id="newsfeed.2019-01-01.14.3.1.3">zlatih</w>
-            <w lemma="dvajseti" ana="mte:Mlonpg" msd="UposTag=ADJ|Case=Gen|Gender=Neut|NumType=Ord|Number=Plur" xml:id="newsfeed.2019-01-01.14.3.1.4">dvajsetih</w>
-            <w lemma="prejšnji" ana="mte:Agpnsg" msd="UposTag=ADJ|Case=Gen|Degree=Pos|Gender=Neut|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.1.5">prejšnjega</w>
-            <w lemma="stoletje" ana="mte:Ncnsg" msd="UposTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.1.6">stoletja</w>
-            <w lemma="se" ana="mte:Px------y" msd="UposTag=PRON|PronType=Prs|Reflex=Yes|Variant=Short" xml:id="newsfeed.2019-01-01.14.3.1.7">se</w>
-            <w lemma="na" ana="mte:Sl" msd="UposTag=ADP|Case=Loc" xml:id="newsfeed.2019-01-01.14.3.1.8">na</w>
-            <w lemma="dvorec" ana="mte:Ncmsl" msd="UposTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.1.9">dvorcu</w>
+            <w lemma="v" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" xml:id="newsfeed.2019-01-01.14.3.1.1">V</w>
+            <w lemma="začetek" ana="mte:Ncmsl" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.1.2">začetku</w>
+            <w lemma="zlat" ana="mte:Agpnpg" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Neut|Number=Plur" xml:id="newsfeed.2019-01-01.14.3.1.3">zlatih</w>
+            <w lemma="dvajseti" ana="mte:Mlonpg" msd="UPosTag=ADJ|Case=Gen|Gender=Neut|NumType=Ord|Number=Plur" xml:id="newsfeed.2019-01-01.14.3.1.4">dvajsetih</w>
+            <w lemma="prejšnji" ana="mte:Agpnsg" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Neut|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.1.5">prejšnjega</w>
+            <w lemma="stoletje" ana="mte:Ncnsg" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.1.6">stoletja</w>
+            <w lemma="se" ana="mte:Px------y" msd="UPosTag=PRON|PronType=Prs|Reflex=Yes|Variant=Short" xml:id="newsfeed.2019-01-01.14.3.1.7">se</w>
+            <w lemma="na" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" xml:id="newsfeed.2019-01-01.14.3.1.8">na</w>
+            <w lemma="dvorec" ana="mte:Ncmsl" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.1.9">dvorcu</w>
             <seg subtype="loc" type="name">
-              <w lemma="Marguerita" ana="mte:Npfsg" msd="UposTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.1.10">Marguerite</w>
-              <w lemma="Dumont" ana="mte:Npfsn" msd="UposTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.1.11">Dumont</w>
+              <w lemma="Marguerita" ana="mte:Npfsg" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.1.10">Marguerite</w>
+              <w lemma="Dumont" ana="mte:Npfsn" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.1.11">Dumont</w>
             </seg>
-            <w lemma="redno" ana="mte:Rgp" msd="UposTag=ADV|Degree=Pos" xml:id="newsfeed.2019-01-01.14.3.1.12">redno</w>
-            <w lemma="zbirati" ana="mte:Vmpr3s" msd="UposTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.3.1.13">zbira</w>
-            <w lemma="množica" ana="mte:Ncfsn" msd="UposTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.1.14">množica</w>
-            <w lemma="človek" ana="mte:Ncmpg" msd="UposTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" xml:id="newsfeed.2019-01-01.14.3.1.15" join="right">ljudi</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.1.16">,</pc>
-            <w lemma="ki" ana="mte:Cs" msd="UposTag=SCONJ" xml:id="newsfeed.2019-01-01.14.3.1.17">ki</w>
-            <w lemma="poslušati" ana="mte:Vmpr3s" msd="UposTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.3.1.18">posluša</w>
-            <w lemma="navdušen" ana="mte:Appnsa" msd="UposTag=ADJ|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.3.1.19">navdušeno</w>
-            <w lemma="petje" ana="mte:Ncnsa" msd="UposTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.1.20">petje</w>
-            <w lemma="lastnica" ana="mte:Ncfsg" msd="UposTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.1.21">lastnice</w>
-            <w lemma="dvorec" ana="mte:Ncmsg" msd="UposTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.1.22" join="right">dvorca</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.1.23">.</pc>
-            <linkGrp corresp="#newsfeed.2019-01-01.14.3.1" targFunc="head argument" type="JOS-SYN">
+            <w lemma="redno" ana="mte:Rgp" msd="UPosTag=ADV|Degree=Pos" xml:id="newsfeed.2019-01-01.14.3.1.12">redno</w>
+            <w lemma="zbirati" ana="mte:Vmpr3s" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.3.1.13">zbira</w>
+            <w lemma="množica" ana="mte:Ncfsn" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.1.14">množica</w>
+            <w lemma="človek" ana="mte:Ncmpg" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" xml:id="newsfeed.2019-01-01.14.3.1.15" join="right">ljudi</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.1.16">,</pc>
+            <w lemma="ki" ana="mte:Cs" msd="UPosTag=SCONJ" xml:id="newsfeed.2019-01-01.14.3.1.17">ki</w>
+            <w lemma="poslušati" ana="mte:Vmpr3s" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.3.1.18">posluša</w>
+            <w lemma="navdušen" ana="mte:Appnsa" msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.3.1.19">navdušeno</w>
+            <w lemma="petje" ana="mte:Ncnsa" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.1.20">petje</w>
+            <w lemma="lastnica" ana="mte:Ncfsg" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.1.21">lastnice</w>
+            <w lemma="dvorec" ana="mte:Ncmsg" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.1.22" join="right">dvorca</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.1.23">.</pc>
+            <linkGrp corresp="#newsfeed.2019-01-01.14.3.1" targFunc="head argument" type="UD-SYN">
               <link ana="ud-syn:case" target="#newsfeed.2019-01-01.14.3.1.2 #newsfeed.2019-01-01.14.3.1.1"/>
               <link ana="ud-syn:obl" target="#newsfeed.2019-01-01.14.3.1.13 #newsfeed.2019-01-01.14.3.1.2"/>
               <link ana="ud-syn:amod" target="#newsfeed.2019-01-01.14.3.1.6 #newsfeed.2019-01-01.14.3.1.3"/>
@@ -408,20 +437,20 @@
             </linkGrp>
           </s>
           <s xml:id="newsfeed.2019-01-01.14.3.2">
-            <w lemma="edin" ana="mte:Agpfsn" msd="UposTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.2.1">Edina</w>
-            <w lemma="težava" ana="mte:Ncfsn" msd="UposTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.2.2">težava</w>
-            <w lemma="biti" ana="mte:Va-r3s-n" msd="UposTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.3.2.3" join="right">je</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.2.4">,</pc>
-            <w lemma="da" ana="mte:Cs" msd="UposTag=SCONJ" xml:id="newsfeed.2019-01-01.14.3.2.5">da</w>
+            <w lemma="edin" ana="mte:Agpfsn" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.2.1">Edina</w>
+            <w lemma="težava" ana="mte:Ncfsn" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.2.2">težava</w>
+            <w lemma="biti" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.3.2.3" join="right">je</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.2.4">,</pc>
+            <w lemma="da" ana="mte:Cs" msd="UPosTag=SCONJ" xml:id="newsfeed.2019-01-01.14.3.2.5">da</w>
             <seg subtype="per" type="name">
-              <w lemma="Marguerita" ana="mte:Npfsg" msd="UposTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.2.6">Marguerite</w>
+              <w lemma="Marguerita" ana="mte:Npfsg" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.2.6">Marguerite</w>
             </seg>
-            <w lemma="imeti" ana="mte:Vmpr3s-y" msd="UposTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.3.2.7">nima</w>
-            <w lemma="niti" ana="mte:Q" msd="UposTag=PART" xml:id="newsfeed.2019-01-01.14.3.2.8">niti</w>
-            <w lemma="najmanj" ana="mte:Rgs" msd="UposTag=ADV|Degree=Sup" xml:id="newsfeed.2019-01-01.14.3.2.9">najmanj</w>
-            <w lemma="posluh" ana="mte:Ncmsg" msd="UposTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.2.10" join="right">posluha</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.2.11">.</pc>
-            <linkGrp corresp="#newsfeed.2019-01-01.14.3.2" targFunc="head argument" type="JOS-SYN">
+            <w lemma="imeti" ana="mte:Vmpr3s-y" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.3.2.7">nima</w>
+            <w lemma="niti" ana="mte:Q" msd="UPosTag=PART" xml:id="newsfeed.2019-01-01.14.3.2.8">niti</w>
+            <w lemma="najmanj" ana="mte:Rgs" msd="UPosTag=ADV|Degree=Sup" xml:id="newsfeed.2019-01-01.14.3.2.9">najmanj</w>
+            <w lemma="posluh" ana="mte:Ncmsg" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.2.10" join="right">posluha</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.2.11">.</pc>
+            <linkGrp corresp="#newsfeed.2019-01-01.14.3.2" targFunc="head argument" type="UD-SYN">
               <link ana="ud-syn:amod" target="#newsfeed.2019-01-01.14.3.2.2 #newsfeed.2019-01-01.14.3.2.1"/>
               <link ana="ud-syn:root" target="#newsfeed.2019-01-01.14.3.2 #newsfeed.2019-01-01.14.3.2.2"/>
               <link ana="ud-syn:cop" target="#newsfeed.2019-01-01.14.3.2.2 #newsfeed.2019-01-01.14.3.2.3"/>
@@ -436,28 +465,28 @@
             </linkGrp>
           </s>
           <s xml:id="newsfeed.2019-01-01.14.3.3">
-            <w lemma="še" ana="mte:Q" msd="UposTag=PART" xml:id="newsfeed.2019-01-01.14.3.3.1">Še</w>
-            <w lemma="hud" ana="mte:Agcnsn" msd="UposTag=ADJ|Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.3.2">hujše</w>
-            <w lemma="biti" ana="mte:Va-r3s-n" msd="UposTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.3.3.3">je</w>
-            <w lemma="verjeten" ana="mte:Agpnsn" msd="UposTag=ADJ|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.3.4">verjetno</w>
-            <w lemma="dejstvo" ana="mte:Ncnsn" msd="UposTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.3.5" join="right">dejstvo</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.3.6">,</pc>
-            <w lemma="da" ana="mte:Cs" msd="UposTag=SCONJ" xml:id="newsfeed.2019-01-01.14.3.3.7">da</w>
-            <w lemma="on" ana="mte:Pp3fsd--y" msd="UposTag=PRON|Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short" xml:id="newsfeed.2019-01-01.14.3.3.8">ji</w>
-            <w lemma="množica" ana="mte:Ncfsn" msd="UposTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.3.9" join="right">množica</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.3.10">,</pc>
-            <w lemma="ki" ana="mte:Cs" msd="UposTag=SCONJ" xml:id="newsfeed.2019-01-01.14.3.3.11">ki</w>
-            <w lemma="se" ana="mte:Px------y" msd="UposTag=PRON|PronType=Prs|Reflex=Yes|Variant=Short" xml:id="newsfeed.2019-01-01.14.3.3.12">se</w>
-            <w lemma="on" ana="mte:Pp3fsd--y" msd="UposTag=PRON|Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short" xml:id="newsfeed.2019-01-01.14.3.3.13">ji</w>
-            <w lemma="na" ana="mte:Sa" msd="UposTag=ADP|Case=Acc" xml:id="newsfeed.2019-01-01.14.3.3.14">na</w>
-            <w lemma="tiho" ana="mte:Rgp" msd="UposTag=ADV|Degree=Pos" xml:id="newsfeed.2019-01-01.14.3.3.15">tiho</w>
-            <w lemma="posmehovati" ana="mte:Vmpr3s" msd="UposTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.3.3.16" join="right">posmehuje</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.3.17">,</pc>
-            <w lemma="vedno" ana="mte:Rgp" msd="UposTag=ADV|Degree=Pos" xml:id="newsfeed.2019-01-01.14.3.3.18">vedno</w>
-            <w lemma="glasno" ana="mte:Rgp" msd="UposTag=ADV|Degree=Pos" xml:id="newsfeed.2019-01-01.14.3.3.19">glasno</w>
-            <w lemma="ploskati" ana="mte:Vmpr3s" msd="UposTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.3.3.20" join="right">ploska</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.3.21">.</pc>
-            <linkGrp corresp="#newsfeed.2019-01-01.14.3.3" targFunc="head argument" type="JOS-SYN">
+            <w lemma="še" ana="mte:Q" msd="UPosTag=PART" xml:id="newsfeed.2019-01-01.14.3.3.1">Še</w>
+            <w lemma="hud" ana="mte:Agcnsn" msd="UPosTag=ADJ|Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.3.2">hujše</w>
+            <w lemma="biti" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.3.3.3">je</w>
+            <w lemma="verjeten" ana="mte:Agpnsn" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.3.4">verjetno</w>
+            <w lemma="dejstvo" ana="mte:Ncnsn" msd="UPosTag=NOUN|Case=Nom|Gender=Neut|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.3.5" join="right">dejstvo</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.3.6">,</pc>
+            <w lemma="da" ana="mte:Cs" msd="UPosTag=SCONJ" xml:id="newsfeed.2019-01-01.14.3.3.7">da</w>
+            <w lemma="on" ana="mte:Pp3fsd--y" msd="UPosTag=PRON|Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short" xml:id="newsfeed.2019-01-01.14.3.3.8">ji</w>
+            <w lemma="množica" ana="mte:Ncfsn" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.3.9" join="right">množica</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.3.10">,</pc>
+            <w lemma="ki" ana="mte:Cs" msd="UPosTag=SCONJ" xml:id="newsfeed.2019-01-01.14.3.3.11">ki</w>
+            <w lemma="se" ana="mte:Px------y" msd="UPosTag=PRON|PronType=Prs|Reflex=Yes|Variant=Short" xml:id="newsfeed.2019-01-01.14.3.3.12">se</w>
+            <w lemma="on" ana="mte:Pp3fsd--y" msd="UPosTag=PRON|Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Short" xml:id="newsfeed.2019-01-01.14.3.3.13">ji</w>
+            <w lemma="na" ana="mte:Sa" msd="UPosTag=ADP|Case=Acc" xml:id="newsfeed.2019-01-01.14.3.3.14">na</w>
+            <w lemma="tiho" ana="mte:Rgp" msd="UPosTag=ADV|Degree=Pos" xml:id="newsfeed.2019-01-01.14.3.3.15">tiho</w>
+            <w lemma="posmehovati" ana="mte:Vmpr3s" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.3.3.16" join="right">posmehuje</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.3.17">,</pc>
+            <w lemma="vedno" ana="mte:Rgp" msd="UPosTag=ADV|Degree=Pos" xml:id="newsfeed.2019-01-01.14.3.3.18">vedno</w>
+            <w lemma="glasno" ana="mte:Rgp" msd="UPosTag=ADV|Degree=Pos" xml:id="newsfeed.2019-01-01.14.3.3.19">glasno</w>
+            <w lemma="ploskati" ana="mte:Vmpr3s" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.3.3.20" join="right">ploska</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.3.21">.</pc>
+            <linkGrp corresp="#newsfeed.2019-01-01.14.3.3" targFunc="head argument" type="UD-SYN">
               <link ana="ud-syn:advmod" target="#newsfeed.2019-01-01.14.3.3.2 #newsfeed.2019-01-01.14.3.3.1"/>
               <link ana="ud-syn:root" target="#newsfeed.2019-01-01.14.3.3 #newsfeed.2019-01-01.14.3.3.2"/>
               <link ana="ud-syn:cop" target="#newsfeed.2019-01-01.14.3.3.2 #newsfeed.2019-01-01.14.3.3.3"/>
@@ -482,33 +511,33 @@
             </linkGrp>
           </s>
           <s xml:id="newsfeed.2019-01-01.14.3.4">
-            <w lemma="stvar" ana="mte:Ncfsn" msd="UposTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.4.1">Stvar</w>
-            <w lemma="iti" ana="mte:Vmbr3s" msd="UposTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.3.4.2">gre</w>
-            <w lemma="tako" ana="mte:Rgp" msd="UposTag=ADV|Degree=Pos" xml:id="newsfeed.2019-01-01.14.3.4.3">tako</w>
-            <w lemma="daleč" ana="mte:Rgp" msd="UposTag=ADV|Degree=Pos" xml:id="newsfeed.2019-01-01.14.3.4.4" join="right">daleč</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.4.5">,</pc>
-            <w lemma="da" ana="mte:Cs" msd="UposTag=SCONJ" xml:id="newsfeed.2019-01-01.14.3.4.6">da</w>
-            <w lemma="biti" ana="mte:Va-r3s-n" msd="UposTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.3.4.7">je</w>
+            <w lemma="stvar" ana="mte:Ncfsn" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.4.1">Stvar</w>
+            <w lemma="iti" ana="mte:Vmbr3s" msd="UPosTag=VERB|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.3.4.2">gre</w>
+            <w lemma="tako" ana="mte:Rgp" msd="UPosTag=ADV|Degree=Pos" xml:id="newsfeed.2019-01-01.14.3.4.3">tako</w>
+            <w lemma="daleč" ana="mte:Rgp" msd="UPosTag=ADV|Degree=Pos" xml:id="newsfeed.2019-01-01.14.3.4.4" join="right">daleč</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.4.5">,</pc>
+            <w lemma="da" ana="mte:Cs" msd="UPosTag=SCONJ" xml:id="newsfeed.2019-01-01.14.3.4.6">da</w>
+            <w lemma="biti" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.3.4.7">je</w>
             <seg subtype="per" type="name">
-              <w lemma="Marguerite" ana="mte:Npfsn" msd="UposTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.4.8">Marguerite</w>
+              <w lemma="Marguerite" ana="mte:Npfsn" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.4.8">Marguerite</w>
             </seg>
-            <w lemma="tako" ana="mte:Rgp" msd="UposTag=ADV|Degree=Pos" xml:id="newsfeed.2019-01-01.14.3.4.9">tako</w>
-            <w lemma="prepričan" ana="mte:Appfsn" msd="UposTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.3.4.10">prepričana</w>
-            <w lemma="v" ana="mte:Sa" msd="UposTag=ADP|Case=Acc" xml:id="newsfeed.2019-01-01.14.3.4.11">v</w>
-            <w lemma="svoj" ana="mte:Px-nsa" msd="UposTag=DET|Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes" xml:id="newsfeed.2019-01-01.14.3.4.12">svoje</w>
-            <w lemma="petje" ana="mte:Ncnsa" msd="UposTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.4.13" join="right">petje</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.4.14">,</pc>
-            <w lemma="da" ana="mte:Cs" msd="UposTag=SCONJ" xml:id="newsfeed.2019-01-01.14.3.4.15">da</w>
-            <w lemma="se" ana="mte:Px------y" msd="UposTag=PRON|PronType=Prs|Reflex=Yes|Variant=Short" xml:id="newsfeed.2019-01-01.14.3.4.16">se</w>
-            <w lemma="odločiti" ana="mte:Vmer3s" msd="UposTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.3.4.17">odloči</w>
-            <w lemma="nastopiti" ana="mte:Vmen" msd="UposTag=VERB|Aspect=Perf|VerbForm=Inf" xml:id="newsfeed.2019-01-01.14.3.4.18">nastopiti</w>
-            <w lemma="v" ana="mte:Sl" msd="UposTag=ADP|Case=Loc" xml:id="newsfeed.2019-01-01.14.3.4.19">v</w>
-            <w lemma="pariški" ana="mte:Agpfsl" msd="UposTag=ADJ|Case=Loc|Degree=Pos|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.4.20">pariški</w>
-            <w lemma="opera" ana="mte:Ncfsl" msd="UposTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.4.21">operi</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.4.22" join="right">.</pc>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.4.23" join="right">.</pc>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.4.24">.</pc>
-            <linkGrp corresp="#newsfeed.2019-01-01.14.3.4" targFunc="head argument" type="JOS-SYN">
+            <w lemma="tako" ana="mte:Rgp" msd="UPosTag=ADV|Degree=Pos" xml:id="newsfeed.2019-01-01.14.3.4.9">tako</w>
+            <w lemma="prepričan" ana="mte:Appfsn" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.3.4.10">prepričana</w>
+            <w lemma="v" ana="mte:Sa" msd="UPosTag=ADP|Case=Acc" xml:id="newsfeed.2019-01-01.14.3.4.11">v</w>
+            <w lemma="svoj" ana="mte:Px-nsa" msd="UPosTag=DET|Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes" xml:id="newsfeed.2019-01-01.14.3.4.12">svoje</w>
+            <w lemma="petje" ana="mte:Ncnsa" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.4.13" join="right">petje</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.4.14">,</pc>
+            <w lemma="da" ana="mte:Cs" msd="UPosTag=SCONJ" xml:id="newsfeed.2019-01-01.14.3.4.15">da</w>
+            <w lemma="se" ana="mte:Px------y" msd="UPosTag=PRON|PronType=Prs|Reflex=Yes|Variant=Short" xml:id="newsfeed.2019-01-01.14.3.4.16">se</w>
+            <w lemma="odločiti" ana="mte:Vmer3s" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.3.4.17">odloči</w>
+            <w lemma="nastopiti" ana="mte:Vmen" msd="UPosTag=VERB|Aspect=Perf|VerbForm=Inf" xml:id="newsfeed.2019-01-01.14.3.4.18">nastopiti</w>
+            <w lemma="v" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" xml:id="newsfeed.2019-01-01.14.3.4.19">v</w>
+            <w lemma="pariški" ana="mte:Agpfsl" msd="UPosTag=ADJ|Case=Loc|Degree=Pos|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.4.20">pariški</w>
+            <w lemma="opera" ana="mte:Ncfsl" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.3.4.21">operi</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.4.22" join="right">.</pc>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.4.23" join="right">.</pc>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.3.4.24">.</pc>
+            <linkGrp corresp="#newsfeed.2019-01-01.14.3.4" targFunc="head argument" type="UD-SYN">
               <link ana="ud-syn:nsubj" target="#newsfeed.2019-01-01.14.3.4.2 #newsfeed.2019-01-01.14.3.4.1"/>
               <link ana="ud-syn:root" target="#newsfeed.2019-01-01.14.3.4 #newsfeed.2019-01-01.14.3.4.2"/>
               <link ana="ud-syn:advmod" target="#newsfeed.2019-01-01.14.3.4.4 #newsfeed.2019-01-01.14.3.4.3"/>
@@ -538,39 +567,39 @@
         </p>
         <p xml:id="newsfeed.2019-01-01.14.4">
           <s xml:id="newsfeed.2019-01-01.14.4.1">
-            <w lemma="film" ana="mte:Ncmsn" msd="UposTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.4.1.1">Film</w>
-            <w lemma="o" ana="mte:Sl" msd="UposTag=ADP|Case=Loc" xml:id="newsfeed.2019-01-01.14.4.1.2">o</w>
+            <w lemma="film" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.4.1.1">Film</w>
+            <w lemma="o" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" xml:id="newsfeed.2019-01-01.14.4.1.2">o</w>
             <seg subtype="per" type="name">
-              <w lemma="Florence" ana="mte:Npfsl" msd="UposTag=PROPN|Case=Loc|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.4.1.3">Florence</w>
-              <w lemma="Foster" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Loc|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.4.1.4">Foster</w>
-              <w lemma="Jenkins" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.4.1.5" join="right">Jenkins</w>
+              <w lemma="Florence" ana="mte:Npfsl" msd="UPosTag=PROPN|Case=Loc|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.4.1.3">Florence</w>
+              <w lemma="Foster" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Loc|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.4.1.4">Foster</w>
+              <w lemma="Jenkins" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.4.1.5" join="right">Jenkins</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.4.1.6">,</pc>
-            <w lemma="ki" ana="mte:Cs" msd="UposTag=SCONJ" xml:id="newsfeed.2019-01-01.14.4.1.7">ki</w>
-            <w lemma="biti" ana="mte:Va-r3s-n" msd="UposTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.4.1.8">je</w>
-            <w lemma="nastati" ana="mte:Vmep-sm" msd="UposTag=VERB|Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.4.1.9">nastal</w>
-            <w lemma="pred" ana="mte:Si" msd="UposTag=ADP|Case=Ins" xml:id="newsfeed.2019-01-01.14.4.1.10">pred</w>
-            <w lemma="film" ana="mte:Ncmsi" msd="UposTag=NOUN|Case=Ins|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.4.1.11">filmom</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.4.1.6">,</pc>
+            <w lemma="ki" ana="mte:Cs" msd="UPosTag=SCONJ" xml:id="newsfeed.2019-01-01.14.4.1.7">ki</w>
+            <w lemma="biti" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.4.1.8">je</w>
+            <w lemma="nastati" ana="mte:Vmep-sm" msd="UPosTag=VERB|Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.4.1.9">nastal</w>
+            <w lemma="pred" ana="mte:Si" msd="UPosTag=ADP|Case=Ins" xml:id="newsfeed.2019-01-01.14.4.1.10">pred</w>
+            <w lemma="film" ana="mte:Ncmsi" msd="UPosTag=NOUN|Case=Ins|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.4.1.11">filmom</w>
             <seg subtype="per" type="name">
-              <w lemma="Florenca" ana="mte:Npfsg" msd="UposTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.4.1.12">Florence</w>
-              <w lemma="Foster" ana="mte:Npfsg" msd="UposTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.4.1.13">Foster</w>
-              <w lemma="Jenkins" ana="mte:Npfsg" msd="UposTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.4.1.14" join="right">Jenkins</w>
+              <w lemma="Florenca" ana="mte:Npfsg" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.4.1.12">Florence</w>
+              <w lemma="Foster" ana="mte:Npfsg" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.4.1.13">Foster</w>
+              <w lemma="Jenkins" ana="mte:Npfsg" msd="UPosTag=PROPN|Case=Gen|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.4.1.14" join="right">Jenkins</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.4.1.15">,</pc>
-            <w lemma="biti" ana="mte:Va-r3s-n" msd="UposTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.4.1.16">je</w>
-            <w lemma="dobro" ana="mte:Rgp" msd="UposTag=ADV|Degree=Pos" xml:id="newsfeed.2019-01-01.14.4.1.17">dobro</w>
-            <w lemma="odigran" ana="mte:Appmsnn" msd="UposTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.4.1.18">odigran</w>
-            <w lemma="in" ana="mte:Cc" msd="UposTag=CCONJ" xml:id="newsfeed.2019-01-01.14.4.1.19">in</w>
-            <w lemma="navdihujoč" ana="mte:Appmsnn" msd="UposTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.4.1.20">navdihujoč</w>
-            <w lemma="pogled" ana="mte:Ncmsn" msd="UposTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.4.1.21">pogled</w>
-            <w lemma="na" ana="mte:Sa" msd="UposTag=ADP|Case=Acc" xml:id="newsfeed.2019-01-01.14.4.1.22">na</w>
-            <w lemma="umetnost" ana="mte:Ncfsa" msd="UposTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.4.1.23">umetnost</w>
-            <w lemma="in" ana="mte:Cc" msd="UposTag=CCONJ" xml:id="newsfeed.2019-01-01.14.4.1.24">in</w>
-            <w lemma="vrednost" ana="mte:Ncfsa" msd="UposTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.4.1.25">vrednost</w>
-            <w lemma="človeški" ana="mte:Agpfpg" msd="UposTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Plur" xml:id="newsfeed.2019-01-01.14.4.1.26">človeških</w>
-            <w lemma="sanja" ana="mte:Ncfpg" msd="UposTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" xml:id="newsfeed.2019-01-01.14.4.1.27" join="right">sanj</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.4.1.28">.</pc>
-            <linkGrp corresp="#newsfeed.2019-01-01.14.4.1" targFunc="head argument" type="JOS-SYN">
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.4.1.15">,</pc>
+            <w lemma="biti" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.4.1.16">je</w>
+            <w lemma="dobro" ana="mte:Rgp" msd="UPosTag=ADV|Degree=Pos" xml:id="newsfeed.2019-01-01.14.4.1.17">dobro</w>
+            <w lemma="odigran" ana="mte:Appmsnn" msd="UPosTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.4.1.18">odigran</w>
+            <w lemma="in" ana="mte:Cc" msd="UPosTag=CCONJ" xml:id="newsfeed.2019-01-01.14.4.1.19">in</w>
+            <w lemma="navdihujoč" ana="mte:Appmsnn" msd="UPosTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.4.1.20">navdihujoč</w>
+            <w lemma="pogled" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.4.1.21">pogled</w>
+            <w lemma="na" ana="mte:Sa" msd="UPosTag=ADP|Case=Acc" xml:id="newsfeed.2019-01-01.14.4.1.22">na</w>
+            <w lemma="umetnost" ana="mte:Ncfsa" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.4.1.23">umetnost</w>
+            <w lemma="in" ana="mte:Cc" msd="UPosTag=CCONJ" xml:id="newsfeed.2019-01-01.14.4.1.24">in</w>
+            <w lemma="vrednost" ana="mte:Ncfsa" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.4.1.25">vrednost</w>
+            <w lemma="človeški" ana="mte:Agpfpg" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Plur" xml:id="newsfeed.2019-01-01.14.4.1.26">človeških</w>
+            <w lemma="sanja" ana="mte:Ncfpg" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Plur" xml:id="newsfeed.2019-01-01.14.4.1.27" join="right">sanj</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.4.1.28">.</pc>
+            <linkGrp corresp="#newsfeed.2019-01-01.14.4.1" targFunc="head argument" type="UD-SYN">
               <link ana="ud-syn:nsubj" target="#newsfeed.2019-01-01.14.4.1.18 #newsfeed.2019-01-01.14.4.1.1"/>
               <link ana="ud-syn:case" target="#newsfeed.2019-01-01.14.4.1.3 #newsfeed.2019-01-01.14.4.1.2"/>
               <link ana="ud-syn:nmod" target="#newsfeed.2019-01-01.14.4.1.1 #newsfeed.2019-01-01.14.4.1.3"/>
@@ -605,17 +634,17 @@
         <p xml:id="newsfeed.2019-01-01.14.5">
           <s xml:id="newsfeed.2019-01-01.14.5.1">
             <seg subtype="misc" type="name">
-              <w lemma="Pavarotti" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.5.1.1">Pavarotti</w>
-              <w lemma="Duets" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.5.1.2">Duets</w>
-              <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.5.1.3">-</pc>
-              <w lemma="best" ana="mte:Xf" msd="UposTag=X|Foreign=Yes" xml:id="newsfeed.2019-01-01.14.5.1.4">Best</w>
-              <w lemma="of" ana="mte:Xf" msd="UposTag=X|Foreign=Yes" xml:id="newsfeed.2019-01-01.14.5.1.5">of</w>
-              <w lemma="pavarotti" ana="mte:Xf" msd="UposTag=X|Foreign=Yes" xml:id="newsfeed.2019-01-01.14.5.1.6">Pavarotti</w>
-              <pc ana="mte:Z" msd="UposTag=SYM" xml:id="newsfeed.2019-01-01.14.5.1.7">&amp;</pc>
-              <w lemma="friends" ana="mte:Xf" msd="UposTag=X|Foreign=Yes" xml:id="newsfeed.2019-01-01.14.5.1.8" join="right">Friends</w>
+              <w lemma="Pavarotti" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.5.1.1">Pavarotti</w>
+              <w lemma="Duets" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.5.1.2">Duets</w>
+              <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.5.1.3">-</pc>
+              <w lemma="best" ana="mte:Xf" msd="UPosTag=X|Foreign=Yes" xml:id="newsfeed.2019-01-01.14.5.1.4">Best</w>
+              <w lemma="of" ana="mte:Xf" msd="UPosTag=X|Foreign=Yes" xml:id="newsfeed.2019-01-01.14.5.1.5">of</w>
+              <w lemma="pavarotti" ana="mte:Xf" msd="UPosTag=X|Foreign=Yes" xml:id="newsfeed.2019-01-01.14.5.1.6">Pavarotti</w>
+              <pc ana="mte:Z" msd="UPosTag=SYM" xml:id="newsfeed.2019-01-01.14.5.1.7">&amp;</pc>
+              <w lemma="friends" ana="mte:Xf" msd="UPosTag=X|Foreign=Yes" xml:id="newsfeed.2019-01-01.14.5.1.8" join="right">Friends</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.5.1.9">.</pc>
-            <linkGrp corresp="#newsfeed.2019-01-01.14.5.1" targFunc="head argument" type="JOS-SYN">
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.5.1.9">.</pc>
+            <linkGrp corresp="#newsfeed.2019-01-01.14.5.1" targFunc="head argument" type="UD-SYN">
               <link ana="ud-syn:root" target="#newsfeed.2019-01-01.14.5.1 #newsfeed.2019-01-01.14.5.1.1"/>
               <link ana="ud-syn:flat_name" target="#newsfeed.2019-01-01.14.5.1.1 #newsfeed.2019-01-01.14.5.1.2"/>
               <link ana="ud-syn:punct" target="#newsfeed.2019-01-01.14.5.1.1 #newsfeed.2019-01-01.14.5.1.3"/>
@@ -628,10 +657,10 @@
             </linkGrp>
           </s>
           <s xml:id="newsfeed.2019-01-01.14.5.2">
-            <w lemma="posnetek" ana="mte:Ncmsn" msd="UposTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.5.2.1">Posnetek</w>
-            <w lemma="koncert" ana="mte:Ncmsg" msd="UposTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.5.2.2" join="right">koncerta</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.5.2.3">.</pc>
-            <linkGrp corresp="#newsfeed.2019-01-01.14.5.2" targFunc="head argument" type="JOS-SYN">
+            <w lemma="posnetek" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.5.2.1">Posnetek</w>
+            <w lemma="koncert" ana="mte:Ncmsg" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.5.2.2" join="right">koncerta</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.5.2.3">.</pc>
+            <linkGrp corresp="#newsfeed.2019-01-01.14.5.2" targFunc="head argument" type="UD-SYN">
               <link ana="ud-syn:root" target="#newsfeed.2019-01-01.14.5.2 #newsfeed.2019-01-01.14.5.2.1"/>
               <link ana="ud-syn:nmod" target="#newsfeed.2019-01-01.14.5.2.1 #newsfeed.2019-01-01.14.5.2.2"/>
               <link ana="ud-syn:punct" target="#newsfeed.2019-01-01.14.5.2.1 #newsfeed.2019-01-01.14.5.2.3"/>
@@ -641,34 +670,34 @@
         <p xml:id="newsfeed.2019-01-01.14.6">
           <s xml:id="newsfeed.2019-01-01.14.6.1">
             <seg subtype="per" type="name">
-              <w lemma="Luciano" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.1.1">Luciano</w>
-              <w lemma="Pavarotti" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.1.2" join="right">Pavarotti</w>
+              <w lemma="Luciano" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.1.1">Luciano</w>
+              <w lemma="Pavarotti" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.1.2" join="right">Pavarotti</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.1.3">,</pc>
-            <w lemma="eden" ana="mte:Mlpmsn" msd="UposTag=NUM|Case=Nom|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.1.4">eden</w>
-            <w lemma="najbolj" ana="mte:Rgs" msd="UposTag=ADV|Degree=Sup" xml:id="newsfeed.2019-01-01.14.6.1.5">najbolj</w>
-            <w lemma="slaven" ana="mte:Agpmpg" msd="UposTag=ADJ|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur" xml:id="newsfeed.2019-01-01.14.6.1.6">slavnih</w>
-            <w lemma="tenorist" ana="mte:Ncmpg" msd="UposTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" xml:id="newsfeed.2019-01-01.14.6.1.7">tenoristov</w>
-            <w lemma="ves" ana="mte:Pg-mpg" msd="UposTag=DET|Case=Gen|Gender=Masc|Number=Plur|PronType=Tot" xml:id="newsfeed.2019-01-01.14.6.1.8">vseh</w>
-            <w lemma="čas" ana="mte:Ncmpg" msd="UposTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" xml:id="newsfeed.2019-01-01.14.6.1.9" join="right">časov</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.1.10">,</pc>
-            <w lemma="biti" ana="mte:Va-r3s-n" msd="UposTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.6.1.11">je</w>
-            <w lemma="biti" ana="mte:Va-p-sm" msd="UposTag=AUX|Gender=Masc|Number=Sing|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.6.1.12">bil</w>
-            <w lemma="eden" ana="mte:Mlpmsn" msd="UposTag=NUM|Case=Nom|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.1.13">eden</w>
-            <w lemma="redek" ana="mte:Agpmpg" msd="UposTag=ADJ|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur" xml:id="newsfeed.2019-01-01.14.6.1.14">redkih</w>
-            <w lemma="umetnik" ana="mte:Ncmpg" msd="UposTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" xml:id="newsfeed.2019-01-01.14.6.1.15" join="right">umetnikov</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.1.16">,</pc>
-            <w lemma="ki" ana="mte:Cs" msd="UposTag=SCONJ" xml:id="newsfeed.2019-01-01.14.6.1.17">ki</w>
-            <w lemma="on" ana="mte:Pp3msd--y" msd="UposTag=PRON|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short" xml:id="newsfeed.2019-01-01.14.6.1.18">mu</w>
-            <w lemma="biti" ana="mte:Va-r3s-n" msd="UposTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.6.1.19">je</w>
-            <w lemma="uspeti" ana="mte:Vmep-sn" msd="UposTag=VERB|Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.6.1.20">uspelo</w>
-            <w lemma="združiti" ana="mte:Vmen" msd="UposTag=VERB|Aspect=Perf|VerbForm=Inf" xml:id="newsfeed.2019-01-01.14.6.1.21">združiti</w>
-            <w lemma="klasičen" ana="mte:Agpfsa" msd="UposTag=ADJ|Case=Acc|Degree=Pos|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.1.22">klasično</w>
-            <w lemma="in" ana="mte:Cc" msd="UposTag=CCONJ" xml:id="newsfeed.2019-01-01.14.6.1.23">in</w>
-            <w lemma="popularen" ana="mte:Agpfsa" msd="UposTag=ADJ|Case=Acc|Degree=Pos|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.1.24">popularno</w>
-            <w lemma="glasba" ana="mte:Ncfsa" msd="UposTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.1.25" join="right">glasbo</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.1.26">.</pc>
-            <linkGrp corresp="#newsfeed.2019-01-01.14.6.1" targFunc="head argument" type="JOS-SYN">
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.1.3">,</pc>
+            <w lemma="eden" ana="mte:Mlpmsn" msd="UPosTag=NUM|Case=Nom|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.1.4">eden</w>
+            <w lemma="najbolj" ana="mte:Rgs" msd="UPosTag=ADV|Degree=Sup" xml:id="newsfeed.2019-01-01.14.6.1.5">najbolj</w>
+            <w lemma="slaven" ana="mte:Agpmpg" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur" xml:id="newsfeed.2019-01-01.14.6.1.6">slavnih</w>
+            <w lemma="tenorist" ana="mte:Ncmpg" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" xml:id="newsfeed.2019-01-01.14.6.1.7">tenoristov</w>
+            <w lemma="ves" ana="mte:Pg-mpg" msd="UPosTag=DET|Case=Gen|Gender=Masc|Number=Plur|PronType=Tot" xml:id="newsfeed.2019-01-01.14.6.1.8">vseh</w>
+            <w lemma="čas" ana="mte:Ncmpg" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" xml:id="newsfeed.2019-01-01.14.6.1.9" join="right">časov</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.1.10">,</pc>
+            <w lemma="biti" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.6.1.11">je</w>
+            <w lemma="biti" ana="mte:Va-p-sm" msd="UPosTag=AUX|Gender=Masc|Number=Sing|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.6.1.12">bil</w>
+            <w lemma="eden" ana="mte:Mlpmsn" msd="UPosTag=NUM|Case=Nom|Gender=Masc|NumForm=Word|NumType=Card|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.1.13">eden</w>
+            <w lemma="redek" ana="mte:Agpmpg" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Masc|Number=Plur" xml:id="newsfeed.2019-01-01.14.6.1.14">redkih</w>
+            <w lemma="umetnik" ana="mte:Ncmpg" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" xml:id="newsfeed.2019-01-01.14.6.1.15" join="right">umetnikov</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.1.16">,</pc>
+            <w lemma="ki" ana="mte:Cs" msd="UPosTag=SCONJ" xml:id="newsfeed.2019-01-01.14.6.1.17">ki</w>
+            <w lemma="on" ana="mte:Pp3msd--y" msd="UPosTag=PRON|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short" xml:id="newsfeed.2019-01-01.14.6.1.18">mu</w>
+            <w lemma="biti" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.6.1.19">je</w>
+            <w lemma="uspeti" ana="mte:Vmep-sn" msd="UPosTag=VERB|Aspect=Perf|Gender=Neut|Number=Sing|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.6.1.20">uspelo</w>
+            <w lemma="združiti" ana="mte:Vmen" msd="UPosTag=VERB|Aspect=Perf|VerbForm=Inf" xml:id="newsfeed.2019-01-01.14.6.1.21">združiti</w>
+            <w lemma="klasičen" ana="mte:Agpfsa" msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.1.22">klasično</w>
+            <w lemma="in" ana="mte:Cc" msd="UPosTag=CCONJ" xml:id="newsfeed.2019-01-01.14.6.1.23">in</w>
+            <w lemma="popularen" ana="mte:Agpfsa" msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.1.24">popularno</w>
+            <w lemma="glasba" ana="mte:Ncfsa" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.1.25" join="right">glasbo</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.1.26">.</pc>
+            <linkGrp corresp="#newsfeed.2019-01-01.14.6.1" targFunc="head argument" type="UD-SYN">
               <link ana="ud-syn:nsubj" target="#newsfeed.2019-01-01.14.6.1.15 #newsfeed.2019-01-01.14.6.1.1"/>
               <link ana="ud-syn:flat_name" target="#newsfeed.2019-01-01.14.6.1.1 #newsfeed.2019-01-01.14.6.1.2"/>
               <link ana="ud-syn:punct" target="#newsfeed.2019-01-01.14.6.1.7 #newsfeed.2019-01-01.14.6.1.3"/>
@@ -698,22 +727,22 @@
             </linkGrp>
           </s>
           <s xml:id="newsfeed.2019-01-01.14.6.2">
-            <w lemma="z" ana="mte:Si" msd="UposTag=ADP|Case=Ins" xml:id="newsfeed.2019-01-01.14.6.2.1">Z</w>
-            <w lemma="zvezdnik" ana="mte:Ncmpi" msd="UposTag=NOUN|Case=Ins|Gender=Masc|Number=Plur" xml:id="newsfeed.2019-01-01.14.6.2.2">zvezdniki</w>
-            <w lemma="rock" ana="mte:Ncmsn" msd="UposTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.2.3" join="right">rock</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.2.4">,</pc>
-            <w lemma="pop" ana="mte:Ncmsn" msd="UposTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.2.5">pop</w>
-            <w lemma="in" ana="mte:Cc" msd="UposTag=CCONJ" xml:id="newsfeed.2019-01-01.14.6.2.6">in</w>
-            <w lemma="jazz" ana="mte:Ncmsn" msd="UposTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.2.7">jazz</w>
-            <w lemma="glasba" ana="mte:Ncfsg" msd="UposTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.2.8">glasbe</w>
-            <w lemma="biti" ana="mte:Va-r3s-n" msd="UposTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.6.2.9">je</w>
-            <w lemma="navduševati" ana="mte:Vmpp-sm" msd="UposTag=VERB|Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.6.2.10">navduševal</w>
-            <w lemma="milijon" ana="mte:Ncmpa" msd="UposTag=NOUN|Case=Acc|Gender=Masc|Number=Plur" xml:id="newsfeed.2019-01-01.14.6.2.11">milijone</w>
-            <w lemma="gledalec" ana="mte:Ncmpg" msd="UposTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" xml:id="newsfeed.2019-01-01.14.6.2.12">gledalcev</w>
-            <w lemma="po" ana="mte:Sl" msd="UposTag=ADP|Case=Loc" xml:id="newsfeed.2019-01-01.14.6.2.13">po</w>
-            <w lemma="svet" ana="mte:Ncmsl" msd="UposTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.2.14" join="right">svetu</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.2.15">.</pc>
-            <linkGrp corresp="#newsfeed.2019-01-01.14.6.2" targFunc="head argument" type="JOS-SYN">
+            <w lemma="z" ana="mte:Si" msd="UPosTag=ADP|Case=Ins" xml:id="newsfeed.2019-01-01.14.6.2.1">Z</w>
+            <w lemma="zvezdnik" ana="mte:Ncmpi" msd="UPosTag=NOUN|Case=Ins|Gender=Masc|Number=Plur" xml:id="newsfeed.2019-01-01.14.6.2.2">zvezdniki</w>
+            <w lemma="rock" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.2.3" join="right">rock</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.2.4">,</pc>
+            <w lemma="pop" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.2.5">pop</w>
+            <w lemma="in" ana="mte:Cc" msd="UPosTag=CCONJ" xml:id="newsfeed.2019-01-01.14.6.2.6">in</w>
+            <w lemma="jazz" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.2.7">jazz</w>
+            <w lemma="glasba" ana="mte:Ncfsg" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.2.8">glasbe</w>
+            <w lemma="biti" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.6.2.9">je</w>
+            <w lemma="navduševati" ana="mte:Vmpp-sm" msd="UPosTag=VERB|Aspect=Imp|Gender=Masc|Number=Sing|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.6.2.10">navduševal</w>
+            <w lemma="milijon" ana="mte:Ncmpa" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Plur" xml:id="newsfeed.2019-01-01.14.6.2.11">milijone</w>
+            <w lemma="gledalec" ana="mte:Ncmpg" msd="UPosTag=NOUN|Case=Gen|Gender=Masc|Number=Plur" xml:id="newsfeed.2019-01-01.14.6.2.12">gledalcev</w>
+            <w lemma="po" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" xml:id="newsfeed.2019-01-01.14.6.2.13">po</w>
+            <w lemma="svet" ana="mte:Ncmsl" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.2.14" join="right">svetu</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.2.15">.</pc>
+            <linkGrp corresp="#newsfeed.2019-01-01.14.6.2" targFunc="head argument" type="UD-SYN">
               <link ana="ud-syn:case" target="#newsfeed.2019-01-01.14.6.2.2 #newsfeed.2019-01-01.14.6.2.1"/>
               <link ana="ud-syn:obl" target="#newsfeed.2019-01-01.14.6.2.10 #newsfeed.2019-01-01.14.6.2.2"/>
               <link ana="ud-syn:nmod" target="#newsfeed.2019-01-01.14.6.2.2 #newsfeed.2019-01-01.14.6.2.3"/>
@@ -732,72 +761,72 @@
             </linkGrp>
           </s>
           <s xml:id="newsfeed.2019-01-01.14.6.3">
-            <w lemma="na" ana="mte:Sl" msd="UposTag=ADP|Case=Loc" xml:id="newsfeed.2019-01-01.14.6.3.1">Na</w>
-            <w lemma="koncert" ana="mte:Ncmsl" msd="UposTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.2">koncertu</w>
-            <w lemma="biti" ana="mte:Va-r3p-n" msd="UposTag=AUX|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.6.3.3">so</w>
-            <w lemma="se" ana="mte:Px------y" msd="UposTag=PRON|PronType=Prs|Reflex=Yes|Variant=Short" xml:id="newsfeed.2019-01-01.14.6.3.4">se</w>
-            <w lemma="on" ana="mte:Pp3msd--y" msd="UposTag=PRON|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short" xml:id="newsfeed.2019-01-01.14.6.3.5">mu</w>
-            <w lemma="pridružiti" ana="mte:Vmep-pm" msd="UposTag=VERB|Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.6.3.6">pridružili</w>
-            <w lemma="pevec" ana="mte:Ncmpn" msd="UposTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" xml:id="newsfeed.2019-01-01.14.6.3.7">pevci</w>
+            <w lemma="na" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" xml:id="newsfeed.2019-01-01.14.6.3.1">Na</w>
+            <w lemma="koncert" ana="mte:Ncmsl" msd="UPosTag=NOUN|Case=Loc|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.2">koncertu</w>
+            <w lemma="biti" ana="mte:Va-r3p-n" msd="UPosTag=AUX|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.6.3.3">so</w>
+            <w lemma="se" ana="mte:Px------y" msd="UPosTag=PRON|PronType=Prs|Reflex=Yes|Variant=Short" xml:id="newsfeed.2019-01-01.14.6.3.4">se</w>
+            <w lemma="on" ana="mte:Pp3msd--y" msd="UPosTag=PRON|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short" xml:id="newsfeed.2019-01-01.14.6.3.5">mu</w>
+            <w lemma="pridružiti" ana="mte:Vmep-pm" msd="UPosTag=VERB|Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.6.3.6">pridružili</w>
+            <w lemma="pevec" ana="mte:Ncmpn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" xml:id="newsfeed.2019-01-01.14.6.3.7">pevci</w>
             <seg subtype="per" type="name">
-              <w lemma="Bryan" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.8">Bryan</w>
-              <w lemma="Adams" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.9" join="right">Adams</w>
+              <w lemma="Bryan" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.8">Bryan</w>
+              <w lemma="Adams" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.9" join="right">Adams</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.3.10">,</pc>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.3.10">,</pc>
             <seg subtype="per" type="name">
-              <w lemma="Andrea" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.11">Andrea</w>
-              <w lemma="Bocelli" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.12" join="right">Bocelli</w>
+              <w lemma="Andrea" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.11">Andrea</w>
+              <w lemma="Bocelli" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.12" join="right">Bocelli</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.3.13">,</pc>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.3.13">,</pc>
             <seg subtype="per" type="name">
-              <w lemma="Bon" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.14">Bon</w>
-              <w lemma="Jovi" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.15" join="right">Jovi</w>
-              <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.3.16">,</pc>
-              <w lemma="Bono" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.17" join="right">Bono</w>
+              <w lemma="Bon" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.14">Bon</w>
+              <w lemma="Jovi" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.15" join="right">Jovi</w>
+              <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.3.16">,</pc>
+              <w lemma="Bono" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.17" join="right">Bono</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.3.18">,</pc>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.3.18">,</pc>
             <seg subtype="per" type="name">
-              <w lemma="Mariah" ana="mte:Npfsn" msd="UposTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.19">Mariah</w>
-              <w lemma="Carey" ana="mte:Npfsn" msd="UposTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.20" join="right">Carey</w>
+              <w lemma="Mariah" ana="mte:Npfsn" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.19">Mariah</w>
+              <w lemma="Carey" ana="mte:Npfsn" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.20" join="right">Carey</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.3.21">,</pc>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.3.21">,</pc>
             <seg subtype="per" type="name">
-              <w lemma="Eric" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.22">Eric</w>
-              <w lemma="Clapton" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.23" join="right">Clapton</w>
+              <w lemma="Eric" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.22">Eric</w>
+              <w lemma="Clapton" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.23" join="right">Clapton</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.3.24">,</pc>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.3.24">,</pc>
             <seg subtype="per" type="name">
-              <w lemma="Sheryl" ana="mte:Npfsn" msd="UposTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.25">Sheryl</w>
-              <w lemma="Crow" ana="mte:Npfsn" msd="UposTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.26" join="right">Crow</w>
+              <w lemma="Sheryl" ana="mte:Npfsn" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.25">Sheryl</w>
+              <w lemma="Crow" ana="mte:Npfsn" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.26" join="right">Crow</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.3.27">,</pc>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.3.27">,</pc>
             <seg subtype="per" type="name">
-              <w lemma="Celine" ana="mte:Npfpn" msd="UposTag=PROPN|Case=Nom|Gender=Fem|Number=Plur" xml:id="newsfeed.2019-01-01.14.6.3.28">Celine</w>
-              <w lemma="Dion" ana="mte:Npfsn" msd="UposTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.29" join="right">Dion</w>
+              <w lemma="Celine" ana="mte:Npfpn" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Plur" xml:id="newsfeed.2019-01-01.14.6.3.28">Celine</w>
+              <w lemma="Dion" ana="mte:Npfsn" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.29" join="right">Dion</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.3.30">,</pc>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.3.30">,</pc>
             <seg subtype="per" type="name">
-              <w lemma="Elton" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.31">Elton</w>
-              <w lemma="John" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.32" join="right">John</w>
+              <w lemma="Elton" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.31">Elton</w>
+              <w lemma="John" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.32" join="right">John</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.3.33">,</pc>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.3.33">,</pc>
             <seg subtype="per" type="name">
-              <w lemma="Lionel" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.34">Lionel</w>
-              <w lemma="Richie" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.35" join="right">Richie</w>
+              <w lemma="Lionel" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.34">Lionel</w>
+              <w lemma="Richie" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.35" join="right">Richie</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.3.36">,</pc>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.3.36">,</pc>
             <seg subtype="per" type="name">
-              <w lemma="Frank" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.37">Frank</w>
-              <w lemma="Sinatra" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.38" join="right">Sinatra</w>
+              <w lemma="Frank" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.37">Frank</w>
+              <w lemma="Sinatra" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.38" join="right">Sinatra</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.3.39">,</pc>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.3.39">,</pc>
             <seg subtype="per" type="name">
-              <w lemma="Sting" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.40" join="right">Sting</w>
-              <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.3.41">,</pc>
-              <w lemma="Zucchero" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.42">Zucchero</w>
+              <w lemma="Sting" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.40" join="right">Sting</w>
+              <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.3.41">,</pc>
+              <w lemma="Zucchero" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.3.42">Zucchero</w>
             </seg>
-            <w lemma="idr." ana="mte:Y" msd="UposTag=X|Abbr=Yes" xml:id="newsfeed.2019-01-01.14.6.3.43">idr.</w>
-            <linkGrp corresp="#newsfeed.2019-01-01.14.6.3" targFunc="head argument" type="JOS-SYN">
+            <w lemma="idr." ana="mte:Y" msd="UPosTag=X|Abbr=Yes" xml:id="newsfeed.2019-01-01.14.6.3.43">idr.</w>
+            <linkGrp corresp="#newsfeed.2019-01-01.14.6.3" targFunc="head argument" type="UD-SYN">
               <link ana="ud-syn:case" target="#newsfeed.2019-01-01.14.6.3.2 #newsfeed.2019-01-01.14.6.3.1"/>
               <link ana="ud-syn:obl" target="#newsfeed.2019-01-01.14.6.3.6 #newsfeed.2019-01-01.14.6.3.2"/>
               <link ana="ud-syn:aux" target="#newsfeed.2019-01-01.14.6.3.6 #newsfeed.2019-01-01.14.6.3.3"/>
@@ -845,16 +874,16 @@
           </s>
           <s xml:id="newsfeed.2019-01-01.14.6.4">
             <seg subtype="per" type="name">
-              <w lemma="Vikendov" ana="mte:Aspfsn" msd="UposTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes" xml:id="newsfeed.2019-01-01.14.6.4.1">Vikendova</w>
+              <w lemma="Vikendov" ana="mte:Aspfsn" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Poss=Yes" xml:id="newsfeed.2019-01-01.14.6.4.1">Vikendova</w>
             </seg>
-            <w lemma="ocena" ana="mte:Ncfsn" msd="UposTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.4.2" join="right">ocena</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.4.3">:</pc>
-            <w lemma="4" ana="mte:Mdc" msd="UposTag=NUM|NumForm=Digit|NumType=Card" xml:id="newsfeed.2019-01-01.14.6.4.4">4</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.4.5" join="right">(</pc>
-            <w lemma="od" ana="mte:Sg" msd="UposTag=ADP|Case=Gen" xml:id="newsfeed.2019-01-01.14.6.4.6">od</w>
-            <w lemma="5" ana="mte:Mdc" msd="UposTag=NUM|NumForm=Digit|NumType=Card" xml:id="newsfeed.2019-01-01.14.6.4.7" join="right">5</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.4.8">)</pc>
-            <linkGrp corresp="#newsfeed.2019-01-01.14.6.4" targFunc="head argument" type="JOS-SYN">
+            <w lemma="ocena" ana="mte:Ncfsn" msd="UPosTag=NOUN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.6.4.2" join="right">ocena</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.4.3">:</pc>
+            <w lemma="4" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" xml:id="newsfeed.2019-01-01.14.6.4.4">4</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.4.5" join="right">(</pc>
+            <w lemma="od" ana="mte:Sg" msd="UPosTag=ADP|Case=Gen" xml:id="newsfeed.2019-01-01.14.6.4.6">od</w>
+            <w lemma="5" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" xml:id="newsfeed.2019-01-01.14.6.4.7" join="right">5</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.6.4.8">)</pc>
+            <linkGrp corresp="#newsfeed.2019-01-01.14.6.4" targFunc="head argument" type="UD-SYN">
               <link ana="ud-syn:amod" target="#newsfeed.2019-01-01.14.6.4.2 #newsfeed.2019-01-01.14.6.4.1"/>
               <link ana="ud-syn:parataxis" target="#newsfeed.2019-01-01.14.6.4.4 #newsfeed.2019-01-01.14.6.4.2"/>
               <link ana="ud-syn:punct" target="#newsfeed.2019-01-01.14.6.4.2 #newsfeed.2019-01-01.14.6.4.3"/>
@@ -868,28 +897,28 @@
         </p>
         <p xml:id="newsfeed.2019-01-01.14.7">
           <s xml:id="newsfeed.2019-01-01.14.7.1">
-            <w lemma="Interstellar" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.7.1.1" join="right">Interstellar</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.7.1.2">.</pc>
-            <linkGrp corresp="#newsfeed.2019-01-01.14.7.1" targFunc="head argument" type="JOS-SYN">
+            <w lemma="Interstellar" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.7.1.1" join="right">Interstellar</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.7.1.2">.</pc>
+            <linkGrp corresp="#newsfeed.2019-01-01.14.7.1" targFunc="head argument" type="UD-SYN">
               <link ana="ud-syn:root" target="#newsfeed.2019-01-01.14.7.1 #newsfeed.2019-01-01.14.7.1.1"/>
               <link ana="ud-syn:punct" target="#newsfeed.2019-01-01.14.7.1.1 #newsfeed.2019-01-01.14.7.1.2"/>
             </linkGrp>
           </s>
           <s xml:id="newsfeed.2019-01-01.14.7.2">
             <seg subtype="loc" type="name">
-              <w lemma="ZDA" ana="mte:Npfpn" msd="UposTag=PROPN|Case=Nom|Gender=Fem|Number=Plur" xml:id="newsfeed.2019-01-01.14.7.2.1" join="right">ZDA</w>
+              <w lemma="ZDA" ana="mte:Npfpn" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Plur" xml:id="newsfeed.2019-01-01.14.7.2.1" join="right">ZDA</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.7.2.2" join="right">/</pc>
-            <w lemma="VB" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.7.2.3" join="right">VB</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.7.2.4">,</pc>
-            <w lemma="2014." ana="mte:Mdo" msd="UposTag=NUM|NumForm=Digit|NumType=Ord" xml:id="newsfeed.2019-01-01.14.7.2.5">2014.</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.7.2.6">:</pc>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.7.2.2" join="right">/</pc>
+            <w lemma="VB" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.7.2.3" join="right">VB</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.7.2.4">,</pc>
+            <w lemma="2014." ana="mte:Mdo" msd="UPosTag=NUM|NumForm=Digit|NumType=Ord" xml:id="newsfeed.2019-01-01.14.7.2.5">2014.</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.7.2.6">:</pc>
             <seg subtype="per" type="name">
-              <w lemma="Christopher" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.7.2.7">Christopher</w>
-              <w lemma="Nolan" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.7.2.8" join="right">Nolan</w>
+              <w lemma="Christopher" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.7.2.7">Christopher</w>
+              <w lemma="Nolan" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.7.2.8" join="right">Nolan</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.7.2.9">.</pc>
-            <linkGrp corresp="#newsfeed.2019-01-01.14.7.2" targFunc="head argument" type="JOS-SYN">
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.7.2.9">.</pc>
+            <linkGrp corresp="#newsfeed.2019-01-01.14.7.2" targFunc="head argument" type="UD-SYN">
               <link ana="ud-syn:root" target="#newsfeed.2019-01-01.14.7.2 #newsfeed.2019-01-01.14.7.2.1"/>
               <link ana="ud-syn:punct" target="#newsfeed.2019-01-01.14.7.2.3 #newsfeed.2019-01-01.14.7.2.2"/>
               <link ana="ud-syn:conj" target="#newsfeed.2019-01-01.14.7.2.1 #newsfeed.2019-01-01.14.7.2.3"/>
@@ -902,24 +931,24 @@
             </linkGrp>
           </s>
           <s xml:id="newsfeed.2019-01-01.14.7.3">
-            <w lemma="igrati" ana="mte:Vmpr3p" msd="UposTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.7.3.1" join="right">Igrajo</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.7.3.2">:</pc>
+            <w lemma="igrati" ana="mte:Vmpr3p" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.7.3.1" join="right">Igrajo</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.7.3.2">:</pc>
             <seg subtype="per" type="name">
-              <w lemma="Matthew" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.7.3.3">Matthew</w>
-              <w lemma="Mcconaughey" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.7.3.4" join="right">McConaughey</w>
+              <w lemma="Matthew" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.7.3.3">Matthew</w>
+              <w lemma="Mcconaughey" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.7.3.4" join="right">McConaughey</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.7.3.5">,</pc>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.7.3.5">,</pc>
             <seg subtype="per" type="name">
-              <w lemma="Anne" ana="mte:Npfsn" msd="UposTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.7.3.6">Anne</w>
-              <w lemma="Hathaway" ana="mte:Npfsn" msd="UposTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.7.3.7" join="right">Hathaway</w>
+              <w lemma="Anne" ana="mte:Npfsn" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.7.3.6">Anne</w>
+              <w lemma="Hathaway" ana="mte:Npfsn" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.7.3.7" join="right">Hathaway</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.7.3.8">,</pc>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.7.3.8">,</pc>
             <seg subtype="per" type="name">
-              <w lemma="Jessica" ana="mte:Npfsn" msd="UposTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.7.3.9">Jessica</w>
-              <w lemma="Chastain" ana="mte:Npfsn" msd="UposTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.7.3.10" join="right">Chastain</w>
+              <w lemma="Jessica" ana="mte:Npfsn" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.7.3.9">Jessica</w>
+              <w lemma="Chastain" ana="mte:Npfsn" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.7.3.10" join="right">Chastain</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.7.3.11">.</pc>
-            <linkGrp corresp="#newsfeed.2019-01-01.14.7.3" targFunc="head argument" type="JOS-SYN">
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.7.3.11">.</pc>
+            <linkGrp corresp="#newsfeed.2019-01-01.14.7.3" targFunc="head argument" type="UD-SYN">
               <link ana="ud-syn:root" target="#newsfeed.2019-01-01.14.7.3 #newsfeed.2019-01-01.14.7.3.1"/>
               <link ana="ud-syn:punct" target="#newsfeed.2019-01-01.14.7.3.3 #newsfeed.2019-01-01.14.7.3.2"/>
               <link ana="ud-syn:nsubj" target="#newsfeed.2019-01-01.14.7.3.1 #newsfeed.2019-01-01.14.7.3.3"/>
@@ -934,12 +963,12 @@
             </linkGrp>
           </s>
           <s xml:id="newsfeed.2019-01-01.14.7.4">
-            <w lemma="ZF" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.7.4.1">ZF</w>
-            <w lemma="film." ana="mte:Y" msd="UposTag=X|Abbr=Yes" xml:id="newsfeed.2019-01-01.14.7.4.2">film.</w>
-            <w lemma="169" ana="mte:Mdc" msd="UposTag=NUM|NumForm=Digit|NumType=Card" xml:id="newsfeed.2019-01-01.14.7.4.3">169</w>
-            <w lemma="min" ana="mte:Ncmsn" msd="UposTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.7.4.4" join="right">min</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.7.4.5">.</pc>
-            <linkGrp corresp="#newsfeed.2019-01-01.14.7.4" targFunc="head argument" type="JOS-SYN">
+            <w lemma="ZF" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.7.4.1">ZF</w>
+            <w lemma="film." ana="mte:Y" msd="UPosTag=X|Abbr=Yes" xml:id="newsfeed.2019-01-01.14.7.4.2">film.</w>
+            <w lemma="169" ana="mte:Mdc" msd="UPosTag=NUM|NumForm=Digit|NumType=Card" xml:id="newsfeed.2019-01-01.14.7.4.3">169</w>
+            <w lemma="min" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.7.4.4" join="right">min</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.7.4.5">.</pc>
+            <linkGrp corresp="#newsfeed.2019-01-01.14.7.4" targFunc="head argument" type="UD-SYN">
               <link ana="ud-syn:root" target="#newsfeed.2019-01-01.14.7.4 #newsfeed.2019-01-01.14.7.4.1"/>
               <link ana="ud-syn:flat_foreign" target="#newsfeed.2019-01-01.14.7.4.1 #newsfeed.2019-01-01.14.7.4.2"/>
               <link ana="ud-syn:nummod" target="#newsfeed.2019-01-01.14.7.4.1 #newsfeed.2019-01-01.14.7.4.3"/>
@@ -950,34 +979,34 @@
         </p>
         <p xml:id="newsfeed.2019-01-01.14.8">
           <s xml:id="newsfeed.2019-01-01.14.8.1">
-            <w lemma="Zemlja" ana="mte:Npfsn" msd="UposTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.1.1">Zemlja</w>
-            <w lemma="biti" ana="mte:Va-r3s-n" msd="UposTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.8.1.2">je</w>
-            <w lemma="energetsko" ana="mte:Rgp" msd="UposTag=ADV|Degree=Pos" xml:id="newsfeed.2019-01-01.14.8.1.3">energetsko</w>
-            <w lemma="izčrpan" ana="mte:Appfsn" msd="UposTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.8.1.4">izčrpana</w>
-            <w lemma="in" ana="mte:Cc" msd="UposTag=CCONJ" xml:id="newsfeed.2019-01-01.14.8.1.5">in</w>
-            <w lemma="ko" ana="mte:Cs" msd="UposTag=SCONJ" xml:id="newsfeed.2019-01-01.14.8.1.6">ko</w>
-            <w lemma="znanstvenik" ana="mte:Ncmpn" msd="UposTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" xml:id="newsfeed.2019-01-01.14.8.1.7">znanstveniki</w>
-            <w lemma="v" ana="mte:Sl" msd="UposTag=ADP|Case=Loc" xml:id="newsfeed.2019-01-01.14.8.1.8">v</w>
-            <w lemma="vesolje" ana="mte:Ncnsl" msd="UposTag=NOUN|Case=Loc|Gender=Neut|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.1.9">vesolju</w>
-            <w lemma="odkriti" ana="mte:Vmer3p" msd="UposTag=VERB|Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.8.1.10">odkrijejo</w>
-            <w lemma="črvina" ana="mte:Ncfsa" msd="UposTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.1.11" join="right">črvino</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.8.1.12">,</pc>
-            <w lemma="organizirati" ana="mte:Vmbr3p" msd="UposTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.8.1.13">organizirajo</w>
-            <w lemma="medzvezden" ana="mte:Agpnsa" msd="UposTag=ADJ|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.1.14">medzvezdno</w>
-            <w lemma="popotovanje" ana="mte:Ncnsa" msd="UposTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.1.15" join="right">popotovanje</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.8.1.16">,</pc>
-            <w lemma="da" ana="mte:Cs" msd="UposTag=SCONJ" xml:id="newsfeed.2019-01-01.14.8.1.17">da</w>
-            <w lemma="biti" ana="mte:Va-c" msd="UposTag=AUX|Mood=Cnd|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.8.1.18">bi</w>
-            <w lemma="najti" ana="mte:Vmep-pm" msd="UposTag=VERB|Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.8.1.19">našli</w>
-            <w lemma="planet" ana="mte:Ncmsan" msd="UposTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.1.20" join="right">planet</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.8.1.21">,</pc>
-            <w lemma="ki" ana="mte:Cs" msd="UposTag=SCONJ" xml:id="newsfeed.2019-01-01.14.8.1.22">ki</w>
-            <w lemma="biti" ana="mte:Va-c" msd="UposTag=AUX|Mood=Cnd|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.8.1.23">bi</w>
-            <w lemma="on" ana="mte:Pp3msa--y" msd="UposTag=PRON|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short" xml:id="newsfeed.2019-01-01.14.8.1.24">ga</w>
-            <w lemma="lahko" ana="mte:Rgp" msd="UposTag=ADV|Degree=Pos" xml:id="newsfeed.2019-01-01.14.8.1.25">lahko</w>
-            <w lemma="naseliti" ana="mte:Vmep-pm" msd="UposTag=VERB|Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.8.1.26" join="right">naselili</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.8.1.27">.</pc>
-            <linkGrp corresp="#newsfeed.2019-01-01.14.8.1" targFunc="head argument" type="JOS-SYN">
+            <w lemma="Zemlja" ana="mte:Npfsn" msd="UPosTag=PROPN|Case=Nom|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.1.1">Zemlja</w>
+            <w lemma="biti" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.8.1.2">je</w>
+            <w lemma="energetsko" ana="mte:Rgp" msd="UPosTag=ADV|Degree=Pos" xml:id="newsfeed.2019-01-01.14.8.1.3">energetsko</w>
+            <w lemma="izčrpan" ana="mte:Appfsn" msd="UPosTag=ADJ|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.8.1.4">izčrpana</w>
+            <w lemma="in" ana="mte:Cc" msd="UPosTag=CCONJ" xml:id="newsfeed.2019-01-01.14.8.1.5">in</w>
+            <w lemma="ko" ana="mte:Cs" msd="UPosTag=SCONJ" xml:id="newsfeed.2019-01-01.14.8.1.6">ko</w>
+            <w lemma="znanstvenik" ana="mte:Ncmpn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Plur" xml:id="newsfeed.2019-01-01.14.8.1.7">znanstveniki</w>
+            <w lemma="v" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" xml:id="newsfeed.2019-01-01.14.8.1.8">v</w>
+            <w lemma="vesolje" ana="mte:Ncnsl" msd="UPosTag=NOUN|Case=Loc|Gender=Neut|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.1.9">vesolju</w>
+            <w lemma="odkriti" ana="mte:Vmer3p" msd="UPosTag=VERB|Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.8.1.10">odkrijejo</w>
+            <w lemma="črvina" ana="mte:Ncfsa" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.1.11" join="right">črvino</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.8.1.12">,</pc>
+            <w lemma="organizirati" ana="mte:Vmbr3p" msd="UPosTag=VERB|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.8.1.13">organizirajo</w>
+            <w lemma="medzvezden" ana="mte:Agpnsa" msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.1.14">medzvezdno</w>
+            <w lemma="popotovanje" ana="mte:Ncnsa" msd="UPosTag=NOUN|Case=Acc|Gender=Neut|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.1.15" join="right">popotovanje</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.8.1.16">,</pc>
+            <w lemma="da" ana="mte:Cs" msd="UPosTag=SCONJ" xml:id="newsfeed.2019-01-01.14.8.1.17">da</w>
+            <w lemma="biti" ana="mte:Va-c" msd="UPosTag=AUX|Mood=Cnd|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.8.1.18">bi</w>
+            <w lemma="najti" ana="mte:Vmep-pm" msd="UPosTag=VERB|Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.8.1.19">našli</w>
+            <w lemma="planet" ana="mte:Ncmsan" msd="UPosTag=NOUN|Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.1.20" join="right">planet</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.8.1.21">,</pc>
+            <w lemma="ki" ana="mte:Cs" msd="UPosTag=SCONJ" xml:id="newsfeed.2019-01-01.14.8.1.22">ki</w>
+            <w lemma="biti" ana="mte:Va-c" msd="UPosTag=AUX|Mood=Cnd|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.8.1.23">bi</w>
+            <w lemma="on" ana="mte:Pp3msa--y" msd="UPosTag=PRON|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short" xml:id="newsfeed.2019-01-01.14.8.1.24">ga</w>
+            <w lemma="lahko" ana="mte:Rgp" msd="UPosTag=ADV|Degree=Pos" xml:id="newsfeed.2019-01-01.14.8.1.25">lahko</w>
+            <w lemma="naseliti" ana="mte:Vmep-pm" msd="UPosTag=VERB|Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.8.1.26" join="right">naselili</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.8.1.27">.</pc>
+            <linkGrp corresp="#newsfeed.2019-01-01.14.8.1" targFunc="head argument" type="UD-SYN">
               <link ana="ud-syn:nsubj" target="#newsfeed.2019-01-01.14.8.1.4 #newsfeed.2019-01-01.14.8.1.1"/>
               <link ana="ud-syn:cop" target="#newsfeed.2019-01-01.14.8.1.4 #newsfeed.2019-01-01.14.8.1.2"/>
               <link ana="ud-syn:advmod" target="#newsfeed.2019-01-01.14.8.1.4 #newsfeed.2019-01-01.14.8.1.3"/>
@@ -1008,40 +1037,40 @@
             </linkGrp>
           </s>
           <s xml:id="newsfeed.2019-01-01.14.8.2">
-            <w lemma="a" ana="mte:Cc" msd="UposTag=CCONJ" xml:id="newsfeed.2019-01-01.14.8.2.1">A</w>
-            <w lemma="čas" ana="mte:Ncmsn" msd="UposTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.2.2">čas</w>
-            <w lemma="v" ana="mte:Sl" msd="UposTag=ADP|Case=Loc" xml:id="newsfeed.2019-01-01.14.8.2.3">v</w>
-            <w lemma="črvina" ana="mte:Ncfsl" msd="UposTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.2.4">črvini</w>
-            <w lemma="teči" ana="mte:Vmpr3s" msd="UposTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.8.2.5">teče</w>
-            <w lemma="drugače" ana="mte:Rgp" msd="UposTag=ADV|Degree=Pos" xml:id="newsfeed.2019-01-01.14.8.2.6">drugače</w>
-            <w lemma="in" ana="mte:Cc" msd="UposTag=CCONJ" xml:id="newsfeed.2019-01-01.14.8.2.7">in</w>
-            <w lemma="pilot" ana="mte:Ncmsn" msd="UposTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.2.8">pilot</w>
-            <w lemma="vesoljski" ana="mte:Agpfsg" msd="UposTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.2.9">vesoljske</w>
-            <w lemma="ladja" ana="mte:Ncfsg" msd="UposTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.2.10" join="right">ladje</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.8.2.11">,</pc>
-            <w lemma="vdovec" ana="mte:Ncmsn" msd="UposTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.2.12">vdovec</w>
+            <w lemma="a" ana="mte:Cc" msd="UPosTag=CCONJ" xml:id="newsfeed.2019-01-01.14.8.2.1">A</w>
+            <w lemma="čas" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.2.2">čas</w>
+            <w lemma="v" ana="mte:Sl" msd="UPosTag=ADP|Case=Loc" xml:id="newsfeed.2019-01-01.14.8.2.3">v</w>
+            <w lemma="črvina" ana="mte:Ncfsl" msd="UPosTag=NOUN|Case=Loc|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.2.4">črvini</w>
+            <w lemma="teči" ana="mte:Vmpr3s" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.8.2.5">teče</w>
+            <w lemma="drugače" ana="mte:Rgp" msd="UPosTag=ADV|Degree=Pos" xml:id="newsfeed.2019-01-01.14.8.2.6">drugače</w>
+            <w lemma="in" ana="mte:Cc" msd="UPosTag=CCONJ" xml:id="newsfeed.2019-01-01.14.8.2.7">in</w>
+            <w lemma="pilot" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.2.8">pilot</w>
+            <w lemma="vesoljski" ana="mte:Agpfsg" msd="UPosTag=ADJ|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.2.9">vesoljske</w>
+            <w lemma="ladja" ana="mte:Ncfsg" msd="UPosTag=NOUN|Case=Gen|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.2.10" join="right">ladje</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.8.2.11">,</pc>
+            <w lemma="vdovec" ana="mte:Ncmsn" msd="UPosTag=NOUN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.2.12">vdovec</w>
             <seg subtype="per" type="name">
-              <w lemma="Cooper" ana="mte:Npmsn" msd="UposTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.2.13" join="right">Cooper</w>
+              <w lemma="Cooper" ana="mte:Npmsn" msd="UPosTag=PROPN|Case=Nom|Gender=Masc|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.2.13" join="right">Cooper</w>
             </seg>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.8.2.14">,</pc>
-            <w lemma="se" ana="mte:Px------y" msd="UposTag=PRON|PronType=Prs|Reflex=Yes|Variant=Short" xml:id="newsfeed.2019-01-01.14.8.2.15">se</w>
-            <w lemma="morati" ana="mte:Vmpr3s" msd="UposTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.8.2.16">mora</w>
-            <w lemma="odločiti" ana="mte:Vmen" msd="UposTag=VERB|Aspect=Perf|VerbForm=Inf" xml:id="newsfeed.2019-01-01.14.8.2.17" join="right">odločiti</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.8.2.18">,</pc>
-            <w lemma="ali" ana="mte:Rgp" msd="UposTag=ADV|Degree=Pos" xml:id="newsfeed.2019-01-01.14.8.2.19">ali</w>
-            <w lemma="biti" ana="mte:Va-r3s-n" msd="UposTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.8.2.20">je</w>
-            <w lemma="za" ana="mte:Sa" msd="UposTag=ADP|Case=Acc" xml:id="newsfeed.2019-01-01.14.8.2.21">za</w>
-            <w lemma="morebiten" ana="mte:Agpfsa" msd="UposTag=ADJ|Case=Acc|Degree=Pos|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.2.22">morebitno</w>
-            <w lemma="rešitev" ana="mte:Ncfsa" msd="UposTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.2.23">rešitev</w>
-            <w lemma="človeštvo" ana="mte:Ncnsg" msd="UposTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.2.24">človeštva</w>
-            <w lemma="pripravljen" ana="mte:Appmsnn" msd="UposTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.8.2.25">pripravljen</w>
-            <w lemma="zapustiti" ana="mte:Vmen" msd="UposTag=VERB|Aspect=Perf|VerbForm=Inf" xml:id="newsfeed.2019-01-01.14.8.2.26">zapustiti</w>
-            <w lemma="svoj" ana="mte:Px-mpa" msd="UposTag=DET|Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes" xml:id="newsfeed.2019-01-01.14.8.2.27">svoje</w>
-            <w lemma="otrok" ana="mte:Ncmpa" msd="UposTag=NOUN|Case=Acc|Gender=Masc|Number=Plur" xml:id="newsfeed.2019-01-01.14.8.2.28">otroke</w>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.8.2.29" join="right">.</pc>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.8.2.30" join="right">.</pc>
-            <pc ana="mte:Z" msd="UposTag=PUNCT" xml:id="newsfeed.2019-01-01.14.8.2.31">.</pc>
-            <linkGrp corresp="#newsfeed.2019-01-01.14.8.2" targFunc="head argument" type="JOS-SYN">
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.8.2.14">,</pc>
+            <w lemma="se" ana="mte:Px------y" msd="UPosTag=PRON|PronType=Prs|Reflex=Yes|Variant=Short" xml:id="newsfeed.2019-01-01.14.8.2.15">se</w>
+            <w lemma="morati" ana="mte:Vmpr3s" msd="UPosTag=VERB|Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.8.2.16">mora</w>
+            <w lemma="odločiti" ana="mte:Vmen" msd="UPosTag=VERB|Aspect=Perf|VerbForm=Inf" xml:id="newsfeed.2019-01-01.14.8.2.17" join="right">odločiti</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.8.2.18">,</pc>
+            <w lemma="ali" ana="mte:Rgp" msd="UPosTag=ADV|Degree=Pos" xml:id="newsfeed.2019-01-01.14.8.2.19">ali</w>
+            <w lemma="biti" ana="mte:Va-r3s-n" msd="UPosTag=AUX|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin" xml:id="newsfeed.2019-01-01.14.8.2.20">je</w>
+            <w lemma="za" ana="mte:Sa" msd="UPosTag=ADP|Case=Acc" xml:id="newsfeed.2019-01-01.14.8.2.21">za</w>
+            <w lemma="morebiten" ana="mte:Agpfsa" msd="UPosTag=ADJ|Case=Acc|Degree=Pos|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.2.22">morebitno</w>
+            <w lemma="rešitev" ana="mte:Ncfsa" msd="UPosTag=NOUN|Case=Acc|Gender=Fem|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.2.23">rešitev</w>
+            <w lemma="človeštvo" ana="mte:Ncnsg" msd="UPosTag=NOUN|Case=Gen|Gender=Neut|Number=Sing" xml:id="newsfeed.2019-01-01.14.8.2.24">človeštva</w>
+            <w lemma="pripravljen" ana="mte:Appmsnn" msd="UPosTag=ADJ|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|VerbForm=Part" xml:id="newsfeed.2019-01-01.14.8.2.25">pripravljen</w>
+            <w lemma="zapustiti" ana="mte:Vmen" msd="UPosTag=VERB|Aspect=Perf|VerbForm=Inf" xml:id="newsfeed.2019-01-01.14.8.2.26">zapustiti</w>
+            <w lemma="svoj" ana="mte:Px-mpa" msd="UPosTag=DET|Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes" xml:id="newsfeed.2019-01-01.14.8.2.27">svoje</w>
+            <w lemma="otrok" ana="mte:Ncmpa" msd="UPosTag=NOUN|Case=Acc|Gender=Masc|Number=Plur" xml:id="newsfeed.2019-01-01.14.8.2.28">otroke</w>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.8.2.29" join="right">.</pc>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.8.2.30" join="right">.</pc>
+            <pc ana="mte:Z" msd="UPosTag=PUNCT" xml:id="newsfeed.2019-01-01.14.8.2.31">.</pc>
+            <linkGrp corresp="#newsfeed.2019-01-01.14.8.2" targFunc="head argument" type="UD-SYN">
               <link ana="ud-syn:cc" target="#newsfeed.2019-01-01.14.8.2.5 #newsfeed.2019-01-01.14.8.2.1"/>
               <link ana="ud-syn:nsubj" target="#newsfeed.2019-01-01.14.8.2.5 #newsfeed.2019-01-01.14.8.2.2"/>
               <link ana="ud-syn:case" target="#newsfeed.2019-01-01.14.8.2.4 #newsfeed.2019-01-01.14.8.2.3"/>
