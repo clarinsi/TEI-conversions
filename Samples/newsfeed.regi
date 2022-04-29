@@ -1,0 +1,140 @@
+MAINTAINER "CLARIN.SI <info@clarin.si>"		#manatee@clarin
+NAME "ssj500k v2.3"
+INFO "Učni korpus ssj500k v2.3 // Training corpus ssj500k v2.3"
+ENCODING "UTF-8"
+LOCALE "sl_SI.UTF-8"
+DEFAULTLOCALE "sl_SI.UTF-8"
+LANGUAGE "Slovenian"
+INFOHREF "http://hdl.handle.net/11356/1434"
+TAGSETDOC "http://nl.ijs.si/ME/V6/msd/html/msd-sl.html#msd.msds-sl"
+
+PATH "/data/manatee-data/ssj500k23/"					#manatee@clarin
+VERTICAL "| zcat /data/vert/ssj500k23.vert.gz"             		#manatee@clarin
+
+WPOSLIST ",samostalnik,S.*,glagol,G.*,pridevnik,P.*,prislov,R.*,zaimek,Z.*,predlog,D.*,veznik,V.*,členek,L.*,medmet,M.*,števnik,K.*,okrajšava,O.*,neuvrščeno,N.*,ločilo,U.*"
+LPOSLIST ",samostalnik,-s,glagol,-g,pridevnik,-p,prislov,-r,zaimek,-z,predlog,-d,veznik,-v,členek,-l,medmet,-m,števnik,-k,okrajšava,-o,neuvrščeno,-n,ločilo,-u"
+
+DOCSTRUCTURE text
+MAXDETAIL 10000
+
+SUBCORPATTRS "text.medium|text.type|text.proofread,text.author|text.title|text.publisher,text.date|name.type"
+SHORTREF "=text.id,=text.publisher,=text.date"
+FULLREF "text.title,text.author,text.publisher,text.date,text.medium_id,text.type_id,text.proofread_id,text.id,p.id,s.id,name.type"
+
+STRUCTURE text {
+    ATTRIBUTE id {
+      TYPE "UNIQUE"
+    }    
+    ATTRIBUTE title
+    ATTRIBUTE author
+    ATTRIBUTE publisher {
+      TEXTBOXLENGTH 5
+    }
+    ATTRIBUTE date
+    ATTRIBUTE time
+    ATTRIBUTE "wordcount"
+}
+STRUCTURE p {
+    DISPLAYTAG 0
+    DISPLAYEND " ¶ "
+    ATTRIBUTE id {
+      TYPE "UNIQUE"
+    }    
+}
+STRUCTURE s {
+    ATTRIBUTE id {
+      TYPE "UNIQUE"
+    }    
+    DISPLAYTAG 0
+    DISPLAYEND "|"
+}
+STRUCTURE name {
+    ATTRIBUTE type
+    DISPLAYTAG 0
+    DISPLAYBEGIN "[%(type):"
+    DISPLAYEND "]"
+}
+STRUCTURE g {
+    DISPLAYTAG 0
+    DISPLAYBEGIN "_EMPTY_"
+}
+
+###Positional attributes
+ATTRIBUTE word
+ATTRIBUTE lempos {
+	LABEL	"lemma with pos tag"
+}
+ATTRIBUTE tag_en {
+	LABEL	"MSD (English)"
+}
+ATTRIBUTE tag {
+	LABEL	"MSD (Slovene)"
+}
+ATTRIBUTE ud_pos {
+        LABEL   "UD PoS tag"
+}
+ATTRIBUTE ud_feats {
+        LABEL   "UD features"
+        MULTIVALUE yes
+        MULTISEP " "
+}
+ATTRIBUTE id {
+	LABEL	"ID of token"
+}
+
+ATTRIBUTE ud_dep {
+	LABEL	"UD dependency label"
+}
+ATTRIBUTE ud_head_lemma {
+	LABEL	"UD dependency head lemma"
+}
+ATTRIBUTE ud_head_tag_en {
+	LABEL	"UD dependency head MSD (English)"
+}
+ATTRIBUTE ud_head_tag {
+	LABEL	"UD dependency head MSD (Slovene)"
+}
+ATTRIBUTE ud_head_ud_pos {
+        LABEL   "UD dependency head UD PoS"
+}
+ATTRIBUTE ud_head_ud_feats {
+        LABEL   "UD dependency head UD features"
+        MULTIVALUE yes
+        MULTISEP " "
+}
+ATTRIBUTE ud_head_id {
+	LABEL	"UD dependency head ID"
+}
+ATTRIBUTE ud_head_dep {
+	LABEL	"UD dependency head dependency label"
+}
+
+ATTRIBUTE lc {
+	LABEL	"Word (lowercase)"
+	DYNAMIC  utf8lowercase
+	DYNLIB   internal
+	ARG1     "C"
+	FUNTYPE  s
+	FROMATTR word
+	DYNTYPE  index
+	TRANSQUERY	yes
+}
+ATTRIBUTE lemma {
+	LABEL	  "Lemma"
+	DYNAMIC   "striplastn"
+	DYNLIB    "internal"
+	ARG1      "2"
+	FUNTYPE   "i"
+	FROMATTR  "lempos"
+	TYPE      "index"
+}
+ATTRIBUTE lemma_lc {
+	LABEL	    "Lemma (lowercase)"
+	DYNAMIC     "utf8lowercase"
+	DYNLIB      "internal"
+	ARG1        "C"
+	FUNTYPE     "s"
+	FROMATTR    "lemma"
+	TYPE        "index"
+	TRANSQUERY  "yes"
+}
