@@ -1,8 +1,8 @@
 newsfeed:
-	$j ../Schema/tei_clarin.rng ../Samples/test-newsfeed.xml
-	$s -xsl:check-links.xsl ../Samples/test-newsfeed.xml
-	$s -xsl:newsfeed2vert.xsl ../Samples/test-newsfeed.xml > ../Samples/test-newsfeed.vert.xml
-	xml2vert.pl < ../Samples/test-newsfeed.vert.xml > ../Samples/test-newsfeed.vert
+	$j ../Schema/tei_clarin.rng ../Samples/test-trendi.xml
+	$s -xsl:check-links.xsl ../Samples/test-trendi.xml
+	$s -xsl:trendi2vert.xsl ../Samples/test-trendi.xml > ../Samples/test-trendi.vert.xml
+	xml2vert.pl < ../Samples/test-trendi.vert.xml > ../Samples/test-trendi.vert
 
 all:	plain ssj500k
 ssj500k:

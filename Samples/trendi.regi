@@ -1,15 +1,15 @@
-MAINTAINER "CLARIN.SI <info@clarin.si>"		#manatee@clarin
-NAME "ssj500k v2.3"
-INFO "Učni korpus ssj500k v2.3 // Training corpus ssj500k v2.3"
+MAINTAINER "CLARIN.SI <info@clarin.si>"
+NAME "Trendi v1.0"
+INFO "Spremljevalni korpus Trendi v1.0 // Monitor corpus Trendi v1.0"
 ENCODING "UTF-8"
 LOCALE "sl_SI.UTF-8"
 DEFAULTLOCALE "sl_SI.UTF-8"
 LANGUAGE "Slovenian"
-INFOHREF "http://hdl.handle.net/11356/1434"
+INFOHREF "http://hdl.handle.net/11356/XXX"
 TAGSETDOC "http://nl.ijs.si/ME/V6/msd/html/msd-sl.html#msd.msds-sl"
 
-PATH "/data/manatee-data/ssj500k23/"					#manatee@clarin
-VERTICAL "| zcat /data/vert/ssj500k23.vert.gz"             		#manatee@clarin
+PATH "/data/manatee-data/trendi/"
+VERTICAL "| zcat /data/vert/trendi.vert10.gz"
 
 WPOSLIST ",samostalnik,S.*,glagol,G.*,pridevnik,P.*,prislov,R.*,zaimek,Z.*,predlog,D.*,veznik,V.*,členek,L.*,medmet,M.*,števnik,K.*,okrajšava,O.*,neuvrščeno,N.*,ločilo,U.*"
 LPOSLIST ",samostalnik,-s,glagol,-g,pridevnik,-p,prislov,-r,zaimek,-z,predlog,-d,veznik,-v,členek,-l,medmet,-m,števnik,-k,okrajšava,-o,neuvrščeno,-n,ločilo,-u"
@@ -17,9 +17,9 @@ LPOSLIST ",samostalnik,-s,glagol,-g,pridevnik,-p,prislov,-r,zaimek,-z,predlog,-d
 DOCSTRUCTURE text
 MAXDETAIL 10000
 
-SUBCORPATTRS "text.medium|text.type|text.proofread,text.author|text.title|text.publisher,text.date|name.type"
+SUBCORPATTRS "text.author|text.title|text.publisher,text.date|text.time"
 SHORTREF "=text.id,=text.publisher,=text.date"
-FULLREF "text.title,text.author,text.publisher,text.date,text.medium_id,text.type_id,text.proofread_id,text.id,p.id,s.id,name.type"
+FULLREF "text.title,text.author,text.publisher,text.date,text.time,text.id,p.id,s.id,name.type"
 
 STRUCTURE text {
     ATTRIBUTE id {
@@ -81,7 +81,6 @@ ATTRIBUTE ud_feats {
 ATTRIBUTE id {
 	LABEL	"ID of token"
 }
-
 ATTRIBUTE ud_dep {
 	LABEL	"UD dependency label"
 }
