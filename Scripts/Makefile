@@ -1,4 +1,4 @@
-newsfeed:
+trendi:
 	$j ../Schema/tei_clarin.rng ../Samples/test-trendi.xml
 	$s -xsl:check-links.xsl ../Samples/test-trendi.xml
 	$s -xsl:trendi2vert.xsl ../Samples/test-trendi.xml > ../Samples/test-trendi.vert.xml
