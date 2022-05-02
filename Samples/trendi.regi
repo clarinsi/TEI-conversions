@@ -1,15 +1,15 @@
 MAINTAINER "CLARIN.SI <info@clarin.si>"
-NAME "Trendi v1.0"
+NAME "Trendi (spremljevalni)"
 INFO "Spremljevalni korpus Trendi v1.0 // Monitor corpus Trendi v1.0"
 ENCODING "UTF-8"
 LOCALE "sl_SI.UTF-8"
 DEFAULTLOCALE "sl_SI.UTF-8"
 LANGUAGE "Slovenian"
-INFOHREF "http://hdl.handle.net/11356/XXX"
-TAGSETDOC "http://nl.ijs.si/ME/V6/msd/html/msd-sl.html#msd.msds-sl"
+INFOHREF "https://hdl.handle.net/11356/XXX"
+TAGSETDOC "https://nl.ijs.si/ME/V6/msd/html/msd-sl.html#msd.msds-sl"
 
 PATH "/data/manatee-data/trendi/"
-VERTICAL "| zcat /data/vert/trendi.vert10.gz"
+VERTICAL "| zcat /data/vert/trendi10.vert.gz"
 
 WPOSLIST ",samostalnik,S.*,glagol,G.*,pridevnik,P.*,prislov,R.*,zaimek,Z.*,predlog,D.*,veznik,V.*,členek,L.*,medmet,M.*,števnik,K.*,okrajšava,O.*,neuvrščeno,N.*,ločilo,U.*"
 LPOSLIST ",samostalnik,-s,glagol,-g,pridevnik,-p,prislov,-r,zaimek,-z,predlog,-d,veznik,-v,členek,-l,medmet,-m,števnik,-k,okrajšava,-o,neuvrščeno,-n,ločilo,-u"
@@ -28,10 +28,11 @@ STRUCTURE text {
     ATTRIBUTE title
     ATTRIBUTE author
     ATTRIBUTE publisher {
-      TEXTBOXLENGTH 5
+      TEXTBOXLENGTH 8
     }
     ATTRIBUTE date
     ATTRIBUTE time
+    ATTRIBUTE url
     ATTRIBUTE "wordcount"
 }
 STRUCTURE p {
