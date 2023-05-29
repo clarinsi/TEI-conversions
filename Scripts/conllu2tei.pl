@@ -135,12 +135,18 @@ sub conllu2tei {
         if (($ner) = $local =~ /NER=([A-Z-]+)/) {
             if (my ($type) = $ner =~ /^B-(.+)/) {
                 if ($ner_prev and $ner_prev ne 'O') {
-                    push(@toks, "</name>\n")
+                    push(@toks, "</name>")
                 }
-                push(@toks, "<name type=\"$type\">\n");
+                push(@toks, "<name type=\"$type\">");
+            }
+	    #Sometimes NER begins with I! (bug in CLASSLA)
+            if (my ($type) = $ner =~ /^I-(.+)/) {
+                if (not($ner_prev) or $ner_prev eq 'O') {
+		    push(@toks, "<name type=\"$type\">");
+                }
             }
             elsif ($ner eq 'O' and $ner_prev and $ner_prev ne 'O') {
-		push(@toks, "</name>\n")
+		push(@toks, "</name>")
             }
             $ner_prev = $ner
         }
