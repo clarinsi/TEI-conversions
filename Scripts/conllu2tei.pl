@@ -140,7 +140,7 @@ sub conllu2tei {
                 push(@toks, "<name type=\"$type\">");
             }
 	    #Sometimes NER begins with I! (bug in CLASSLA)
-            if (my ($type) = $ner =~ /^I-(.+)/) {
+            elsif (my ($type) = $ner =~ /^I-(.+)/) {
                 if (not($ner_prev) or $ner_prev eq 'O') {
 		    push(@toks, "<name type=\"$type\">");
                 }
